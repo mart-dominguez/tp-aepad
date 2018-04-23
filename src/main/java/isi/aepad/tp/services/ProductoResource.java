@@ -1,0 +1,65 @@
+package isi.aepad.tp.services;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Random;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
+import javax.enterprise.context.Dependent;
+import javax.inject.Inject;
+import javax.interceptor.Interceptors;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
+import javax.ws.rs.Path;
+
+import isi.aepad.tp.modelo.Categoria;
+import isi.aepad.tp.modelo.Producto;
+import isi.aepad.tp.util.GeneradorDatos;
+import isi.aepad.tp.util.InterceptorAcceso;
+
+/**
+ * Session Bean implementation class ProductoResource
+ */
+@Stateless
+@Path("producto")
+@Dependent
+@Interceptors(InterceptorAcceso.class)
+public class ProductoResource {
+
+	@Inject
+	private GeneradorDatos generador;
+
+	@PersistenceContext(unitName = "AEPAD_PU")
+	private EntityManager em;
+
+	@PostConstruct
+	public void init() {
+
+	}
+
+	@TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)
+	public void crearProductoRandom(List<Categoria> cats) {
+		Random r = new Random();
+		int maxCat = 1 + r.nextInt(3);
+		HashSet<Integer> catGeneradas = new HashSet<>();
+		while (catGeneradas.size() < maxCat) {
+			catGeneradas.add(r.nextInt(cats.size()));
+		}
+		Producto p = new Producto();
+		p.setPrecio(0.0);
+		p.setDescripcion(generador.generateRandomWords(3));
+		List<Categoria> aux = new ArrayList<>();
+		for (Integer idxcat : catGeneradas) {
+			aux.add(cats.get(idxcat));
+		}
+		p.setCategoria(aux);
+		em.persist(p);
+	}
+
+}
