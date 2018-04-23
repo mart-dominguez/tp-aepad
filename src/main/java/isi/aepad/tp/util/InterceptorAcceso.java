@@ -31,7 +31,7 @@ public class InterceptorAcceso {
 		} finally {
 			try (Connection conn = ds.getConnection()) {
 				log.setMillisFin(System.currentTimeMillis());
-				try (PreparedStatement ps = conn.prepareStatement("INSERT INTO LOG_ACCESO (?,?,?,?,?)")) {
+				try (PreparedStatement ps = conn.prepareStatement("INSERT INTO LOG_ACCESO VALUES (?,?,?,?,?)")) {
 					ps.setString(1, log.getClase());
 					ps.setString(2, log.getMetodo());
 					ps.setLong(3, log.getMillisInicio());
