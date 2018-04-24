@@ -18,7 +18,7 @@ import isi.aepad.tp.util.InterceptorAcceso;
 @Dependent
 @Interceptors(InterceptorAcceso.class)
 public class EchoResource {
-    @SuppressWarnings("unused")
+
     @Context
     private UriInfo context;
 

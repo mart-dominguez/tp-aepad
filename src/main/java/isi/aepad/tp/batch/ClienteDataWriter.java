@@ -4,7 +4,8 @@ import java.io.Serializable;
 import java.io.StringReader;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;import java.sql.Timestamp;
+import java.sql.ResultSet;
+import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.List;
 

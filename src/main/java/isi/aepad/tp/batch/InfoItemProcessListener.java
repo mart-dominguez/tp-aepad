@@ -3,12 +3,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.batch.api.chunk.listener.ItemProcessListener;
-import javax.batch.api.listener.JobListener;
 import javax.enterprise.context.Dependent;
 import javax.inject.Named;
 
-@Dependent
-@Named("InfoItemProcessListener")
+@Dependent	   
+@Named("InfoItemProcessListeners")
 public class InfoItemProcessListener implements ItemProcessListener {
     private static final Logger logger = Logger.getLogger(InfoItemProcessListener.class.getName());
 

@@ -47,6 +47,7 @@ public class AppConfig extends ResourceConfig {
         register(isi.aepad.tp.services.ProductoResource.class);
         register(isi.aepad.tp.services.UsuarioResource.class);
         register(isi.aepad.tp.services.FacturaResource.class);
+        register(isi.aepad.tp.services.PagoResource.class);        
         register(isi.aepad.tp.services.DataConfigResource.class);
     }
 
@@ -64,5 +65,6 @@ public class AppConfig extends ResourceConfig {
         resources.add(isi.aepad.tp.services.UsuarioResource.class);
         resources.add(isi.aepad.tp.services.FacturaResource.class);
         resources.add(isi.aepad.tp.services.DataConfigResource.class);
+        resources.add(isi.aepad.tp.services.PagoResource.class);                
     }
 }

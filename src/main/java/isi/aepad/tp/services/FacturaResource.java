@@ -64,7 +64,7 @@ public class FacturaResource {
 		Random r = new Random();
 		Factura facturaBase = null;
 		FacturaDetalle detalle = new FacturaDetalle();
-		Producto producto = null;
+		Producto producto = null;		
 		try {
 			JsonReader reader = Json.createReader(new StringReader(f));
 			JsonObject itemPedido = reader.readObject();

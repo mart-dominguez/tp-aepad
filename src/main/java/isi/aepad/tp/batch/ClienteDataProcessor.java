@@ -1,14 +1,11 @@
 package isi.aepad.tp.batch;
 
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.annotation.Resource;
 import javax.enterprise.context.Dependent;
 import javax.inject.Named;
 import javax.json.Json;
@@ -16,15 +13,15 @@ import javax.json.JsonObjectBuilder;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import javax.sql.DataSource;
+
 
 import isi.aepad.tp.modelo.Factura;
 import isi.aepad.tp.modelo.Pago;
 
 @Dependent
-@Named("ClienteProcesor")
-public class ClienteProcesor implements javax.batch.api.chunk.ItemProcessor {
-	public ClienteProcesor() {}
+@Named("ClienteDataProcessor")
+public class ClienteDataProcessor implements javax.batch.api.chunk.ItemProcessor {
+	public ClienteDataProcessor() {}
 
 	private Map<String,Double> datos = new HashMap<>();
 	
