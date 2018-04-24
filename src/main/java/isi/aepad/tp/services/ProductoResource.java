@@ -72,7 +72,10 @@ public class ProductoResource {
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<Producto> buscar(@DefaultValue("0.0") @QueryParam("precioMinimo") double minimo,
 			@DefaultValue("44") @QueryParam("precioMaximo") int maximo){
-		return em.createQuery("SELECT p FROM Producto p WHERE p.id < :P_MAX").setParameter("P_MAX", maximo).getResultList();
+		return em.createQuery("SELECT p FROM Producto p WHERE p.precio > :P_MIN AND p.precio < :P_MAX")
+				.setParameter("P_MIN", minimo)
+				.setParameter("P_MAX", maximo)
+				.getResultList();
 	}
 	
 	@Path("lista")

@@ -78,7 +78,7 @@ public class DataConfigResource {
 			obj.add("T_USUARIOS",System.currentTimeMillis()-millisInicio);
 			
 			millisInicio = System.currentTimeMillis();
-			this.crearOrdenCompra(2000);
+			this.crearOrdenCompra(5000);
 			obj.add("T_ORDENES",System.currentTimeMillis()-millisInicio);
 			
 		}catch(Exception e) {
@@ -126,6 +126,8 @@ public class DataConfigResource {
 		int usuariosBorrados = em.createQuery("DELETE FROM Usuario u").executeUpdate();
 		int productosBorrados = em.createQuery("DELETE FROM Producto p").executeUpdate();
 		int categoriasBorradas = em.createQuery("DELETE FROM Categoria c").executeUpdate();
+
+
 		JsonObject model = Json.createObjectBuilder()
 				   .add("productosBorrados", productosBorrados)
 				   .add("categoriasBorradas", categoriasBorradas)
@@ -163,7 +165,7 @@ public class DataConfigResource {
 				catGeneradas.add(r.nextInt(entidadesCategorias.size()));
 			}
 			Producto p = new Producto();
-			p.setPrecio(0.0);
+			p.setPrecio(10.0);
 			p.setDescripcion(generador.generateRandomWords(3));
 			List<Categoria> aux = new ArrayList<>();
 			for(Integer idxcat:catGeneradas) {

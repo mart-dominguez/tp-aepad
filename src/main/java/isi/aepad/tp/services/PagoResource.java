@@ -37,7 +37,6 @@ public class PagoResource {
 
 	@PersistenceContext(unitName = "AEPAD_PU")
 	private EntityManager em;
-
 	
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
@@ -51,6 +50,7 @@ public class PagoResource {
 			facturaBase = em.find(Factura.class, datosPago.getInt("idFactura"));
 			pago.setFactura(facturaBase);
 			pago.setFecha(new Date());
+			pago.setCliente(facturaBase.getCliente());
 			pago.setMonto(datosPago.getJsonNumber("monto").doubleValue());
 			em.persist(pago);
 		} catch (Exception e) {

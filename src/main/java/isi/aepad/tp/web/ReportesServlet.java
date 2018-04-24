@@ -50,7 +50,7 @@ public class ReportesServlet extends HttpServlet {
 //
 //	</step>
 
-		long execID = jobOperator.start("simplejob", props);
+		long execID = jobOperator.start("reportejobs", props);
 		response.getWriter().append("Served at: ").append(request.getContextPath());		
 	}
 

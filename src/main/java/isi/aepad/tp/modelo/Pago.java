@@ -50,6 +50,12 @@ public class Pago {
 	public void setFactura(Factura factura) {
 		this.factura = factura;
 	}
+	public Usuario getCliente() {
+		return cliente;
+	}
+	public void setCliente(Usuario cliente) {
+		this.cliente = cliente;
+	}
 	
 	
 }
