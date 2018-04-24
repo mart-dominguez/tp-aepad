@@ -46,6 +46,7 @@ public class ClienteDataReader  implements javax.batch.api.chunk.ItemReader{
 
 		conn = ds.getConnection();
 		ps = conn.prepareStatement("SELECT id FROM Usuario WHERE id > ? ORDER BY id");
+		ps.setInt(1, checkpoint.lastId());
 		rs = ps.executeQuery();											
 	}
 
