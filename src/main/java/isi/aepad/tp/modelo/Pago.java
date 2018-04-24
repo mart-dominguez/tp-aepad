@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Pago {
@@ -15,7 +17,15 @@ public class Pago {
 	private Integer id;
 	private Date fecha;
 	private Double monto;
+	@ManyToOne
+	@JoinColumn(name="ID_FACTURA")
 	private Factura factura;
+
+	@ManyToOne
+	@JoinColumn(name="ID_CLIENTE")
+	private Usuario cliente;
+	
+	
 	public Integer getId() {
 		return id;
 	}

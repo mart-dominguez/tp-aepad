@@ -11,8 +11,11 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
 
 @Entity
+@XmlRootElement
 public class Factura {
 
 
@@ -26,9 +29,16 @@ public class Factura {
 	@ManyToOne
 	@JoinColumn(name="ID_CLIENTE")
 	private Usuario cliente;
-	
+
+	@XmlTransient
 	@OneToMany(mappedBy="factura")
 	private List<FacturaDetalle> detalles;
+	
+	@XmlTransient
+	@OneToMany(mappedBy="factura")
+	private List<Pago> pagos;
+	
+	
 	public Integer getId() {
 		return id;
 	}
@@ -56,6 +66,12 @@ public class Factura {
 	@Override
 	public String toString() {
 		return "Factura [id=" + id + ", fecha=" + fecha + ", cliente=" + cliente + "]";
+	}
+	public List<Pago> getPagos() {
+		return pagos;
+	}
+	public void setPagos(List<Pago> pagos) {
+		this.pagos = pagos;
 	}
 	
 	

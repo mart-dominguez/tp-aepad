@@ -1,7 +1,8 @@
 package isi.aepad.tp.services;
 
 import java.util.ArrayList;
-
+import java.util.Date;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -28,6 +29,8 @@ import javax.ws.rs.core.Response;
 import java.util.Map;
 
 import isi.aepad.tp.modelo.Categoria;
+import isi.aepad.tp.modelo.OrdenCompra;
+import isi.aepad.tp.modelo.OrdenCompraDetalle;
 import isi.aepad.tp.modelo.Producto;
 import isi.aepad.tp.modelo.Usuario;
 import isi.aepad.tp.util.GeneradorDatos;
@@ -39,6 +42,8 @@ import isi.aepad.tp.util.InterceptorAcceso;
 @Interceptors(InterceptorAcceso.class)
 public class DataConfigResource {
 
+	private ArrayList<Producto> productosCreados = new ArrayList<>();
+	
 	@Inject
 	private GeneradorDatos generador;
 	
@@ -58,17 +63,30 @@ public class DataConfigResource {
 	@Path("inicializar1")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response inicializar1() {
+		JsonObjectBuilder obj = Json.createObjectBuilder();
 		long millisInicio = System.currentTimeMillis();
-		this.crearCategorias();
-		this.crearProductos(2500);
-		this.crearUsuarios(3000);
-		long millisFin= System.currentTimeMillis();
-		JsonObject model = Json.createObjectBuilder()
-				   .add("MILLIS_INICIO", millisInicio)
-				   .add("MILLIS_FIN", millisFin)
-				   .add("Duracion", (millisFin-millisInicio))
-				   .build();
-		return Response.ok(model.toString()).build();
+		try {
+			this.crearCategorias();
+			obj.add("T_CATEGORIAS",System.currentTimeMillis()-millisInicio);
+			
+			millisInicio = System.currentTimeMillis();
+			this.crearProductos(2500);
+			obj.add("T_PPRODUCTOS",System.currentTimeMillis()-millisInicio);
+			
+			millisInicio = System.currentTimeMillis();
+			this.crearUsuarios(3000);
+			obj.add("T_USUARIOS",System.currentTimeMillis()-millisInicio);
+			
+			millisInicio = System.currentTimeMillis();
+			this.crearOrdenCompra(2000);
+			obj.add("T_ORDENES",System.currentTimeMillis()-millisInicio);
+			
+		}catch(Exception e) {
+			obj.add("T_ERROR",System.currentTimeMillis()-millisInicio);
+			obj.add("MSG_ERROR",e.getMessage());
+			e.printStackTrace();
+		}				
+		return Response.ok(obj.build().toString()).build();
 	}
 
 	@GET
@@ -100,11 +118,23 @@ public class DataConfigResource {
 	@Path("drop")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response destruir() {
+		int pagosBorrados = em.createQuery("DELETE FROM Pago p").executeUpdate();
+		int ordendetalleBorrada = em.createQuery("DELETE FROM OrdenCompraDetalle f").executeUpdate();
+		int ordenBorrada = em.createQuery("DELETE FROM OrdenCompra f").executeUpdate();
+		int facturaDetalleBorrada = em.createQuery("DELETE FROM FacturaDetalle f").executeUpdate();
+		int facturasBorradas = em.createQuery("DELETE FROM Factura f").executeUpdate();
+		int usuariosBorrados = em.createQuery("DELETE FROM Usuario u").executeUpdate();
 		int productosBorrados = em.createQuery("DELETE FROM Producto p").executeUpdate();
 		int categoriasBorradas = em.createQuery("DELETE FROM Categoria c").executeUpdate();
 		JsonObject model = Json.createObjectBuilder()
 				   .add("productosBorrados", productosBorrados)
-				   .add("categoriasBorradas", categoriasBorradas)				   
+				   .add("categoriasBorradas", categoriasBorradas)
+				   .add("pagosBorrados", pagosBorrados)	
+				   .add("ordendetalleBorrada", ordendetalleBorrada)	
+				   .add("ordenBorrada", ordenBorrada)	
+				   .add("facturaDetalleBorrada", facturaDetalleBorrada)	
+				   .add("facturasBorradas", facturasBorradas)	
+				   .add("usuariosBorrados", usuariosBorrados)	
 				   .build();
 		return Response.ok(model.toString()).build();
 	}
@@ -124,7 +154,7 @@ public class DataConfigResource {
 		}
 	}
 
-	private void crearProductos(Integer n) {		
+	private void crearProductos(Integer n) {
 		Random r = new Random();
 		int maxCat = 1+r.nextInt(3);
 		for(int i=0;i<n;i++) {
@@ -141,6 +171,32 @@ public class DataConfigResource {
 			}
 			p.setCategoria(aux);
 			em.persist(p);
+			em.flush();
+			em.refresh(p);
+			productosCreados.add(p);
+		}
+	}
+	
+	private void crearOrdenCompra(Integer n) {		
+		Random r = new Random();
+		for(int i=0;i<n;i++) {
+
+			int productosPorOrden  = 1+r.nextInt(6);
+			OrdenCompra ordenCompra = new OrdenCompra();
+			ordenCompra.setFecha(new Date());
+			em.persist(ordenCompra);
+			for(int j=0;j<productosPorOrden;j++) {
+				Integer indice = r.nextInt(this.productosCreados.size());
+				Double precioCompra = r.nextDouble()*1000;
+				Producto p = em.merge(this.productosCreados.get(indice));
+				p.setPrecio(precioCompra*1.25);
+				OrdenCompraDetalle detalle = new OrdenCompraDetalle();
+				detalle.setCantidad(r.nextInt(20));
+				detalle.setPrecioUnitarioCompra(precioCompra);
+				detalle.setOrden(ordenCompra);
+				detalle.setProducto(p);
+				em.persist(detalle);
+			}
 		}
 	}
 

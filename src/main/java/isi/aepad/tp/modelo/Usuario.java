@@ -22,6 +22,11 @@ public class Usuario {
 	@XmlTransient
 	@OneToMany(mappedBy="cliente")
 	private List<Factura> compras;
+
+	
+	@XmlTransient
+	@OneToMany(mappedBy="cliente")
+	private List<Pago> pagos;
 	
 	public Integer getId() {
 		return id;
@@ -44,6 +49,12 @@ public class Usuario {
 	@Override
 	public String toString() {
 		return "Usuario [id=" + id + ", mail=" + mail + "]";
+	}
+	public List<Pago> getPagos() {
+		return pagos;
+	}
+	public void setPagos(List<Pago> pagos) {
+		this.pagos = pagos;
 	}
 	
 	

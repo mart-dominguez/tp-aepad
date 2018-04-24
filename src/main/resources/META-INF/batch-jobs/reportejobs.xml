@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="webserverlog" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	version="1.0">
+	<listeners>
+		<listener ref="InfoJobListener" />
+	</listeners>
+	<step id="clientereporter" >
+		<listeners>
+			<listener ref="InfoItemProcessListeners" />
+		</listeners>
+		<chunk checkpoint-policy="item" item-count="10">
+			<reader ref="ClienteDataReader"></reader>
+			<processor ref="ClienteDataProcessor"></processor>
+			<writer ref="ClienteDataWriter"></writer>
+		</chunk>
+	</step>
+</job>
