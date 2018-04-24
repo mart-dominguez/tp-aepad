@@ -39,9 +39,10 @@ public class ClienteDataProcessor implements javax.batch.api.chunk.ItemProcessor
 			comprasTotales += f.getDetalles().stream().mapToDouble(d -> d.getCantidad()*d.getPrecioUnitarioFacturado()).sum();
 			productosComprados  += f.getDetalles().stream().mapToInt(d->d.getCantidad()).sum();
 		}
+		double media= comprasTotales/listaFacturas.size();
 		JsonObjectBuilder builderObj= Json.createObjectBuilder();
 		builderObj.add("compras", listaFacturas.size());
-		builderObj.add("compraPromedio", comprasTotales/listaFacturas.size());
+		builderObj.add("compraPromedio", media);
 		builderObj.add("comprasTotales", comprasTotales);
 		builderObj.add("productosComprados", productosComprados);
 		
