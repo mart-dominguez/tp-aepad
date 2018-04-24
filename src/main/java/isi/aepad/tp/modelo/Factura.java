@@ -53,6 +53,10 @@ public class Factura {
 	public void setDetalles(List<FacturaDetalle> detalles) {
 		this.detalles = detalles;
 	}
+	@Override
+	public String toString() {
+		return "Factura [id=" + id + ", fecha=" + fecha + ", cliente=" + cliente + "]";
+	}
 	
 	
 }

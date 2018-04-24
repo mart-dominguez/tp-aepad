@@ -1,6 +1,8 @@
 package isi.aepad.tp.modelo;
 
 import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,8 +11,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
 
 @Entity
+@XmlRootElement
 public class Producto {
 
 	@Id
@@ -18,12 +23,17 @@ public class Producto {
 	private Integer id;
 	private String descripcion;
 	private Double precio;
+	
+	@XmlTransient
 	@OneToMany(mappedBy="producto")
 	private List<OrdenCompraDetalle> compras;
+	
+	@XmlTransient
 	@OneToMany(mappedBy="producto")
 	private List<FacturaDetalle> ventas;
 	
-	@ManyToMany
+	
+	@ManyToMany(cascade=CascadeType.PERSIST)
 	@JoinTable(joinColumns=@JoinColumn(name="ID_PRODUCTO"),inverseJoinColumns=@JoinColumn(name="ID_CATEGORIA"))
 	private List<Categoria> categoria;
 	

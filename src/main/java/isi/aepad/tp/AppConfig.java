@@ -37,14 +37,16 @@ public class AppConfig extends ResourceConfig {
         MetricRegistry reg = MyMetricsServletContextListener.METRIC_REGISTRY;
         register(new InstrumentedResourceMethodApplicationListener(reg));
 
-        ConsoleReporter.forRegistry(reg)
+        /*ConsoleReporter.forRegistry(reg)
                 .convertRatesTo(TimeUnit.SECONDS)
                 .convertDurationsTo(TimeUnit.MILLISECONDS)
                 .build()
                 .start(1, TimeUnit.MINUTES);
-        logger.info("Console reporter is enabled successfully!");
+        logger.info("Console reporter is enabled successfully!");*/
         register(isi.aepad.tp.services.EchoResource.class);
         register(isi.aepad.tp.services.ProductoResource.class);
+        register(isi.aepad.tp.services.UsuarioResource.class);
+        register(isi.aepad.tp.services.FacturaResource.class);
         register(isi.aepad.tp.services.DataConfigResource.class);
     }
 
@@ -59,6 +61,8 @@ public class AppConfig extends ResourceConfig {
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(isi.aepad.tp.services.EchoResource.class);
         resources.add(isi.aepad.tp.services.ProductoResource.class);
+        resources.add(isi.aepad.tp.services.UsuarioResource.class);
+        resources.add(isi.aepad.tp.services.FacturaResource.class);
         resources.add(isi.aepad.tp.services.DataConfigResource.class);
     }
 }

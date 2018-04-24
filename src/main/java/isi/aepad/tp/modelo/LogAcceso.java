@@ -1,9 +1,21 @@
 package isi.aepad.tp.modelo;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="LOG_ACCESO")
 public class LogAcceso {
 
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private Long id;
 	private String clase;
 	private String metodo;
+	private String parametros;
 	private Long millisInicio;
 	private Long millisFin;
 	private Long duracion;
@@ -36,6 +48,18 @@ public class LogAcceso {
 	}
 	public void setDuracion(Long duracion) {
 		this.duracion = duracion;
+	}
+	public Long getId() {
+		return id;
+	}
+	public String getParametros() {
+		return parametros;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public void setParametros(String parametros) {
+		this.parametros = parametros;
 	}
 	
 	

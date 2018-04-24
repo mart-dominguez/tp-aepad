@@ -11,12 +11,18 @@ import javax.ejb.Stateless;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
 import javax.enterprise.context.Dependent;
+
 import javax.inject.Inject;
 import javax.interceptor.Interceptors;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
+import javax.ws.rs.DefaultValue;
+import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.MediaType;
 
 import isi.aepad.tp.modelo.Categoria;
 import isi.aepad.tp.modelo.Producto;
@@ -60,6 +66,20 @@ public class ProductoResource {
 		}
 		p.setCategoria(aux);
 		em.persist(p);
+	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Producto> buscar(@DefaultValue("0.0") @QueryParam("precioMinimo") double minimo,
+			@DefaultValue("44") @QueryParam("precioMaximo") int maximo){
+		return em.createQuery("SELECT p FROM Producto p WHERE p.id < :P_MAX").setParameter("P_MAX", maximo).getResultList();
+	}
+	
+	@Path("lista")
+	@GET
+	@Produces(MediaType.APPLICATION_XML)
+	public List<Producto> buscar2( ){
+		return em.createQuery("SELECT p FROM Producto p WHERE p.id < 31").getResultList();
 	}
 
 }

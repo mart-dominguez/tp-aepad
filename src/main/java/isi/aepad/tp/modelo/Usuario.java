@@ -7,8 +7,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
 
 @Entity
+@XmlRootElement
 public class Usuario {
 
 	@Id
@@ -16,6 +19,7 @@ public class Usuario {
 	private Integer id;
 	private String mail;
 	
+	@XmlTransient
 	@OneToMany(mappedBy="cliente")
 	private List<Factura> compras;
 	
@@ -36,6 +40,10 @@ public class Usuario {
 	}
 	public void setCompras(List<Factura> compras) {
 		this.compras = compras;
+	}
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", mail=" + mail + "]";
 	}
 	
 	

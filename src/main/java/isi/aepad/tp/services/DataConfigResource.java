@@ -29,6 +29,7 @@ import java.util.Map;
 
 import isi.aepad.tp.modelo.Categoria;
 import isi.aepad.tp.modelo.Producto;
+import isi.aepad.tp.modelo.Usuario;
 import isi.aepad.tp.util.GeneradorDatos;
 import isi.aepad.tp.util.InterceptorAcceso;
 
@@ -59,7 +60,8 @@ public class DataConfigResource {
 	public Response inicializar1() {
 		long millisInicio = System.currentTimeMillis();
 		this.crearCategorias();
-		this.crearProductos(500);
+		this.crearProductos(2500);
+		this.crearUsuarios(3000);
 		long millisFin= System.currentTimeMillis();
 		JsonObject model = Json.createObjectBuilder()
 				   .add("MILLIS_INICIO", millisInicio)
@@ -142,5 +144,12 @@ public class DataConfigResource {
 		}
 	}
 
+	private void crearUsuarios(Integer n) {		
+		for(int i=0;i<n;i++) {
+			Usuario usr = new Usuario();
+			usr.setMail("usuario_"+i+"@mail.com");
+			em.persist(usr);
+		}
+	}
 	
 }
