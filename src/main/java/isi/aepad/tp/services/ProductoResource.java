@@ -24,6 +24,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
+import com.codahale.metrics.annotation.Metered;
+import com.codahale.metrics.annotation.Timed;
+
 import isi.aepad.tp.modelo.Categoria;
 import isi.aepad.tp.modelo.Producto;
 import isi.aepad.tp.util.GeneradorDatos;
@@ -36,6 +39,7 @@ import isi.aepad.tp.util.InterceptorAcceso;
 @Path("producto")
 @Dependent
 @Interceptors(InterceptorAcceso.class)
+@Timed
 public class ProductoResource {
 
 	@Inject

@@ -1,5 +1,7 @@
 package isi.aepad.tp.services;
 
+import java.util.List;
+
 import javax.ejb.Singleton;
 import javax.enterprise.context.Dependent;
 import javax.interceptor.Interceptors;
@@ -11,6 +13,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
+import com.codahale.metrics.annotation.Timed;
+
 import isi.aepad.tp.modelo.Usuario;
 import isi.aepad.tp.util.InterceptorAcceso;
 
@@ -18,6 +22,7 @@ import isi.aepad.tp.util.InterceptorAcceso;
 @Path("usuario")
 @Dependent
 @Interceptors(InterceptorAcceso.class)
+@Timed
 public class UsuarioResource {
 
 	
@@ -32,15 +37,18 @@ public class UsuarioResource {
 	}
 	
 	@GET
-	@Path("login2")
-	@Produces(MediaType.APPLICATION_XML)
-	public Usuario loginXml(@QueryParam("id") Integer idUsr) {
-		Usuario u =new Usuario();
+	@Path("lista")
+	@Produces(MediaType.APPLICATION_JSON)	
+	public List<Usuario> loginXml() {
+		List<Usuario> usrs=null;
 		try {
-			u =em.find(Usuario.class, idUsr);
+			System.out.println("VIENE");
+			usrs =em.createQuery("SELECT u FROM Usuario u").setFirstResult(30).setMaxResults(20).getResultList();
+			System.out.println(usrs.toString());
+
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-		return u;
+		return usrs;
 	}
 }

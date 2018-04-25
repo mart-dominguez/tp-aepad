@@ -22,6 +22,9 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import com.codahale.metrics.annotation.Metered;
+import com.codahale.metrics.annotation.Timed;
+
 import isi.aepad.tp.modelo.Factura;
 import isi.aepad.tp.modelo.FacturaDetalle;
 import isi.aepad.tp.modelo.Producto;
@@ -32,6 +35,7 @@ import isi.aepad.tp.util.InterceptorAcceso;
 @Path("factura")
 @Dependent
 @Interceptors(InterceptorAcceso.class)
+@Timed
 public class FacturaResource {
 
 	@PersistenceContext(unitName = "AEPAD_PU")

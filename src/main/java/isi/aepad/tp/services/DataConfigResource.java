@@ -26,6 +26,9 @@ import javax.ws.rs.core.Application;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import com.codahale.metrics.annotation.Metered;
+import com.codahale.metrics.annotation.Timed;
+
 import java.util.Map;
 
 import isi.aepad.tp.modelo.Categoria;
@@ -40,6 +43,7 @@ import isi.aepad.tp.util.InterceptorAcceso;
 @Path("dataconfig")
 @Dependent
 @Interceptors(InterceptorAcceso.class)
+
 public class DataConfigResource {
 
 	private ArrayList<Producto> productosCreados = new ArrayList<>();
@@ -62,6 +66,7 @@ public class DataConfigResource {
 	@GET
 	@Path("inicializar1")
 	@Produces(MediaType.APPLICATION_JSON)
+	@Timed
 	public Response inicializar1() {
 		JsonObjectBuilder obj = Json.createObjectBuilder();
 		long millisInicio = System.currentTimeMillis();
@@ -92,6 +97,7 @@ public class DataConfigResource {
 	@GET
 	@Path("inicializar2")
 	@Produces(MediaType.APPLICATION_JSON)
+	@Timed
 	public Response inicializar2() {
 		long millisInicio = System.currentTimeMillis();
 		List<Categoria> cats= em.createQuery("SELECT c FROM Categoria c").getResultList();
@@ -117,6 +123,7 @@ public class DataConfigResource {
 	@GET
 	@Path("drop")
 	@Produces(MediaType.APPLICATION_JSON)
+	@Timed
 	public Response destruir() {
 		int pagosBorrados = em.createQuery("DELETE FROM Pago p").executeUpdate();
 		int ordendetalleBorrada = em.createQuery("DELETE FROM OrdenCompraDetalle f").executeUpdate();

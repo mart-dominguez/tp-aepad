@@ -30,7 +30,6 @@ public class Factura {
 	@JoinColumn(name="ID_CLIENTE")
 	private Usuario cliente;
 
-	@XmlTransient
 	@OneToMany(mappedBy="factura")
 	private List<FacturaDetalle> detalles;
 	
@@ -57,6 +56,8 @@ public class Factura {
 	public void setCliente(Usuario cliente) {
 		this.cliente = cliente;
 	}
+	
+	@XmlTransient
 	public List<FacturaDetalle> getDetalles() {
 		return detalles;
 	}
@@ -67,6 +68,8 @@ public class Factura {
 	public String toString() {
 		return "Factura [id=" + id + ", fecha=" + fecha + ", cliente=" + cliente + "]";
 	}
+	
+	@XmlTransient
 	public List<Pago> getPagos() {
 		return pagos;
 	}
