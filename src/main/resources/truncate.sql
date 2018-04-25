@@ -1,0 +1,11 @@
+SET FOREIGN_KEY_CHECKS = 0; 
+TRUNCATE table `aepad-tp`.pago; 
+TRUNCATE table `aepad-tp`.ordencompradetalle; 
+TRUNCATE table `aepad-tp`.facturadetalle; 
+TRUNCATE table `aepad-tp`.ordencompra; 
+TRUNCATE table `aepad-tp`.factura; 
+TRUNCATE table `aepad-tp`.producto; 
+TRUNCATE table `aepad-tp`.usuario; 
+TRUNCATE table `aepad-tp`.categoria; 
+TRUNCATE table `aepad-tp`.log_acceso; 
+SET FOREIGN_KEY_CHECKS = 1;

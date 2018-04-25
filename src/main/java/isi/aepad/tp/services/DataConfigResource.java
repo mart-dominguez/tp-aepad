@@ -61,29 +61,33 @@ public class DataConfigResource {
 	private List<Categoria> entidadesCategorias= new ArrayList<>();
 	
 	@PersistenceContext(unitName="AEPAD_PU")
-	private EntityManager em;
+	private EntityManager emOrig;
+	
+	@PersistenceContext(unitName="AEPAD_BACKUP_PU")
+	private EntityManager emBk;
+
 
 	@GET
-	@Path("inicializar1")
+	@Path("inicializar")
 	@Produces(MediaType.APPLICATION_JSON)
 	@Timed
 	public Response inicializar1() {
 		JsonObjectBuilder obj = Json.createObjectBuilder();
 		long millisInicio = System.currentTimeMillis();
 		try {
-			this.crearCategorias();
+			this.crearCategorias(this.emOrig);
 			obj.add("T_CATEGORIAS",System.currentTimeMillis()-millisInicio);
 			
 			millisInicio = System.currentTimeMillis();
-			this.crearProductos(2500);
+			this.crearProductos(10000,this.emOrig);
 			obj.add("T_PPRODUCTOS",System.currentTimeMillis()-millisInicio);
 			
 			millisInicio = System.currentTimeMillis();
-			this.crearUsuarios(3000);
+			this.crearUsuarios(5000,this.emOrig);
 			obj.add("T_USUARIOS",System.currentTimeMillis()-millisInicio);
 			
 			millisInicio = System.currentTimeMillis();
-			this.crearOrdenCompra(5000);
+			this.crearOrdenCompra(35000,this.emOrig);
 			obj.add("T_ORDENES",System.currentTimeMillis()-millisInicio);
 			
 		}catch(Exception e) {
@@ -95,29 +99,34 @@ public class DataConfigResource {
 	}
 
 	@GET
-	@Path("inicializar2")
+	@Path("backup")
 	@Produces(MediaType.APPLICATION_JSON)
 	@Timed
-	public Response inicializar2() {
+	public Response backup() {
+		JsonObjectBuilder obj = Json.createObjectBuilder();
 		long millisInicio = System.currentTimeMillis();
-		List<Categoria> cats= em.createQuery("SELECT c FROM Categoria c").getResultList();
-		
-		JsonObjectBuilder builderObj= Json.createObjectBuilder();
-		builderObj.add("MILLIS_INICIO", millisInicio);
-		
-		JsonArrayBuilder builderArr = Json.createArrayBuilder();
-		for(int i = 0;i<500;i++) {
-			long millisAntes = System.currentTimeMillis();
-			productoEJB.crearProductoRandom(cats);
-			long millisDespues= System.currentTimeMillis();
-			builderArr.add((millisDespues-millisAntes));
-		}		
-		long millisFin= System.currentTimeMillis();
-		
-		builderObj.add("MILLIS_FIN", millisFin);
-		builderObj.add("Duracion", (millisFin-millisInicio));
-		builderObj.add("detalle", builderArr.build());				   
-		return Response.ok(builderObj.build().toString()).build();
+		try {
+			this.crearCategorias(this.emBk);
+			obj.add("T_CATEGORIAS",System.currentTimeMillis()-millisInicio);
+			
+			millisInicio = System.currentTimeMillis();
+			this.crearProductos(10000,this.emBk);
+			obj.add("T_PPRODUCTOS",System.currentTimeMillis()-millisInicio);
+			
+			millisInicio = System.currentTimeMillis();
+			this.crearUsuarios(5000,this.emBk);
+			obj.add("T_USUARIOS",System.currentTimeMillis()-millisInicio);
+			
+			millisInicio = System.currentTimeMillis();
+			this.crearOrdenCompra(35000,this.emBk);
+			obj.add("T_ORDENES",System.currentTimeMillis()-millisInicio);
+			
+		}catch(Exception e) {
+			obj.add("T_ERROR",System.currentTimeMillis()-millisInicio);
+			obj.add("MSG_ERROR",e.getMessage());
+			e.printStackTrace();
+		}				
+		return Response.ok(obj.build().toString()).build();
 	}
 
 	@GET
@@ -125,6 +134,7 @@ public class DataConfigResource {
 	@Produces(MediaType.APPLICATION_JSON)
 	@Timed
 	public Response destruir() {
+		EntityManager em = this.emBk; 
 		int pagosBorrados = em.createQuery("DELETE FROM Pago p").executeUpdate();
 		int ordendetalleBorrada = em.createQuery("DELETE FROM OrdenCompraDetalle f").executeUpdate();
 		int ordenBorrada = em.createQuery("DELETE FROM OrdenCompra f").executeUpdate();
@@ -148,11 +158,9 @@ public class DataConfigResource {
 		return Response.ok(model.toString()).build();
 	}
 
-	public Response backup() {
-		return Response.ok().build();
-	}
 
-	private void crearCategorias() {		
+
+	private void crearCategorias(EntityManager em) {		
 //		Random r = new Random();
 //		int indice = r.nextInt(categorias.length);
 		for(String catName : CATEGORIAS) {
@@ -163,7 +171,7 @@ public class DataConfigResource {
 		}
 	}
 
-	private void crearProductos(Integer n) {
+	private void crearProductos(Integer n,EntityManager em) {
 		Random r = new Random();
 		int maxCat = 1+r.nextInt(3);
 		for(int i=0;i<n;i++) {
@@ -186,7 +194,7 @@ public class DataConfigResource {
 		}
 	}
 	
-	private void crearOrdenCompra(Integer n) {		
+	private void crearOrdenCompra(Integer n,EntityManager em) {		
 		Random r = new Random();
 		for(int i=0;i<n;i++) {
 
@@ -209,7 +217,7 @@ public class DataConfigResource {
 		}
 	}
 
-	private void crearUsuarios(Integer n) {		
+	private void crearUsuarios(Integer n,EntityManager em) {		
 		for(int i=0;i<n;i++) {
 			Usuario usr = new Usuario();
 			usr.setMail("usuario_"+i+"@mail.com");

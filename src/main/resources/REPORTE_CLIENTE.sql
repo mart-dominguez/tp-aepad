@@ -20,11 +20,12 @@ SET time_zone = "+00:00";
 -- Base de datos: `aepad`
 --
 
--- --------------------------------------------------------
+-- ---usuariousuario-----------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `REPORTE_CLIENTE`
 --
+USE `AEPAD-TP`;
 
 CREATE TABLE `REPORTE_CLIENTE` (
   `ID_CLIENTE` int(11) NOT NULL,
