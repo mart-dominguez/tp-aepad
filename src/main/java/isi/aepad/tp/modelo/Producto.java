@@ -2,6 +2,7 @@ package isi.aepad.tp.modelo;
 
 import java.util.List;
 
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -55,18 +56,24 @@ public class Producto {
 	public void setPrecio(Double precio) {
 		this.precio = precio;
 	}
+	
+	@XmlTransient
 	public List<OrdenCompraDetalle> getCompras() {
 		return compras;
 	}
 	public void setCompras(List<OrdenCompraDetalle> compras) {
 		this.compras = compras;
 	}
+	
+	@XmlTransient
 	public List<FacturaDetalle> getVentas() {
 		return ventas;
 	}
 	public void setVentas(List<FacturaDetalle> ventas) {
 		this.ventas = ventas;
 	}
+	
+	@XmlTransient
 	public List<Categoria> getCategoria() {
 		return categoria;
 	}

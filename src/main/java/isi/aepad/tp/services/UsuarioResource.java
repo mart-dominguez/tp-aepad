@@ -43,7 +43,10 @@ public class UsuarioResource {
 		List<Usuario> usrs=null;
 		try {
 			System.out.println("VIENE");
-			usrs =em.createQuery("SELECT u FROM Usuario u").setFirstResult(30).setMaxResults(20).getResultList();
+			usrs =em.createQuery("SELECT u FROM Usuario u")
+					//.setFirstResult(30)
+					//.setMaxResults(20)
+					.getResultList();
 			System.out.println(usrs.toString());
 
 		}catch(Exception e) {
