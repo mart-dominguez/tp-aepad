@@ -32,6 +32,7 @@ public class ClienteDataReader  implements javax.batch.api.chunk.ItemReader{
 
 	@Override
 	public void close() throws Exception {
+		System.out.println("CIERRA CLIETNE DATA READER");
 		if(rs!=null) rs.close();
 		if(ps!=null) ps.close();
 		if(conn!=null) conn.close();
@@ -52,9 +53,12 @@ public class ClienteDataReader  implements javax.batch.api.chunk.ItemReader{
 
 	@Override
 	public Object readItem() throws Exception {
-		rs.next();
-		checkpoint.setLastId(rs.getInt(1));
-		return Integer.valueOf(checkpoint.lastId());
+		if(rs.next())  {
+			checkpoint.setLastId(rs.getInt(1));
+			return Integer.valueOf(checkpoint.lastId());
+		}
+		else return null;
+		
 	}
 
 }

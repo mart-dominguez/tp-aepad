@@ -51,12 +51,13 @@ public class ClienteDataProcessor implements javax.batch.api.chunk.ItemProcessor
 		List<Pago> listaPagos=q2.setParameter("P_ID_CLIENTE", i).getResultList();
 		double pagosTotales = listaPagos.stream().mapToDouble(p -> p.getMonto()).sum();
 		int cantidadPagos= listaPagos.size();
+		double pagoMedio = 0.0;
+		if(cantidadPagos>0) pagoMedio=pagosTotales/cantidadPagos;
 		builderObj.add("id_usuario", i);
 		builderObj.add("pagos", cantidadPagos);
-		builderObj.add("pagoPromedio", pagosTotales/cantidadPagos);
+		builderObj.add("pagoPromedio",pagoMedio );
 		builderObj.add("pagosTotales", pagosTotales);
 		builderObj.add("saldo", pagosTotales-comprasTotales);
-		
 		return builderObj.build().toString();
 	}
 }
