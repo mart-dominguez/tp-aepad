@@ -105,20 +105,18 @@ public class DataConfigResource {
 		JsonObjectBuilder obj = Json.createObjectBuilder();
 		long millisInicio = System.currentTimeMillis();
 		try {
-			this.crearCategorias(this.emBk);
-			obj.add("T_CATEGORIAS", System.currentTimeMillis() - millisInicio);
-
+			this.emBk.createNativeQuery("INSERT INTO `USUARIO`(`ID`, `MAIL`) SELECT ID,MAIL FROM aepad-tp.USUARIO;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `CATEGORIA`(`ID`, `NOMBRE`) SELECT ID,NOMBRE FROM aepad-tp.CATEGORIA;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `FACTURA`(`ID`, `FECHA`, `ID_CLIENTE`) SELECT ID,FECHA,ID_CLIENTE FROM aepad-tp.FACTURA;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `FACTURADETALLE`(`ID`, `CANTIDAD`, `ID_FACTURA`, `ID_PRODUCTO`, `PRECIOUNITARIOFACTURADO`) SELECT `ID`, `CANTIDAD`, `ID_FACTURA`, `ID_PRODUCTO`, `PRECIOUNITARIOFACTURADO` FROM aepad-tp.FACTURADETALLE;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `LOG_ACCESO`(`ID`, `CLASE`, `DURACION`, `METODO`, `MILLISFIN`, `MILLISINICIO`, `PARAMETROS`) SELECT`ID`, `CLASE`, `DURACION`, `METODO`, `MILLISFIN`, `MILLISINICIO`, `PARAMETROS` FROM aepad-tp.LOG_ACCESO;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `ORDENCOMPRA`(`ID`, `FECHA`) SELECT `ID`, `FECHA`  FROM aepad-tp.ORDENCOMPRA;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `ORDENCOMPRADETALLE`(`ID`, `CANTIDAD`, `PRECIOUNITARIOCOMPRA`, `ID_ORDEN`, `ID_PRODUCTO`) SELECT `ID`, `CANTIDAD`, `PRECIOUNITARIOCOMPRA`, `ID_ORDEN`, `ID_PRODUCTO` FROM aepad-tp.ORDENCOMPRADETALLE;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `PAGO`(`ID`, `FECHA`, `MONTO`, `ID_CLIENTE`, `ID_FACTURA`) SELECT   `ID`, `FECHA`, `MONTO`, `ID_CLIENTE`, `ID_FACTURA` FROM aepad-tp.PAGO;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `PRODUCTO`(`ID`, `DESCRIPCION`, `PRECIO`) SELECT `ID`, `DESCRIPCION`, `PRECIO` FROM aepad-tp.PRODUCTO;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `REPORTE_CLIENTE`(`ID_CLIENTE`, `COMPRAS`, `COMPRA_PROMEDIO`, `COMPRAS_TOTAL`, `PRODCUTOS_COMPRADOS`, `PAGOS`, `PAGO_PROMEDIO`, `PAGOS_TOTALES`, `SALDO`, `FECHA_CALCULO`) SELECT `ID_CLIENTE`, `COMPRAS`, `COMPRA_PROMEDIO`, `COMPRAS_TOTAL`, `PRODCUTOS_COMPRADOS`, `PAGOS`, `PAGO_PROMEDIO`, `PAGOS_TOTALES`, `SALDO`, `FECHA_CALCULO` FROM aepad-tp.REPORTE_CLIENTE;").executeUpdate();
 			millisInicio = System.currentTimeMillis();
-			this.crearProductos(10000, this.emBk);
-			obj.add("T_PPRODUCTOS", System.currentTimeMillis() - millisInicio);
-
-			millisInicio = System.currentTimeMillis();
-			this.crearUsuarios(5000, this.emBk);
-			obj.add("T_USUARIOS", System.currentTimeMillis() - millisInicio);
-
-			millisInicio = System.currentTimeMillis();
-			this.crearOrdenCompra(35000, this.emBk);
-			obj.add("T_ORDENES", System.currentTimeMillis() - millisInicio);
+			obj.add("T_BACKUP", System.currentTimeMillis() - millisInicio);
 
 		} catch (Exception e) {
 			obj.add("T_ERROR", System.currentTimeMillis() - millisInicio);
@@ -129,26 +127,48 @@ public class DataConfigResource {
 	}
 
 	@GET
-	@Path("drop")
+	@Path("limpiarbk")
 	@Produces(MediaType.APPLICATION_JSON)
 	@Timed
 	public Response destruir() {
-		EntityManager em = this.emBk;
-		int pagosBorrados = em.createQuery("DELETE FROM Pago p").executeUpdate();
-		int ordendetalleBorrada = em.createQuery("DELETE FROM OrdenCompraDetalle f").executeUpdate();
-		int ordenBorrada = em.createQuery("DELETE FROM OrdenCompra f").executeUpdate();
-		int facturaDetalleBorrada = em.createQuery("DELETE FROM FacturaDetalle f").executeUpdate();
-		int facturasBorradas = em.createQuery("DELETE FROM Factura f").executeUpdate();
-		int usuariosBorrados = em.createQuery("DELETE FROM Usuario u").executeUpdate();
-		int productosBorrados = em.createQuery("DELETE FROM Producto p").executeUpdate();
-		int categoriasBorradas = em.createQuery("DELETE FROM Categoria c").executeUpdate();
-
-		JsonObject model = Json.createObjectBuilder().add("productosBorrados", productosBorrados)
-				.add("categoriasBorradas", categoriasBorradas).add("pagosBorrados", pagosBorrados)
-				.add("ordendetalleBorrada", ordendetalleBorrada).add("ordenBorrada", ordenBorrada)
-				.add("facturaDetalleBorrada", facturaDetalleBorrada).add("facturasBorradas", facturasBorradas)
-				.add("usuariosBorrados", usuariosBorrados).build();
-		return Response.ok(model.toString()).build();
+		JsonObjectBuilder obj = Json.createObjectBuilder();
+		long millisInicio = System.currentTimeMillis();
+		try {
+			this.emBk.createNativeQuery("SET FOREIGN_KEY_CHECKS = 0;").executeUpdate();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.PAGO; ").executeUpdate();
+			obj.add("pago", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.ORDENCOMPRADETALLE;").executeUpdate();
+			obj.add("ordencompradetalle", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.FACTURADETALLE;").executeUpdate();
+			obj.add("facturadetalle", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.ORDENCOMPRA;").executeUpdate();
+			obj.add("ordencompra", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.FACTURA;").executeUpdate();
+			obj.add("factura", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.PRODUCTO;").executeUpdate();
+			obj.add("producto", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emOrig.createNativeQuery("TRUNCATE table `aepad-bk`.USUARIO;").executeUpdate();
+			obj.add("usuario", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.CATEGORIA;").executeUpdate();
+			obj.add("categoria", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.LOG_ACCESO;").executeUpdate();
+			obj.add("log_acceso", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("SET FOREIGN_KEY_CHECKS = 1;").executeUpdate();
+		} catch (Exception e) {
+			obj.add("T_ERROR", System.currentTimeMillis() - millisInicio);
+			obj.add("MSG_ERROR", e.getMessage());
+			e.printStackTrace();
+		}
+		return Response.ok(obj.build().toString()).build();
 	}
 
 	@GET
@@ -160,31 +180,31 @@ public class DataConfigResource {
 		long millisInicio = System.currentTimeMillis();
 		try {
 			this.emOrig.createNativeQuery("SET FOREIGN_KEY_CHECKS = 0;").executeUpdate();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.pago; ").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table PAGO; ").executeUpdate();
 			obj.add("pago", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.ordencompradetalle;").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table ORDENCOMPRADETALLE;").executeUpdate();
 			obj.add("ordencompradetalle", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.facturadetalle;").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table FACTURADETALLE;").executeUpdate();
 			obj.add("facturadetalle", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.ordencompra;").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table ORDENCOMPRA;").executeUpdate();
 			obj.add("ordencompra", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.factura;").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table FACTURA;").executeUpdate();
 			obj.add("factura", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.producto;").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table PRODUCTO;").executeUpdate();
 			obj.add("producto", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.usuario;").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table USUARIO;").executeUpdate();
 			obj.add("usuario", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.categoria;").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table CATEGORIA;").executeUpdate();
 			obj.add("categoria", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-tp`.log_acceso;").executeUpdate();
+			this.emOrig.createNativeQuery("TRUNCATE table LOG_ACCESO;").executeUpdate();
 			obj.add("log_acceso", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
 			this.emOrig.createNativeQuery("SET FOREIGN_KEY_CHECKS = 1;").executeUpdate();
@@ -266,4 +286,5 @@ public class DataConfigResource {
 		}
 	}
 
+	
 }
