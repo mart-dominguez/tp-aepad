@@ -105,16 +105,16 @@ public class DataConfigResource {
 		JsonObjectBuilder obj = Json.createObjectBuilder();
 		long millisInicio = System.currentTimeMillis();
 		try {
-			this.emBk.createNativeQuery("INSERT INTO `USUARIO`(`ID`, `MAIL`) SELECT ID,MAIL FROM aepad-tp.USUARIO;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `CATEGORIA`(`ID`, `NOMBRE`) SELECT ID,NOMBRE FROM aepad-tp.CATEGORIA;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `FACTURA`(`ID`, `FECHA`, `ID_CLIENTE`) SELECT ID,FECHA,ID_CLIENTE FROM aepad-tp.FACTURA;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `FACTURADETALLE`(`ID`, `CANTIDAD`, `ID_FACTURA`, `ID_PRODUCTO`, `PRECIOUNITARIOFACTURADO`) SELECT `ID`, `CANTIDAD`, `ID_FACTURA`, `ID_PRODUCTO`, `PRECIOUNITARIOFACTURADO` FROM aepad-tp.FACTURADETALLE;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `LOG_ACCESO`(`ID`, `CLASE`, `DURACION`, `METODO`, `MILLISFIN`, `MILLISINICIO`, `PARAMETROS`) SELECT`ID`, `CLASE`, `DURACION`, `METODO`, `MILLISFIN`, `MILLISINICIO`, `PARAMETROS` FROM aepad-tp.LOG_ACCESO;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `ORDENCOMPRA`(`ID`, `FECHA`) SELECT `ID`, `FECHA`  FROM aepad-tp.ORDENCOMPRA;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `ORDENCOMPRADETALLE`(`ID`, `CANTIDAD`, `PRECIOUNITARIOCOMPRA`, `ID_ORDEN`, `ID_PRODUCTO`) SELECT `ID`, `CANTIDAD`, `PRECIOUNITARIOCOMPRA`, `ID_ORDEN`, `ID_PRODUCTO` FROM aepad-tp.ORDENCOMPRADETALLE;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `PAGO`(`ID`, `FECHA`, `MONTO`, `ID_CLIENTE`, `ID_FACTURA`) SELECT   `ID`, `FECHA`, `MONTO`, `ID_CLIENTE`, `ID_FACTURA` FROM aepad-tp.PAGO;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `PRODUCTO`(`ID`, `DESCRIPCION`, `PRECIO`) SELECT `ID`, `DESCRIPCION`, `PRECIO` FROM aepad-tp.PRODUCTO;").executeUpdate();
-			this.emBk.createNativeQuery("INSERT INTO `REPORTE_CLIENTE`(`ID_CLIENTE`, `COMPRAS`, `COMPRA_PROMEDIO`, `COMPRAS_TOTAL`, `PRODCUTOS_COMPRADOS`, `PAGOS`, `PAGO_PROMEDIO`, `PAGOS_TOTALES`, `SALDO`, `FECHA_CALCULO`) SELECT `ID_CLIENTE`, `COMPRAS`, `COMPRA_PROMEDIO`, `COMPRAS_TOTAL`, `PRODCUTOS_COMPRADOS`, `PAGOS`, `PAGO_PROMEDIO`, `PAGOS_TOTALES`, `SALDO`, `FECHA_CALCULO` FROM aepad-tp.REPORTE_CLIENTE;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `USUARIO`(`ID`, `MAIL`) SELECT ID,MAIL FROM `aepad-tp`.USUARIO;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `CATEGORIA`(`ID`, `NOMBRE`) SELECT ID,NOMBRE FROM `aepad-tp`.CATEGORIA;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `FACTURA`(`ID`, `FECHA`, `ID_CLIENTE`) SELECT ID,FECHA,ID_CLIENTE FROM `aepad-tp`.FACTURA;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `FACTURADETALLE`(`ID`, `CANTIDAD`, `ID_FACTURA`, `ID_PRODUCTO`, `PRECIOUNITARIOFACTURADO`) SELECT `ID`, `CANTIDAD`, `ID_FACTURA`, `ID_PRODUCTO`, `PRECIOUNITARIOFACTURADO` FROM `aepad-tp`.FACTURADETALLE;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `LOG_ACCESO`(`ID`, `CLASE`, `DURACION`, `METODO`, `MILLISFIN`, `MILLISINICIO`, `PARAMETROS`) SELECT`ID`, `CLASE`, `DURACION`, `METODO`, `MILLISFIN`, `MILLISINICIO`, `PARAMETROS` FROM `aepad-tp`.LOG_ACCESO;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `ORDENCOMPRA`(`ID`, `FECHA`) SELECT `ID`, `FECHA`  FROM `aepad-tp`.ORDENCOMPRA;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `ORDENCOMPRADETALLE`(`ID`, `CANTIDAD`, `PRECIOUNITARIOCOMPRA`, `ID_ORDEN`, `ID_PRODUCTO`) SELECT `ID`, `CANTIDAD`, `PRECIOUNITARIOCOMPRA`, `ID_ORDEN`, `ID_PRODUCTO` FROM `aepad-tp`.ORDENCOMPRADETALLE;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `PAGO`(`ID`, `FECHA`, `MONTO`, `ID_CLIENTE`, `ID_FACTURA`) SELECT   `ID`, `FECHA`, `MONTO`, `ID_CLIENTE`, `ID_FACTURA` FROM `aepad-tp`.PAGO;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `PRODUCTO`(`ID`, `DESCRIPCION`, `PRECIO`) SELECT `ID`, `DESCRIPCION`, `PRECIO` FROM `aepad-tp`.PRODUCTO;").executeUpdate();
+			this.emBk.createNativeQuery("INSERT INTO `REPORTE_CLIENTE`(`ID_CLIENTE`, `COMPRAS`, `COMPRA_PROMEDIO`, `COMPRAS_TOTAL`, `PRODCUTOS_COMPRADOS`, `PAGOS`, `PAGO_PROMEDIO`, `PAGOS_TOTALES`, `SALDO`, `FECHA_CALCULO`) SELECT `ID_CLIENTE`, `COMPRAS`, `COMPRA_PROMEDIO`, `COMPRAS_TOTAL`, `PRODCUTOS_COMPRADOS`, `PAGOS`, `PAGO_PROMEDIO`, `PAGOS_TOTALES`, `SALDO`, `FECHA_CALCULO` FROM `aepad-tp`.REPORTE_CLIENTE;").executeUpdate();
 			millisInicio = System.currentTimeMillis();
 			obj.add("T_BACKUP", System.currentTimeMillis() - millisInicio);
 
@@ -153,7 +153,7 @@ public class DataConfigResource {
 			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.PRODUCTO;").executeUpdate();
 			obj.add("producto", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emOrig.createNativeQuery("TRUNCATE table `aepad-bk`.USUARIO;").executeUpdate();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.USUARIO;").executeUpdate();
 			obj.add("usuario", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
 			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.CATEGORIA;").executeUpdate();
