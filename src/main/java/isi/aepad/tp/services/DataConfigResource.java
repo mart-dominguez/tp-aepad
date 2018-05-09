@@ -150,6 +150,9 @@ public class DataConfigResource {
 			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.FACTURA;").executeUpdate();
 			obj.add("factura", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.PRODUCTOCATEGORIA;").executeUpdate();
+			obj.add("producto", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
 			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.PRODUCTO;").executeUpdate();
 			obj.add("producto", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
@@ -194,6 +197,9 @@ public class DataConfigResource {
 			millisInicio = System.currentTimeMillis();
 			this.emOrig.createNativeQuery("TRUNCATE table FACTURA;").executeUpdate();
 			obj.add("factura", System.currentTimeMillis() - millisInicio);
+			millisInicio = System.currentTimeMillis();
+			this.emOrig.createNativeQuery("TRUNCATE table PRODUCTO_CATEGORIA;").executeUpdate();
+			obj.add("PRODUCTO_CATEGORIA", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
 			this.emOrig.createNativeQuery("TRUNCATE table PRODUCTO;").executeUpdate();
 			obj.add("producto", System.currentTimeMillis() - millisInicio);
