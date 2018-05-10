@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="101" it="0" lt="0" ct="101" ts="1525970469067" s="false" lb="TRUNCAR TABLAS" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="setUp Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+<httpSample t="4" it="0" lt="0" ct="4" ts="1525970469178" s="false" lb="INICIALIZAR" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="setUp Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+<httpSample t="15" it="0" lt="0" ct="1" ts="1525970469233" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="2" it="0" lt="0" ct="0" ts="1525970469246" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970469312" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3210" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469313" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1152" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="35" it="0" lt="0" ct="30" ts="1525970469319" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3296" sby="0" ng="1" na="1">
+  <sample t="2" it="0" lt="0" ct="0" ts="1525970469352" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="5" it="0" lt="0" ct="1" ts="1525970469379" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469384" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="8" it="0" lt="0" ct="4" ts="1525970469387" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469395" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="1" ts="1525970469396" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469399" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970469400" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469401" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970469402" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469403" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469405" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469406" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469407" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469408" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469409" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469410" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469411" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469412" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970469413" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469414" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469416" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469417" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469418" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469419" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="1" ts="1525970469420" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469422" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="0" ts="1525970469424" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3273" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469425" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="6" it="0" lt="0" ct="2" ts="1525970469431" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3405" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469437" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469438" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3320" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469439" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469435" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3079" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469436" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="0" ts="1525970469440" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3405" sby="0" ng="2" na="2">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469441" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469442" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3320" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469443" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="0" ts="1525970469442" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3211" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469445" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1153" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="9" it="0" lt="0" ct="1" ts="1525970469444" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3405" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469453" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970469455" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3296" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469457" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469457" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3320" sby="0" ng="2" na="2">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469457" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469458" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469459" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469458" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3405" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469459" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="4" it="0" lt="0" ct="0" ts="1525970469460" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469464" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="5" it="0" lt="0" ct="3" ts="1525970469460" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3320" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469465" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="2" ts="1525970469467" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469470" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="4" it="0" lt="0" ct="3" ts="1525970469470" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3405" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469474" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469473" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469474" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469478" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3320" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469479" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970469480" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469482" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="6" it="0" lt="0" ct="3" ts="1525970469480" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3405" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469486" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469487" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3320" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469488" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="5" it="0" lt="0" ct="1" ts="1525970469483" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="3" it="0" lt="0" ct="0" ts="1525970469485" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970469490" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469491" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="1" ts="1525970469493" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469496" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="6" it="0" lt="0" ct="3" ts="1525970469491" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3405" sby="0" ng="2" na="2">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469496" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="4" it="0" lt="0" ct="2" ts="1525970469499" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469503" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="1" ts="1525970469506" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3251" sby="0" ng="2" na="2">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469508" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="5" it="0" lt="0" ct="2" ts="1525970469503" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3316" sby="0" ng="2" na="2">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469507" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1258" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="4" it="0" lt="0" ct="2" ts="1525970469511" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3252" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469515" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="4" it="0" lt="0" ct="2" ts="1525970469512" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-1" dt="text" by="3377" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469516" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1319" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469516" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3252" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469517" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469521" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3252" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469522" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469523" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3252" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469524" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="9" it="0" lt="0" ct="1" ts="1525970469524" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3252" sby="0" ng="2" na="2">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469532" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="0" ts="1525970469535" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="1352" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469538" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-1" dt="text" by="822" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469537" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3273" sby="0" ng="2" na="2">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469538" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469539" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469540" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469540" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469541" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469542" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469543" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469544" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469545" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="0" ts="1525970469546" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469548" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469549" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469550" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469551" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469552" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469552" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469553" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469554" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469554" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469555" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469556" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469557" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469558" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469559" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3317" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469560" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1259" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469561" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-2" dt="text" by="3377" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469562" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1319" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1525970469563" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="1352" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469563" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-2" dt="text" by="822" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469639" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469640" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469641" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3211" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469642" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1153" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469643" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3296" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469644" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469645" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469646" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970469646" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469648" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469649" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469649" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469650" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469651" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469652" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469653" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469654" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469654" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469655" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469656" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469657" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469658" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469659" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469659" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469660" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469661" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469662" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469663" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469664" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3273" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469665" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469666" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469667" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469667" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469668" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469669" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469670" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469671" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469672" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469673" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469674" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469675" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469675" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469676" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469677" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469678" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469679" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469680" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469681" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="0" ts="1525970469682" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469684" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="2" ts="1525970469687" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469690" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469691" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3316" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469691" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1258" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469693" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-3" dt="text" by="3377" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469693" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1319" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1525970469694" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="1352" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469694" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-3" dt="text" by="822" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469838" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469838" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469839" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3210" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469840" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1152" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469841" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3296" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469842" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469843" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469844" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469844" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469845" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469845" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469846" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469847" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469848" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469849" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469849" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469851" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469852" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469853" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469853" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469854" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469855" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469855" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469856" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469857" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469858" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469858" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469859" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469860" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469860" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469861" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469861" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469862" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3273" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469863" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469864" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469865" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469865" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469866" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="2" ts="1525970469866" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469869" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469869" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469870" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469871" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469872" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469872" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469873" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469874" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469875" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970469876" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469876" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469877" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469878" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469879" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970469879" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469880" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469881" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469882" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469883" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469885" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469886" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970469887" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3317" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469888" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1259" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970469889" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-4" dt="text" by="3377" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469890" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1319" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1525970469890" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="1350" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970469891" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-4" dt="text" by="821" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470038" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470039" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470040" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3211" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470041" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1153" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470042" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3294" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470043" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1236" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470044" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470045" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="3" it="0" lt="0" ct="2" ts="1525970470046" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470049" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470049" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470050" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470051" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470052" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470053" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470054" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470055" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470055" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470056" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470056" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470057" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470058" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470058" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470059" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470060" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470060" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470061" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470062" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470062" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470063" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470063" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470064" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470065" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470066" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470066" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3273" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470067" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470068" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470069" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470069" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470070" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470071" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470071" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470072" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470073" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470074" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470074" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470075" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470075" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470076" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470077" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470078" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470078" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470079" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470080" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470081" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470082" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470082" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470083" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470084" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470084" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470085" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470086" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470087" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3317" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470087" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1259" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470088" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-5" dt="text" by="3375" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470089" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1317" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1525970470089" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="1352" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470089" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-5" dt="text" by="822" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470239" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470240" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470241" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3211" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470241" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1153" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470242" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3296" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470243" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470244" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470245" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470245" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470246" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470246" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470247" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470248" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470248" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470249" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470249" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470250" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470251" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470251" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470252" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470252" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470253" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470253" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470254" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470254" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3251" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470255" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1193" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470256" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470256" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470257" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470258" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470258" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470259" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470259" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3273" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470260" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470260" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470261" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470261" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470262" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470263" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470263" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470264" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3317" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470265" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1259" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470266" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-6" dt="text" by="3377" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470266" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1319" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1525970470267" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="1352" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470267" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-6" dt="text" by="822" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470440" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470441" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470442" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3209" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470442" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1151" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470443" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3296" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470444" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470445" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470446" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470447" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470447" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470448" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470449" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470449" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470450" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470451" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470452" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470453" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470454" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470454" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470455" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470455" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470456" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470456" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470457" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470458" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470458" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470459" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470459" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470460" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470461" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470461" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470462" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470462" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470463" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470464" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3273" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970470464" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470465" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470466" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470466" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470467" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470468" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470469" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470469" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470470" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470470" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470471" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470472" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470472" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470473" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470473" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470474" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3316" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470474" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1258" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470475" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-7" dt="text" by="3376" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470476" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1318" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1525970470476" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="1352" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470476" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-7" dt="text" by="822" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="2" it="0" lt="0" ct="1" ts="1525970470641" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470643" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470643" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3211" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470644" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1153" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470645" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3296" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470646" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470647" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470647" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470648" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470648" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470649" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470649" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470650" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470650" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470650" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470651" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470651" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470652" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470652" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470653" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470653" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470654" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470654" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470655" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470655" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470656" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470657" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470657" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470658" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3273" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470658" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470659" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470659" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470660" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470660" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470661" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470662" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470662" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470663" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470664" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470664" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470665" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470665" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470666" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470667" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470667" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470668" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470668" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470669" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470670" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3317" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470670" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1259" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470671" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-8" dt="text" by="3377" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470672" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1319" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1525970470672" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="1352" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470672" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-8" dt="text" by="822" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470842" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470843" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470844" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3211" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470845" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1153" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470847" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3296" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470848" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470849" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470850" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470851" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470851" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470852" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470853" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470853" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470854" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470855" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470855" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470856" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470857" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470857" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470858" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470859" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470859" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470860" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470861" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470861" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470862" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470862" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470863" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470863" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470864" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470864" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470865" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470865" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470866" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470866" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470867" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470867" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3273" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470868" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1215" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470868" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470869" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470870" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470870" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470871" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470872" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470873" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470873" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470874" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470874" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470875" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470875" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470875" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470876" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970470876" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470877" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970470877" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470878" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470878" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3320" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470878" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1262" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470879" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3404" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470879" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1346" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470880" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3317" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470880" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1259" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970470881" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-9" dt="text" by="3376" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470881" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1318" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1525970470882" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="1352" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970470882" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-9" dt="text" by="822" sby="0" ng="0" na="0"/>
+</sample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970471043" s="false" lb="buscarUsuarios" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3079" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471044" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1021" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970471046" s="false" lb="login" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3210" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471047" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1152" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="2" it="0" lt="0" ct="2" ts="1525970471049" s="false" lb="crearFactura" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3296" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471051" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1238" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970471052" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471053" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970471053" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471054" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970471055" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471055" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970471056" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471056" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970471057" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471057" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970471058" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970471058" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970471059" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471059" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970471060" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471060" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970471061" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471061" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970471062" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3252" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471062" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1194" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970471063" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="1" it="0" lt="0" ct="0" ts="1525970471063" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970471064" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3253" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471065" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1195" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970471065" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3272" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471066" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1214" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970471067" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471068" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1525970471068" s="false" lb="Buscar por precio" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3319" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471069" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1261" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1525970471070" s="false" lb="agregar a compra" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3405" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471070" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1347" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970471071" s="false" lb="consultarSaldo" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3317" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471072" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1259" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1525970471073" s="false" lb="pagar" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Conexión rehusada (Connection refused)" tn="Carga Compra 1-10" dt="text" by="3377" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471074" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1319" sby="0" ng="0" na="0"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1525970471074" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="1350" sby="0" ng="1" na="1">
+  <sample t="0" it="0" lt="0" ct="0" ts="1525970471074" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Carga Compra 1-10" dt="text" by="821" sby="0" ng="0" na="0"/>
+</sample>
+
+</testResults>
