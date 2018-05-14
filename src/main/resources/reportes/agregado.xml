@@ -1,298 +1,1397 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1525970469067,101,TRUNCAR TABLAS,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),setUp Thread Group 1-1,text,false,,2058,0,1,1,0,0,101
-1525970469178,4,INICIALIZAR,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),setUp Thread Group 1-1,text,false,,2058,0,1,1,0,0,4
-1525970469233,15,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3079,0,1,1,0,0,1
-1525970469312,2,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3210,0,1,1,0,0,1
-1525970469319,35,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3296,0,1,1,0,0,30
-1525970469379,5,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,1
-1525970469387,8,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,4
-1525970469396,3,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,1
-1525970469400,2,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,1
-1525970469402,2,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,1
-1525970469405,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,0
-1525970469407,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,0
-1525970469409,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,1
-1525970469411,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,1
-1525970469413,2,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3252,0,1,1,0,0,1
-1525970469416,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3253,0,1,1,0,0,1
-1525970469418,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3253,0,1,1,0,0,1
-1525970469420,3,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3253,0,1,1,0,0,1
-1525970469424,2,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3273,0,1,1,0,0,0
-1525970469431,6,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3405,0,2,2,0,0,2
-1525970469438,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3320,0,2,2,0,0,0
-1525970469435,1,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3079,0,2,2,0,0,1
-1525970469440,2,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3405,0,2,2,0,0,0
-1525970469442,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3320,0,2,2,0,0,0
-1525970469442,3,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3211,0,2,2,0,0,0
-1525970469444,9,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3405,0,2,2,0,0,1
-1525970469455,2,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3296,0,2,2,0,0,1
-1525970469457,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3320,0,2,2,0,0,0
-1525970469458,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,0
-1525970469458,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3405,0,2,2,0,0,1
-1525970469460,4,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,0
-1525970469460,5,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3320,0,2,2,0,0,3
-1525970469467,3,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,2
-1525970469470,4,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3405,0,2,2,0,0,3
-1525970469473,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,1
-1525970469478,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3320,0,2,2,0,0,1
-1525970469480,2,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,1
-1525970469480,6,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3405,0,2,2,0,0,3
-1525970469487,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3320,0,2,2,0,0,0
-1525970469483,5,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,1
-1525970469490,2,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,1
-1525970469493,3,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,1
-1525970469491,6,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3405,0,2,2,0,0,3
-1525970469499,4,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,2
-1525970469506,3,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3251,0,2,2,0,0,1
-1525970469503,5,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3316,0,2,2,0,0,2
-1525970469511,4,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3252,0,2,2,0,0,2
-1525970469512,4,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-1,text,false,,3377,0,2,2,0,0,2
-1525970469516,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3252,0,2,2,0,0,0
-1525970469521,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3252,0,2,2,0,0,1
-1525970469523,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3252,0,2,2,0,0,0
-1525970469524,9,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3252,0,2,2,0,0,1
-1525970469535,3,Debug Sampler,200,OK,Carga Compra 1-1,text,true,,1352,0,2,2,0,0,0
-1525970469537,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3273,0,2,2,0,0,1
-1525970469539,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3405,0,1,1,0,0,0
-1525970469540,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3320,0,1,1,0,0,1
-1525970469542,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3405,0,1,1,0,0,1
-1525970469544,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3320,0,1,1,0,0,0
-1525970469546,2,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3405,0,1,1,0,0,0
-1525970469549,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3320,0,1,1,0,0,1
-1525970469551,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3405,0,1,1,0,0,0
-1525970469552,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3320,0,1,1,0,0,0
-1525970469554,0,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3405,0,1,1,0,0,0
-1525970469555,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3320,0,1,1,0,0,0
-1525970469557,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3405,0,1,1,0,0,1
-1525970469559,1,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3317,0,1,1,0,0,1
-1525970469561,1,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-2,text,false,,3377,0,1,1,0,0,1
-1525970469563,0,Debug Sampler,200,OK,Carga Compra 1-2,text,true,,1352,0,1,1,0,0,0
-1525970469639,1,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3079,0,1,1,0,0,1
-1525970469641,1,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3211,0,1,1,0,0,0
-1525970469643,1,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3296,0,1,1,0,0,0
-1525970469645,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,0
-1525970469646,2,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,1
-1525970469649,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,0
-1525970469650,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,1
-1525970469652,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,0
-1525970469654,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,0
-1525970469655,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,1
-1525970469657,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,0
-1525970469659,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,0
-1525970469660,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3252,0,1,1,0,0,1
-1525970469662,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3253,0,1,1,0,0,0
-1525970469664,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3273,0,1,1,0,0,0
-1525970469666,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3404,0,1,1,0,0,0
-1525970469667,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3320,0,1,1,0,0,1
-1525970469669,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3404,0,1,1,0,0,0
-1525970469671,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3320,0,1,1,0,0,0
-1525970469673,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3404,0,1,1,0,0,1
-1525970469675,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3320,0,1,1,0,0,0
-1525970469676,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3404,0,1,1,0,0,1
-1525970469678,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3320,0,1,1,0,0,0
-1525970469680,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3404,0,1,1,0,0,0
-1525970469682,2,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3320,0,1,1,0,0,0
-1525970469687,3,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3404,0,1,1,0,0,2
-1525970469691,1,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3316,0,1,1,0,0,0
-1525970469693,0,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-3,text,false,,3377,0,1,1,0,0,0
-1525970469694,0,Debug Sampler,200,OK,Carga Compra 1-3,text,true,,1352,0,1,1,0,0,0
-1525970469838,0,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3079,0,1,1,0,0,0
-1525970469839,1,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3210,0,1,1,0,0,1
-1525970469841,1,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3296,0,1,1,0,0,1
-1525970469843,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,0
-1525970469844,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,0
-1525970469845,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,1
-1525970469847,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,1
-1525970469849,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,0
-1525970469851,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,1
-1525970469853,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,0
-1525970469854,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,0
-1525970469855,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,1
-1525970469857,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3252,0,1,1,0,0,0
-1525970469858,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3253,0,1,1,0,0,1
-1525970469860,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3253,0,1,1,0,0,0
-1525970469861,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3253,0,1,1,0,0,0
-1525970469862,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3273,0,1,1,0,0,0
-1525970469864,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3405,0,1,1,0,0,0
-1525970469865,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3320,0,1,1,0,0,0
-1525970469866,3,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3405,0,1,1,0,0,2
-1525970469869,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3320,0,1,1,0,0,1
-1525970469871,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3405,0,1,1,0,0,0
-1525970469872,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3320,0,1,1,0,0,1
-1525970469874,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3405,0,1,1,0,0,1
-1525970469876,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3320,0,1,1,0,0,0
-1525970469877,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3405,0,1,1,0,0,1
-1525970469879,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3320,0,1,1,0,0,0
-1525970469880,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3405,0,1,1,0,0,1
-1525970469882,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3320,0,1,1,0,0,0
-1525970469885,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3405,0,1,1,0,0,1
-1525970469887,1,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3317,0,1,1,0,0,0
-1525970469889,1,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-4,text,false,,3377,0,1,1,0,0,1
-1525970469890,1,Debug Sampler,200,OK,Carga Compra 1-4,text,true,,1350,0,1,1,0,0,0
-1525970470038,1,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3079,0,1,1,0,0,1
-1525970470040,1,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3211,0,1,1,0,0,1
-1525970470042,1,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3294,0,1,1,0,0,1
-1525970470044,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,0
-1525970470046,3,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,2
-1525970470049,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,1
-1525970470051,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,1
-1525970470053,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,1
-1525970470055,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,0
-1525970470056,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,0
-1525970470057,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,0
-1525970470058,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,1
-1525970470060,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3252,0,1,1,0,0,0
-1525970470061,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3253,0,1,1,0,0,0
-1525970470062,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3253,0,1,1,0,0,1
-1525970470063,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3253,0,1,1,0,0,1
-1525970470065,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3253,0,1,1,0,0,0
-1525970470066,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3273,0,1,1,0,0,1
-1525970470068,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3405,0,1,1,0,0,0
-1525970470069,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3320,0,1,1,0,0,1
-1525970470071,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3405,0,1,1,0,0,0
-1525970470072,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3320,0,1,1,0,0,1
-1525970470074,0,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3405,0,1,1,0,0,0
-1525970470075,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3320,0,1,1,0,0,0
-1525970470076,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3405,0,1,1,0,0,1
-1525970470078,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3320,0,1,1,0,0,0
-1525970470079,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3405,0,1,1,0,0,1
-1525970470081,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3320,0,1,1,0,0,0
-1525970470082,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3405,0,1,1,0,0,1
-1525970470084,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3320,0,1,1,0,0,0
-1525970470085,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3405,0,1,1,0,0,1
-1525970470087,0,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3317,0,1,1,0,0,0
-1525970470088,1,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-5,text,false,,3375,0,1,1,0,0,1
-1525970470089,0,Debug Sampler,200,OK,Carga Compra 1-5,text,true,,1352,0,1,1,0,0,0
-1525970470239,1,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3079,0,1,1,0,0,1
-1525970470241,0,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3211,0,1,1,0,0,0
-1525970470242,1,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3296,0,1,1,0,0,1
-1525970470244,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,0
-1525970470245,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,1
-1525970470246,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,1
-1525970470248,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,0
-1525970470249,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,0
-1525970470250,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,0
-1525970470251,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,0
-1525970470252,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,1
-1525970470253,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,1
-1525970470254,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3251,0,1,1,0,0,1
-1525970470256,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3252,0,1,1,0,0,0
-1525970470257,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3252,0,1,1,0,0,0
-1525970470258,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3252,0,1,1,0,0,0
-1525970470259,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3273,0,1,1,0,0,0
-1525970470260,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3405,0,1,1,0,0,0
-1525970470261,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3320,0,1,1,0,0,1
-1525970470263,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3405,0,1,1,0,0,0
-1525970470264,1,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3317,0,1,1,0,0,0
-1525970470266,1,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-6,text,false,,3377,0,1,1,0,0,0
-1525970470267,0,Debug Sampler,200,OK,Carga Compra 1-6,text,true,,1352,0,1,1,0,0,0
-1525970470440,1,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3079,0,1,1,0,0,0
-1525970470442,0,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3209,0,1,1,0,0,0
-1525970470443,1,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3296,0,1,1,0,0,1
-1525970470445,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,1
-1525970470447,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,0
-1525970470448,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,0
-1525970470449,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,1
-1525970470451,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,1
-1525970470453,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,0
-1525970470454,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,1
-1525970470455,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,1
-1525970470456,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,1
-1525970470458,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3252,0,1,1,0,0,0
-1525970470459,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3253,0,1,1,0,0,0
-1525970470460,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3253,0,1,1,0,0,0
-1525970470461,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3253,0,1,1,0,0,1
-1525970470462,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3253,0,1,1,0,0,1
-1525970470464,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3273,0,1,1,0,0,0
-1525970470465,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3404,0,1,1,0,0,1
-1525970470466,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3320,0,1,1,0,0,1
-1525970470468,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3404,0,1,1,0,0,0
-1525970470469,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3320,0,1,1,0,0,1
-1525970470470,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3404,0,1,1,0,0,1
-1525970470472,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3320,0,1,1,0,0,0
-1525970470473,0,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3404,0,1,1,0,0,0
-1525970470474,0,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3316,0,1,1,0,0,0
-1525970470475,1,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-7,text,false,,3376,0,1,1,0,0,0
-1525970470476,0,Debug Sampler,200,OK,Carga Compra 1-7,text,true,,1352,0,1,1,0,0,0
-1525970470641,2,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3079,0,1,1,0,0,1
-1525970470643,1,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3211,0,1,1,0,0,1
-1525970470645,1,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3296,0,1,1,0,0,1
-1525970470647,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,0
-1525970470648,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,0
-1525970470649,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,0
-1525970470650,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,0
-1525970470650,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,1
-1525970470651,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,1
-1525970470652,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,1
-1525970470653,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,1
-1525970470654,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,1
-1525970470655,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3252,0,1,1,0,0,1
-1525970470657,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3253,0,1,1,0,0,0
-1525970470658,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3273,0,1,1,0,0,0
-1525970470659,0,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3405,0,1,1,0,0,0
-1525970470660,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3320,0,1,1,0,0,0
-1525970470661,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3405,0,1,1,0,0,0
-1525970470662,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3320,0,1,1,0,0,1
-1525970470664,0,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3405,0,1,1,0,0,0
-1525970470665,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3320,0,1,1,0,0,0
-1525970470666,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3405,0,1,1,0,0,0
-1525970470667,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3320,0,1,1,0,0,0
-1525970470668,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3405,0,1,1,0,0,1
-1525970470670,0,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3317,0,1,1,0,0,0
-1525970470671,1,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-8,text,false,,3377,0,1,1,0,0,1
-1525970470672,0,Debug Sampler,200,OK,Carga Compra 1-8,text,true,,1352,0,1,1,0,0,0
-1525970470842,1,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3079,0,1,1,0,0,0
-1525970470844,1,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3211,0,1,1,0,0,1
-1525970470847,1,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3296,0,1,1,0,0,1
-1525970470849,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,1
-1525970470851,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,0
-1525970470852,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,0
-1525970470853,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,1
-1525970470855,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,0
-1525970470856,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,0
-1525970470857,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,1
-1525970470859,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,0
-1525970470860,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,0
-1525970470861,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3252,0,1,1,0,0,1
-1525970470862,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3253,0,1,1,0,0,1
-1525970470863,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3253,0,1,1,0,0,1
-1525970470864,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3253,0,1,1,0,0,1
-1525970470865,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3253,0,1,1,0,0,1
-1525970470866,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3253,0,1,1,0,0,1
-1525970470867,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3273,0,1,1,0,0,0
-1525970470868,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3404,0,1,1,0,0,1
-1525970470870,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3320,0,1,1,0,0,0
-1525970470871,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3404,0,1,1,0,0,1
-1525970470873,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3320,0,1,1,0,0,0
-1525970470874,0,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3404,0,1,1,0,0,0
-1525970470875,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3320,0,1,1,0,0,0
-1525970470875,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3404,0,1,1,0,0,1
-1525970470876,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3320,0,1,1,0,0,1
-1525970470877,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3404,0,1,1,0,0,0
-1525970470878,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3320,0,1,1,0,0,0
-1525970470879,0,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3404,0,1,1,0,0,0
-1525970470880,0,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3317,0,1,1,0,0,0
-1525970470881,0,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-9,text,false,,3376,0,1,1,0,0,0
-1525970470882,0,Debug Sampler,200,OK,Carga Compra 1-9,text,true,,1352,0,1,1,0,0,0
-1525970471043,1,buscarUsuarios,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3079,0,1,1,0,0,1
-1525970471046,1,login,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3210,0,1,1,0,0,1
-1525970471049,2,crearFactura,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3296,0,1,1,0,0,2
-1525970471052,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,1
-1525970471053,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,1
-1525970471055,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,0
-1525970471056,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,0
-1525970471057,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,0
-1525970471058,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,0
-1525970471059,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,0
-1525970471060,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,0
-1525970471061,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,0
-1525970471062,0,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3252,0,1,1,0,0,0
-1525970471063,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3253,0,1,1,0,0,0
-1525970471064,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3253,0,1,1,0,0,0
-1525970471065,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3272,0,1,1,0,0,1
-1525970471067,1,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3405,0,1,1,0,0,0
-1525970471068,1,Buscar por precio,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3319,0,1,1,0,0,1
-1525970471070,0,agregar a compra,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3405,0,1,1,0,0,0
-1525970471071,1,consultarSaldo,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3317,0,1,1,0,0,0
-1525970471073,1,pagar,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Conexión rehusada (Connection refused),Carga Compra 1-10,text,false,,3377,0,1,1,0,0,0
-1525970471074,0,Debug Sampler,200,OK,Carga Compra 1-10,text,true,,1350,0,1,1,0,0,0
+1526312470588,823,buscarUsuarios,200,OK,Carga Compra 1-5,text,true,,214341,145,9,9,637,0,1
+1526312469793,1646,buscarUsuarios,200,OK,Carga Compra 1-1,text,true,,214341,145,9,9,1424,0,54
+1526312470389,1019,buscarUsuarios,200,OK,Carga Compra 1-4,text,true,,214340,145,9,9,828,0,0
+1526312469987,1439,buscarUsuarios,200,OK,Carga Compra 1-2,text,true,,214341,145,9,9,1232,0,1
+1526312470187,1218,buscarUsuarios,200,OK,Carga Compra 1-3,text,true,,214341,145,9,9,1024,0,0
+1526312470788,889,buscarUsuarios,200,OK,Carga Compra 1-6,text,true,,214341,145,10,10,813,0,1
+1526312471189,711,buscarUsuarios,200,OK,Carga Compra 1-8,text,true,,214341,145,11,11,588,0,0
+1526312470989,1032,buscarUsuarios,200,OK,Carga Compra 1-7,text,true,,214341,145,12,12,1007,0,0
+1526312471393,764,buscarUsuarios,200,OK,Carga Compra 1-9,text,true,,214341,145,12,12,745,0,1
+1526312471595,704,buscarUsuarios,200,OK,Carga Compra 1-10,text,true,,214342,145,13,13,685,0,1
+1526312471535,847,login,200,OK,Carga Compra 1-5,text,true,,1496,178,13,13,847,0,0
+1526312471550,928,login,200,OK,Carga Compra 1-4,text,true,,1499,179,14,14,928,0,0
+1526312471549,1030,login,200,OK,Carga Compra 1-2,text,true,,1498,179,14,14,1030,0,0
+1526312471550,1129,login,200,OK,Carga Compra 1-3,text,true,,1496,178,15,15,1129,0,0
+1526312471549,1230,login,200,OK,Carga Compra 1-1,text,true,,1495,178,15,15,1229,0,0
+1526312471713,1167,login,200,OK,Carga Compra 1-6,text,true,,1499,179,16,16,1167,0,0
+1526312471798,1314,buscarUsuarios,200,OK,Carga Compra 1-11,text,true,,214342,145,17,17,1289,0,1
+1526312471913,1283,login,200,OK,Carga Compra 1-8,text,true,,1499,179,17,17,1283,0,0
+1526312471998,1360,buscarUsuarios,200,OK,Carga Compra 1-12,text,true,,214340,145,18,18,1348,0,1
+1526312472030,1416,login,200,OK,Carga Compra 1-7,text,true,,1499,179,19,19,1416,0,0
+1526312472167,1472,login,200,OK,Carga Compra 1-9,text,true,,1499,179,20,20,1472,0,0
+1526312472383,1289,crearFactura,200,OK,Carga Compra 1-5,text,true,,1620,310,20,20,1289,0,0
+1526312472481,1300,crearFactura,200,OK,Carga Compra 1-4,text,true,,1624,311,20,20,1300,0,0
+1526312472200,1716,buscarUsuarios,200,OK,Carga Compra 1-13,text,true,,214342,145,21,21,1682,0,1
+1526312472579,1404,crearFactura,200,OK,Carga Compra 1-2,text,true,,1624,311,21,21,1404,0,1
+1526312472307,1774,login,200,OK,Carga Compra 1-10,text,true,,1500,179,22,22,1774,0,0
+1526312472680,1501,crearFactura,200,OK,Carga Compra 1-3,text,true,,1620,310,22,22,1501,0,0
+1526312472779,2313,crearFactura,200,OK,Carga Compra 1-1,text,true,,1619,310,27,27,2313,0,1
+1526312472399,2730,buscarUsuarios,200,OK,Carga Compra 1-14,text,true,,214342,145,27,27,1891,0,1
+1526312472880,2340,crearFactura,200,OK,Carga Compra 1-6,text,true,,1624,311,28,28,2340,0,1
+1526312472601,2780,buscarUsuarios,200,OK,Carga Compra 1-15,text,true,,214342,145,28,28,2719,0,0
+1526312473196,2219,crearFactura,200,OK,Carga Compra 1-8,text,true,,1624,311,29,29,2219,0,1
+1526312472802,2740,buscarUsuarios,200,OK,Carga Compra 1-16,text,true,,214342,145,29,29,2714,0,1
+1526312473003,2654,buscarUsuarios,200,OK,Carga Compra 1-17,text,true,,214341,145,30,30,2645,0,1
+1526312473120,2627,login,200,OK,Carga Compra 1-11,text,true,,1500,179,30,30,2627,0,0
+1526312473446,2393,crearFactura,200,OK,Carga Compra 1-7,text,true,,1624,311,31,31,2393,0,1
+1526312473203,2750,buscarUsuarios,200,OK,Carga Compra 1-18,text,true,,214342,145,31,31,2737,0,0
+1526312473640,2433,crearFactura,200,OK,Carga Compra 1-9,text,true,,1624,311,32,32,2432,0,1
+1526312473366,2839,login,200,OK,Carga Compra 1-12,text,true,,1499,179,32,32,2839,0,0
+1526312473783,2690,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,309913,158,34,34,2646,0,0
+1526312473672,2814,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,251294,158,34,34,2765,0,1
+1526312473403,3190,buscarUsuarios,200,OK,Carga Compra 1-19,text,true,,214342,145,34,34,3162,0,0
+1526312473984,2772,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,313555,158,35,35,2765,0,0
+1526312473602,3278,buscarUsuarios,200,OK,Carga Compra 1-20,text,true,,214342,145,36,36,3258,0,0
+1526312474082,2961,crearFactura,200,OK,Carga Compra 1-10,text,true,,1626,311,37,37,2960,0,0
+1526312474182,2968,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,80389,158,37,37,2968,0,0
+1526312473804,3346,buscarUsuarios,200,OK,Carga Compra 1-21,text,true,,214342,145,37,37,3345,0,1
+1526312473932,3317,login,200,OK,Carga Compra 1-13,text,true,,1495,178,38,38,3317,0,0
+1526312474007,3424,buscarUsuarios,200,OK,Carga Compra 1-22,text,true,,214342,145,39,39,3390,0,1
+1526312474210,3377,buscarUsuarios,200,OK,Carga Compra 1-23,text,true,,214342,145,39,39,3366,0,1
+1526312474411,3355,buscarUsuarios,200,OK,Carga Compra 1-24,text,true,,214342,145,40,40,3346,0,0
+1526312475093,2765,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,188925,158,41,41,2756,0,0
+1526312474611,3339,buscarUsuarios,200,OK,Carga Compra 1-25,text,true,,214341,145,41,41,3330,0,0
+1526312475221,2873,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,257029,158,42,42,2862,0,0
+1526312474811,3388,buscarUsuarios,200,OK,Carga Compra 1-26,text,true,,214342,145,42,42,3372,0,0
+1526312475011,3317,buscarUsuarios,200,OK,Carga Compra 1-27,text,true,,214342,145,43,43,3312,0,0
+1526312475135,3281,login,200,OK,Carga Compra 1-14,text,true,,1498,179,43,43,3281,0,1
+1526312475416,3111,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,303555,158,44,44,3100,0,1
+1526312475212,3416,buscarUsuarios,200,OK,Carga Compra 1-28,text,true,,214342,145,45,45,3406,0,1
+1526312475388,3331,login,200,OK,Carga Compra 1-15,text,true,,1497,179,45,45,3331,0,1
+1526312475748,3095,crearFactura,200,OK,Carga Compra 1-11,text,true,,1626,311,46,46,3094,0,0
+1526312475412,3528,buscarUsuarios,200,OK,Carga Compra 1-29,text,true,,214342,145,46,46,3521,0,0
+1526312475549,3501,login,200,OK,Carga Compra 1-16,text,true,,1500,179,47,47,3501,0,0
+1526312475839,3344,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,245446,158,47,47,3337,0,1
+1526312475611,3671,buscarUsuarios,200,OK,Carga Compra 1-30,text,true,,214342,145,48,48,3666,0,0
+1526312475663,3714,login,200,OK,Carga Compra 1-17,text,true,,1500,179,48,48,3714,0,0
+1526312476073,3410,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,166719,158,49,49,3403,0,0
+1526312476206,3363,crearFactura,200,OK,Carga Compra 1-12,text,true,,1623,310,49,49,3363,0,0
+1526312475813,3762,buscarUsuarios,200,OK,Carga Compra 1-31,text,true,,214342,145,49,49,3755,0,0
+1526312475958,3711,login,200,OK,Carga Compra 1-18,text,true,,1497,178,50,50,3711,0,1
+1526312476473,3296,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,79739,158,50,50,3289,0,0
+1526312476487,3389,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,308705,158,50,50,3374,0,1
+1526312476014,3858,buscarUsuarios,200,OK,Carga Compra 1-32,text,true,,214342,145,50,50,3840,0,1
+1526312476215,3793,buscarUsuarios,200,OK,Carga Compra 1-33,text,true,,214342,145,50,50,3782,0,0
+1526312476756,3351,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,317909,158,50,50,3339,0,1
+1526312476418,4089,buscarUsuarios,200,OK,Carga Compra 1-34,text,true,,214342,145,50,50,4084,0,1
+1526312476599,4215,login,200,OK,Carga Compra 1-19,text,true,,1499,179,50,50,4215,0,0
+1526312477043,4003,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,165771,158,50,50,3994,0,0
+1526312476614,4539,buscarUsuarios,200,OK,Carga Compra 1-35,text,true,,214342,145,50,50,4531,0,1
+1526312477150,4091,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,238980,158,50,50,4085,0,1
+1526312476816,4535,buscarUsuarios,200,OK,Carga Compra 1-36,text,true,,214342,145,50,50,4525,0,1
+1526312476907,4664,login,200,OK,Carga Compra 1-20,text,true,,1499,179,50,50,4664,0,0
+1526312477250,4536,crearFactura,200,OK,Carga Compra 1-13,text,true,,1622,310,50,50,4535,0,0
+1526312477015,4867,buscarUsuarios,200,OK,Carga Compra 1-37,text,true,,214342,145,50,50,4863,0,1
+1526312477157,4822,login,200,OK,Carga Compra 1-21,text,true,,1500,179,50,50,4822,0,0
+1526312477217,4896,buscarUsuarios,200,OK,Carga Compra 1-38,text,true,,214342,145,50,50,4878,0,1
+1526312477421,4819,buscarUsuarios,200,OK,Carga Compra 1-39,text,true,,214341,145,50,50,4809,0,0
+1526312477438,4892,login,200,OK,Carga Compra 1-22,text,true,,1500,179,50,50,4892,0,13
+1526312477597,4831,login,200,OK,Carga Compra 1-23,text,true,,1497,178,50,50,4830,0,3
+1526312477858,4692,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,284093,158,50,50,4680,0,0
+1526312477621,5029,buscarUsuarios,200,OK,Carga Compra 1-40,text,true,,214340,145,50,50,5017,0,0
+1526312477773,4965,login,200,OK,Carga Compra 1-24,text,true,,1500,179,50,50,4965,0,0
+1526312478094,4752,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,143553,158,50,50,4742,0,1
+1526312477821,5127,buscarUsuarios,200,OK,Carga Compra 1-41,text,true,,214342,145,50,50,5117,0,0
+1526312477957,5082,login,200,OK,Carga Compra 1-25,text,true,,1499,179,50,50,5081,0,0
+1526312478418,4739,crearFactura,200,OK,Carga Compra 1-14,text,true,,1623,310,50,50,4739,0,0
+1526312478021,5235,buscarUsuarios,200,OK,Carga Compra 1-42,text,true,,214342,145,50,50,5226,0,0
+1526312478207,5140,login,200,OK,Carga Compra 1-26,text,true,,1499,179,50,50,5139,0,0
+1526312478528,4919,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,181129,158,50,50,4911,0,0
+1526312478223,5313,buscarUsuarios,200,OK,Carga Compra 1-43,text,true,,214342,145,50,50,5308,0,0
+1526312478343,5287,login,200,OK,Carga Compra 1-27,text,true,,1500,179,50,50,5287,0,0
+1526312478721,5001,crearFactura,200,OK,Carga Compra 1-15,text,true,,1620,308,50,50,5000,0,12
+1526312478423,5403,buscarUsuarios,200,OK,Carga Compra 1-44,text,true,,214342,145,50,50,5399,0,1
+1526312478844,5071,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,281669,158,50,50,5064,0,1
+1526312478623,5388,buscarUsuarios,200,OK,Carga Compra 1-45,text,true,,214342,145,50,50,5382,0,1
+1526312478634,5482,login,200,OK,Carga Compra 1-28,text,true,,1500,179,50,50,5482,0,1
+1526312479051,5166,crearFactura,200,OK,Carga Compra 1-16,text,true,,1626,311,50,50,5166,0,1
+1526312479184,5140,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,183724,158,50,50,5130,0,1
+1526312478835,5488,buscarUsuarios,200,OK,Carga Compra 1-46,text,true,,214342,145,50,50,5479,0,1
+1526312478948,5469,login,200,OK,Carga Compra 1-29,text,true,,1500,179,50,50,5469,0,0
+1526312479378,5135,crearFactura,200,OK,Carga Compra 1-17,text,true,,1626,311,50,50,5135,0,1
+1526312479034,5589,buscarUsuarios,200,OK,Carga Compra 1-47,text,true,,214342,145,50,50,5580,0,1
+1526312479484,5239,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,192043,158,50,50,5230,0,0
+1526312479242,5592,buscarUsuarios,200,OK,Carga Compra 1-48,text,true,,214342,145,50,50,5582,0,0
+1526312479570,5277,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,279007,158,50,50,5262,0,0
+1526312479290,5716,login,200,OK,Carga Compra 1-30,text,true,,1499,179,50,50,5716,0,0
+1526312479670,5436,crearFactura,200,OK,Carga Compra 1-18,text,true,,1622,310,50,50,5436,0,1
+1526312479437,5770,buscarUsuarios,200,OK,Carga Compra 1-49,text,true,,214342,145,50,50,5761,0,0
+1526312479770,5445,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,318793,158,50,50,5432,0,1
+1526312479877,5419,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,289772,158,50,50,5413,0,1
+1526312479581,5800,login,200,OK,Carga Compra 1-31,text,true,,1500,179,50,50,5800,0,1
+1526312480109,5385,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,96493,158,50,50,5381,0,0
+1526312479638,6071,buscarUsuarios,200,OK,Carga Compra 1-50,text,true,,214342,145,50,50,6065,0,0
+1526312480816,5100,crearFactura,200,OK,Carga Compra 1-19,text,true,,1626,311,50,50,5100,0,0
+1526312480015,5992,login,200,OK,Carga Compra 1-33,text,true,,1500,179,50,50,5992,0,1
+1526312481048,4968,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,185759,158,50,50,4961,0,0
+1526312479879,6230,login,200,OK,Carga Compra 1-32,text,true,,1499,179,50,50,6230,0,1
+1526312481243,4975,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,100198,158,50,50,4966,0,0
+1526312480512,5795,login,200,OK,Carga Compra 1-34,text,true,,1498,179,50,50,5795,0,0
+1526312481573,4736,crearFactura,200,OK,Carga Compra 1-20,text,true,,1626,311,50,50,4736,0,0
+1526312481787,4628,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,235696,158,50,50,4620,0,0
+1526312481981,4528,crearFactura,200,OK,Carga Compra 1-21,text,true,,1626,311,50,50,4528,0,1
+1526312481160,5349,login,200,OK,Carga Compra 1-35,text,true,,1500,179,50,50,5348,0,0
+1526312481375,5232,login,200,OK,Carga Compra 1-36,text,true,,1499,179,50,50,5232,0,0
+1526312482332,4375,crearFactura,200,OK,Carga Compra 1-22,text,true,,1626,311,50,50,4375,0,1
+1526312481888,4928,login,200,OK,Carga Compra 1-37,text,true,,1500,179,50,50,4927,0,0
+1526312482429,4570,crearFactura,200,OK,Carga Compra 1-23,text,true,,1622,310,50,50,4570,0,0
+1526312482551,4457,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,201011,158,50,50,4453,0,1
+1526312482119,5086,login,200,OK,Carga Compra 1-38,text,true,,1496,178,50,50,5086,0,0
+1526312482740,4562,crearFactura,200,OK,Carga Compra 1-24,text,true,,1625,311,50,50,4562,0,0
+1526312482847,4460,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,128440,158,50,50,4452,0,0
+1526312482248,5151,login,200,OK,Carga Compra 1-39,text,true,,1500,179,50,50,5151,0,0
+1526312483040,4459,crearFactura,200,OK,Carga Compra 1-25,text,true,,1622,310,50,50,4459,0,1
+1526312483157,4348,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,137540,158,50,50,4342,0,1
+1526312482657,4942,login,200,OK,Carga Compra 1-40,text,true,,1500,179,50,50,4942,0,1
+1526312483349,4733,crearFactura,200,OK,Carga Compra 1-26,text,true,,1622,310,50,50,4733,0,0
+1526312483447,4646,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,278265,158,50,50,4637,0,1
+1526312482954,5230,login,200,OK,Carga Compra 1-41,text,true,,1500,179,50,50,5230,0,0
+1526312483632,4652,crearFactura,200,OK,Carga Compra 1-27,text,true,,1625,311,50,50,4652,0,1
+1526312483722,4569,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,192044,158,50,50,4562,0,0
+1526312483262,5120,login,200,OK,Carga Compra 1-42,text,true,,1500,179,50,50,5120,0,1
+1526312483916,4574,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,295837,158,50,50,4566,0,0
+1526312483541,5034,login,200,OK,Carga Compra 1-43,text,true,,1498,179,50,50,5034,0,0
+1526312484117,4459,crearFactura,200,OK,Carga Compra 1-28,text,true,,1626,311,50,50,4458,0,0
+1526312484218,4457,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,153963,158,50,50,4449,0,0
+1526312483831,4929,login,200,OK,Carga Compra 1-44,text,true,,1499,179,50,50,4929,0,1
+1526312484324,4454,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,314176,158,50,50,4435,0,1
+1526312484418,4431,crearFactura,200,OK,Carga Compra 1-29,text,true,,1626,311,50,50,4430,0,0
+1526312484029,4922,login,200,OK,Carga Compra 1-45,text,true,,1499,179,50,50,4922,0,1
+1526312484514,4447,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,252030,158,50,50,4439,0,1
+1526312484723,4453,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,194655,158,50,50,4448,0,0
+1526312484329,4946,login,200,OK,Carga Compra 1-46,text,true,,1497,178,50,50,4946,0,1
+1526312484847,4433,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,135626,158,50,50,4430,0,1
+1526312485007,4367,crearFactura,200,OK,Carga Compra 1-30,text,true,,1626,311,50,50,4367,0,0
+1526312485107,4396,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,306159,158,50,50,4367,0,0
+1526312484630,4875,login,200,OK,Carga Compra 1-47,text,true,,1496,178,50,50,4844,0,1
+1526312485215,4427,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,156899,158,50,50,4418,0,0
+1526312484840,4894,login,200,OK,Carga Compra 1-48,text,true,,1500,179,50,50,4894,0,1
+1526312485297,4449,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,124430,158,50,50,4436,0,0
+1526312485382,4454,crearFactura,200,OK,Carga Compra 1-31,text,true,,1626,311,50,50,4453,0,0
+1526312485494,4348,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,114143,158,50,50,4342,0,0
+1526312485213,4728,login,200,OK,Carga Compra 1-49,text,true,,1500,179,50,50,4728,0,1
+1526312485917,4028,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,100202,158,50,50,4024,0,0
+1526312486008,4043,crearFactura,200,OK,Carga Compra 1-33,text,true,,1626,311,50,50,4043,0,0
+1526312486016,4050,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,292332,158,50,50,4035,0,1
+1526312485716,4442,login,200,OK,Carga Compra 1-50,text,true,,1497,178,50,50,4442,0,1
+1526312486218,3948,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,172118,158,50,50,3940,0,0
+1526312486110,4159,crearFactura,200,OK,Carga Compra 1-32,text,true,,1626,311,50,50,4159,0,1
+1526312486310,3964,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,103159,158,50,50,3958,0,0
+1526312486415,3964,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,204069,158,50,50,3959,0,1
+1526312486308,4177,crearFactura,200,OK,Carga Compra 1-34,text,true,,1620,308,50,50,4176,0,0
+1526312486509,3982,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,200710,158,50,50,3975,0,0
+1526312486708,3882,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,316664,158,50,50,3874,0,0
+1526312486509,4174,crearFactura,200,OK,Carga Compra 1-35,text,true,,1626,311,50,50,4174,0,0
+1526312486999,3696,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,181128,158,50,50,3687,0,1
+1526312487009,3778,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,186307,158,50,50,3774,0,0
+1526312486607,4277,crearFactura,200,OK,Carga Compra 1-36,text,true,,1626,311,50,50,4276,0,1
+1526312487303,3585,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,84934,158,50,50,3580,0,0
+1526312487307,3682,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,259760,158,50,50,3676,0,1
+1526312486816,4268,crearFactura,200,OK,Carga Compra 1-37,text,true,,1626,311,50,50,4268,0,0
+1526312487499,3600,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,318225,158,50,50,3586,0,1
+1526312487505,3695,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,138759,158,50,50,3689,0,1
+1526312488083,3214,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,149089,158,50,50,3208,0,0
+1526312488093,3306,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,309110,158,50,50,3298,0,1
+1526312488284,3589,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,247523,158,50,50,3559,0,0
+1526312487205,4738,crearFactura,200,OK,Carga Compra 1-38,text,true,,1619,308,50,50,4738,0,1
+1526312488290,3762,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,215488,158,50,50,3753,0,0
+1526312488490,3794,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,118755,158,50,50,3787,0,0
+1526312487400,5024,crearFactura,200,OK,Carga Compra 1-39,text,true,,1626,311,50,50,5024,0,0
+1526312487599,4927,crearFactura,200,OK,Carga Compra 1-40,text,true,,1626,311,50,50,4927,0,1
+1526312488575,4051,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,163079,158,50,50,4043,0,0
+1526312488185,4533,crearFactura,200,OK,Carga Compra 1-41,text,true,,1626,311,50,50,4533,0,0
+1526312488675,4050,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,197730,158,50,50,4042,0,0
+1526312488381,4472,crearFactura,200,OK,Carga Compra 1-42,text,true,,1626,311,50,50,4472,0,1
+1526312488848,4112,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,251298,158,50,50,4102,0,0
+1526312488777,4184,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,255111,158,50,50,4173,0,0
+1526312488575,4475,crearFactura,200,OK,Carga Compra 1-43,text,true,,1623,310,50,50,4475,0,0
+1526312489175,3978,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,101716,158,50,50,3975,0,0
+1526312488961,4197,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,148404,158,50,50,4189,0,0
+1526312488760,4490,crearFactura,200,OK,Carga Compra 1-44,text,true,,1626,311,50,50,4490,0,1
+1526312489279,4076,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,70754,158,50,50,4071,0,1
+1526312489374,3983,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,121156,158,50,50,3976,0,0
+1526312488951,4502,crearFactura,200,OK,Carga Compra 1-45,text,true,,1626,311,50,50,4501,0,3
+1526312489502,3962,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,251296,158,50,50,3948,0,0
+1526312489641,3911,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,107470,158,50,50,3909,0,0
+1526312489274,4376,crearFactura,200,OK,Carga Compra 1-46,text,true,,1622,310,50,50,4376,0,1
+1526312489745,3917,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,261185,158,50,50,3905,0,1
+1526312489836,3915,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,275020,158,50,50,3906,0,0
+1526312489842,3993,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,80954,158,50,50,3991,0,0
+1526312489505,4330,crearFactura,200,OK,Carga Compra 1-47,text,true,,1622,310,50,50,4330,0,0
+1526312489945,3987,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,153963,158,50,50,3980,0,0
+1526312489733,4285,crearFactura,200,OK,Carga Compra 1-48,text,true,,1626,311,50,50,4284,0,1
+1526312490065,3962,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,282771,158,50,50,3953,0,1
+1526312490051,3977,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,234529,158,50,50,3973,0,1
+1526312489941,4182,crearFactura,200,OK,Carga Compra 1-49,text,true,,1626,311,50,50,4182,0,0
+1526312490269,3943,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,121481,158,50,50,3940,0,0
+1526312490165,4053,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,214717,158,50,50,4044,0,1
+1526312490273,3956,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,184352,158,50,50,3956,0,1
+1526312490158,4146,crearFactura,200,OK,Carga Compra 1-50,text,true,,1622,310,50,50,4146,0,0
+1526312490379,3933,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,212680,158,50,50,3924,0,0
+1526312490590,3819,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,252031,158,50,50,3815,0,0
+1526312490484,3932,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,275018,158,50,50,3922,0,0
+1526312490491,3928,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,198896,158,50,50,3917,0,0
+1526312490695,3809,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,103561,158,50,50,3806,0,1
+1526312490683,3820,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,85963,158,50,50,3818,0,0
+1526312490883,3727,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,242386,158,50,50,3725,0,1
+1526312490888,3723,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,298699,158,50,50,3714,0,0
+1526312490786,3826,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,312987,158,50,50,3818,0,1
+1526312490988,3720,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,290167,158,50,50,3716,0,1
+1526312491083,3627,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,244412,158,50,50,3621,0,1
+1526312491297,3510,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,75655,158,50,50,3510,0,0
+1526312491098,3709,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,127543,158,50,50,3709,0,1
+1526312491199,3613,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,249940,158,50,50,3608,0,1
+1526312491874,3029,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,115159,158,50,50,3027,0,0
+1526312491399,3507,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,100993,158,50,50,3506,0,0
+1526312491943,3077,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,191161,158,50,50,3066,0,0
+1526312492285,2736,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,186311,158,50,50,2727,0,0
+1526312492052,2972,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,260702,158,50,50,2960,0,0
+1526312492423,2688,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,79741,158,50,50,2686,0,1
+1526312492525,2589,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,185759,158,50,50,2585,0,1
+1526312492718,2499,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,92889,158,50,50,2498,0,0
+1526312492626,2591,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,203439,158,50,50,2590,0,1
+1526312492726,2499,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,226909,158,50,50,2490,0,1
+1526312492854,2461,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,138760,158,50,50,2448,0,1
+1526312492961,2360,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,238368,158,50,50,2345,0,0
+1526312492962,2438,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,247521,158,50,50,2431,0,0
+1526312493051,2356,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,72979,158,50,50,2350,0,0
+1526312493154,2271,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,286772,158,50,50,2246,0,0
+1526312493251,2241,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,82217,158,50,50,2234,0,0
+1526312493159,2350,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,284096,158,50,50,2326,0,0
+1526312493453,2139,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,148173,158,50,50,2136,0,0
+1526312493355,2253,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,242386,158,50,50,2233,0,1
+1526312493357,2265,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,288129,158,50,50,2231,0,1
+1526312493464,2239,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,285293,158,50,50,2229,0,1
+1526312493553,2150,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,255111,158,50,50,2140,0,0
+1526312493651,2143,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,67103,158,50,50,2142,0,0
+1526312493751,2050,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,76512,158,50,50,2041,0,0
+1526312493663,2145,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,261905,158,50,50,2138,0,0
+1526312493835,2066,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,111413,158,50,50,2066,0,1
+1526312493835,2077,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,307913,158,50,50,2066,0,1
+1526312494018,2004,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,170766,158,50,50,1988,0,0
+1526312493932,2093,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,250741,158,50,50,2074,0,1
+1526312494027,2003,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,300109,158,50,50,1979,0,1
+1526312494029,2082,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,243161,158,50,50,2072,0,0
+1526312494124,1993,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,316977,158,50,50,1977,0,0
+1526312494212,2001,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,216286,158,50,50,2000,0,1
+1526312494230,1985,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,99266,158,50,50,1984,0,0
+1526312494218,2008,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,247206,158,50,50,2002,0,1
+1526312494304,2000,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,128440,158,50,50,2000,0,1
+1526312494313,1994,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,188927,158,50,50,1992,0,0
+1526312494409,2010,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,214337,158,50,50,2009,0,1
+1526312494416,2008,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,149088,158,50,50,2002,0,1
+1526312494419,2027,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,141306,158,50,50,2009,0,1
+1526312494507,2016,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,103159,158,50,50,2012,0,0
+1526312494506,2022,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,249938,158,50,50,2012,0,1
+1526312494612,2012,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,99719,158,50,50,2012,0,1
+1526312494611,2025,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,158632,158,50,50,2013,0,0
+1526312494611,2033,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,215490,158,50,50,2025,0,0
+1526312494708,2027,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,263782,158,50,50,2018,0,1
+1526312494711,2026,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,207062,158,50,50,2015,0,0
+1526312494808,2035,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,138031,158,50,50,2035,0,0
+1526312494812,2032,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,231649,158,50,50,2031,0,1
+1526312494808,2041,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,243785,158,50,50,2035,0,0
+1526312494903,2047,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,83102,158,50,50,2040,0,1
+1526312494906,2048,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,233207,158,50,50,2037,0,0
+1526312495024,2021,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,106211,158,50,50,2018,0,1
+1526312495020,2027,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,68843,158,50,50,2023,0,1
+1526312495022,2029,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,194658,158,50,50,2021,0,1
+1526312495115,2047,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,299250,158,50,50,2036,0,0
+1526312495112,2051,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,316213,158,50,50,2039,0,0
+1526312495217,2045,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,207768,158,50,50,2034,0,0
+1526312495225,2037,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,261189,158,50,50,2027,0,1
+1526312495217,2046,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,309915,158,50,50,2034,0,0
+1526312495315,2065,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,199937,158,50,50,2037,0,1
+1526312495322,2058,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,257031,158,50,50,2034,0,0
+1526312495401,2055,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,95535,158,50,50,2052,0,0
+1526312495426,2035,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,230090,158,50,50,2026,0,0
+1526312495407,2056,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,218708,158,50,50,2049,0,0
+1526312495492,2069,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,84934,158,50,50,2067,0,1
+1526312495510,2054,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,168811,158,50,50,2049,0,0
+1526312495609,2052,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,103158,158,50,50,2051,0,0
+1526312495593,2069,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,99723,158,50,50,2067,0,0
+1526312495623,2048,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,282771,158,50,50,2037,0,0
+1526312495704,2043,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,121479,158,50,50,2039,0,0
+1526312495703,2052,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,308707,158,50,50,2040,0,1
+1526312495795,2142,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,166720,158,50,50,2141,0,0
+1526312495808,2132,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,198893,158,50,50,2129,0,1
+1526312495802,2141,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,284640,158,50,50,2136,0,0
+1526312495913,2185,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,116076,158,50,50,2181,0,0
+1526312495901,2209,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,300949,158,50,50,2193,0,1
+1526312496026,2174,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,204778,158,50,50,2169,0,0
+1526312496057,2144,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,160560,158,50,50,2138,0,1
+1526312496022,2195,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,309915,158,50,50,2184,0,1
+1526312496117,2181,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,118122,158,50,50,2178,0,0
+1526312496111,2197,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,198427,158,50,50,2184,0,1
+1526312496215,2184,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,125805,158,50,50,2180,0,0
+1526312496214,2197,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,259290,158,50,50,2183,0,0
+1526312496226,2190,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,296846,158,50,50,2169,0,1
+1526312496304,2207,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,194656,158,50,50,2199,0,1
+1526312496308,2205,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,302299,158,50,50,2192,0,0
+1526312496447,2144,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,136895,158,50,50,2140,0,0
+1526312496419,2175,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,247210,158,50,50,2168,0,1
+1526312496424,2172,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,283474,158,50,50,2163,0,0
+1526312496528,2158,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,116075,158,50,50,2152,0,0
+1526312496523,2170,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,299250,158,50,50,2157,0,1
+1526312496625,2162,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,102362,158,50,50,2158,0,0
+1526312496637,2156,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,284639,158,50,50,2151,0,0
+1526312496645,2157,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,124279,158,50,50,2138,0,0
+1526312496735,2232,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,167174,158,50,50,2227,0,1
+1526312496737,2235,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,257030,158,50,50,2225,0,0
+1526312496843,2230,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,139399,158,50,50,2211,0,1
+1526312496844,2234,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,260703,158,50,50,2210,0,0
+1526312496850,2261,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,202725,158,50,50,2204,0,0
+1526312496951,2209,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,153336,158,50,50,2203,0,0
+1526312496954,2214,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,257029,158,50,50,2200,0,1
+1526312497046,2218,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,126266,158,50,50,2209,0,0
+1526312497048,2217,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,134460,158,50,50,2207,0,0
+1526312497052,2227,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,194658,158,50,50,2203,0,0
+1526312497162,2194,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,99723,158,50,50,2192,0,0
+1526312497164,2194,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,141307,158,50,50,2190,0,1
+1526312497263,2197,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,154671,158,50,50,2193,0,1
+1526312497262,2198,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,223819,158,50,50,2192,0,0
+1526312497262,2199,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,193473,158,50,50,2192,0,0
+1526312497380,2179,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,156504,158,50,50,2175,0,1
+1526312497380,2181,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,310616,158,50,50,2175,0,1
+1526312497463,2206,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,162529,158,50,50,2201,0,1
+1526312497461,2214,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,263781,158,50,50,2203,0,1
+1526312497456,2225,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,254331,158,50,50,2208,0,1
+1526312497564,2202,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,88492,158,50,50,2199,0,0
+1526312497562,2207,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,180120,158,50,50,2201,0,0
+1526312497662,2207,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,103564,158,50,50,2201,0,1
+1526312497672,2196,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,114682,158,50,50,2193,0,0
+1526312497661,2207,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,103158,158,50,50,2202,0,0
+1526312497747,2219,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,79739,158,50,50,2216,0,1
+1526312497756,2212,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,185123,158,50,50,2207,0,1
+1526312497944,2126,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,121156,158,50,50,2120,0,0
+1526312497938,2133,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,115604,158,50,50,2126,0,0
+1526312497941,2132,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,142998,158,50,50,2123,0,0
+1526312498110,2073,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,189404,158,50,50,2044,0,0
+1526312498098,2085,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,208234,158,50,50,2056,0,0
+1526312498217,2292,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,118755,158,50,50,2291,0,1
+1526312498202,2308,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,143002,158,50,50,2306,0,0
+1526312498200,2318,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,289457,158,50,50,2309,0,0
+1526312498299,2303,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,275020,158,50,50,2297,0,0
+1526312498308,2295,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,309915,158,50,50,2288,0,1
+1526312498400,2299,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,92889,158,50,50,2296,0,0
+1526312498416,2285,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,167172,158,50,50,2280,0,0
+1526312498412,2289,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,116078,158,50,50,2284,0,0
+1526312498514,2284,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,84932,158,50,50,2284,0,0
+1526312498511,2290,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,198895,158,50,50,2287,0,1
+1526312498596,2310,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,143000,158,50,50,2305,0,1
+1526312498592,2314,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,288128,158,50,50,2308,0,0
+1526312498595,2312,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,254333,158,50,50,2307,0,0
+1526312498693,2376,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,132416,158,50,50,2373,0,0
+1526312498687,2386,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,293572,158,50,50,2379,0,0
+1526312498787,2516,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,109511,158,50,50,2516,0,1
+1526312498793,2512,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,256476,158,50,50,2510,0,0
+1526312498803,2506,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,279008,158,50,50,2500,0,0
+1526312498972,2524,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,273073,158,50,50,2516,0,1
+1526312498967,2529,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,248934,158,50,50,2521,0,1
+1526312499079,2518,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,109514,158,50,50,2511,0,0
+1526312499111,2490,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,151123,158,50,50,2479,0,1
+1526312499074,2529,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,285294,158,50,50,2517,0,0
+1526312499168,2532,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,170118,158,50,50,2523,0,1
+1526312499160,2541,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,289776,158,50,50,2532,0,1
+1526312499264,2528,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,80954,158,50,50,2525,0,1
+1526312499265,2529,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,118752,158,50,50,2524,0,1
+1526312499280,2518,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,248936,158,50,50,2509,0,0
+1526312499358,2535,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,174722,158,50,50,2532,0,0
+1526312499357,2537,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,144931,158,50,50,2532,0,0
+1526312499460,2540,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,97453,158,50,50,2537,0,1
+1526312499460,2542,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,154671,158,50,50,2537,0,0
+1526312499462,2546,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,192046,158,50,50,2535,0,0
+1526312499562,2549,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,234766,158,50,50,2543,0,0
+1526312499559,2562,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,255597,158,50,50,2553,0,0
+1526312499681,2531,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,168272,158,50,50,2529,0,1
+1526312499676,2539,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,157589,158,50,50,2529,0,0
+1526312499670,2545,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,241838,158,50,50,2535,0,0
+1526312499766,2547,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,299249,158,50,50,2539,0,0
+1526312499769,2544,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,260865,158,50,50,2536,0,0
+1526312499870,2534,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,240493,158,50,50,2529,0,1
+1526312499872,2532,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,140195,158,50,50,2525,0,1
+1526312499871,2555,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,211806,158,50,50,2526,0,1
+1526312499969,2530,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,140595,158,50,50,2522,0,0
+1526312499967,2541,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,246412,158,50,50,2524,0,0
+1526312500072,2972,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,73690,158,50,50,2965,0,0
+1526312500183,3134,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,187672,158,50,50,3125,0,1
+1526312500073,3246,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,111411,158,50,50,3235,0,1
+1526312500070,3252,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,299250,158,50,50,3238,0,1
+1526312500183,3140,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,171566,158,50,50,3125,0,1
+1526312500509,3015,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,144931,158,50,50,3012,0,0
+1526312500518,3226,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,180515,158,50,50,3221,0,1
+1526312500602,3145,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,217691,158,50,50,3137,0,1
+1526312500514,3234,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,146456,158,50,50,3228,0,1
+1526312500604,3163,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,235698,158,50,50,3140,0,0
+1526312500801,3349,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,155066,158,50,50,3344,0,1
+1526312500798,3353,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,186721,158,50,50,3347,0,1
+1526312500701,3627,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,228354,158,50,50,3621,0,1
+1526312500701,3630,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,231650,158,50,50,3623,0,1
+1526312500700,3636,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,255597,158,50,50,3626,0,0
+1526312500906,3519,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,70754,158,50,50,3518,0,0
+1526312500906,3522,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,181129,158,50,50,3517,0,0
+1526312501069,3459,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,151124,158,50,50,3457,0,1
+1526312501073,3456,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,123158,158,50,50,3451,0,1
+1526312500907,3629,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,277728,158,50,50,3618,0,0
+1526312501306,3328,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,87785,158,50,50,3326,0,0
+1526312501304,3330,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,92885,158,50,50,3327,0,0
+1526312501310,3427,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,93891,158,50,50,3421,0,0
+1526312501497,3249,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,235696,158,50,50,3237,0,0
+1526312501497,3260,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,229549,158,50,50,3234,0,0
+1526312501597,3241,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,209287,158,50,50,3234,0,1
+1526312501602,3239,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,288128,158,50,50,3229,0,0
+1526312501700,3226,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,151122,158,50,50,3223,0,0
+1526312501702,3229,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,207768,158,50,50,3221,0,0
+1526312501603,3332,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,151123,158,50,50,3320,0,0
+1526312501794,3227,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,124999,158,50,50,3224,0,0
+1526312501792,3241,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,316211,158,50,50,3226,0,0
+1526312501894,3224,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,113285,158,50,50,3221,0,0
+1526312501893,3232,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,108654,158,50,50,3227,0,0
+1526312501798,3606,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,295509,158,50,50,3320,0,1
+1526312502008,3396,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,117476,158,50,50,3395,0,1
+1526312502001,3472,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,168274,158,50,50,3465,0,0
+1526312502111,3363,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,160560,158,50,50,3363,0,1
+1526312502121,3358,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,276439,158,50,50,3345,0,0
+1526312502002,3500,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,152867,158,50,50,3489,0,1
+1526312502213,3354,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,98238,158,50,50,3352,0,0
+1526312502315,3356,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,114145,158,50,50,3356,0,0
+1526312502215,3465,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,280261,158,50,50,3455,0,1
+1526312502314,3366,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,261188,158,50,50,3356,0,0
+1526312502216,3479,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,128440,158,50,50,3474,0,1
+1526312502404,3370,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,251298,158,50,50,3362,0,2
+1526312502499,3373,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,105434,158,50,50,3373,0,1
+1526312502508,3369,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,106211,158,50,50,3363,0,0
+1526312502427,3450,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,241202,158,50,50,3444,0,0
+1526312502405,3472,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,178379,158,50,50,3467,0,0
+1526312503044,2923,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,80954,158,50,50,2922,0,0
+1526312503317,2755,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,177681,158,50,50,2755,0,0
+1526312503324,2749,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,195542,158,50,50,2748,0,1
+1526312503320,2764,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,300947,158,50,50,2752,0,0
+1526312503322,2763,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,186311,158,50,50,2751,0,0
+1526312503525,2653,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,189960,158,50,50,2649,0,0
+1526312503747,2531,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,89211,158,50,50,2527,0,0
+1526312503768,2512,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,174242,158,50,50,2506,0,0
+1526312503744,2540,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,164670,158,50,50,2532,0,1
+1526312503749,2537,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,286775,158,50,50,2527,0,0
+1526312504151,2229,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,201559,158,50,50,2223,0,0
+1526312504151,2331,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,85484,158,50,50,2323,0,0
+1526312504331,2151,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,107785,158,50,50,2148,0,1
+1526312504328,2155,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,99719,158,50,50,2154,0,1
+1526312504336,2147,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,195544,158,50,50,2140,0,1
+1526312504425,2155,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,178855,158,50,50,2149,0,1
+1526312504529,2155,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,121156,158,50,50,2146,0,0
+1526312504536,2149,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,205888,158,50,50,2139,0,1
+1526312504529,2157,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,265202,158,50,50,2146,0,1
+1526312504428,2260,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,223817,158,50,50,2247,0,0
+1526312504635,2145,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,244412,158,50,50,2145,0,0
+1526312504737,2148,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,114145,158,50,50,2144,0,1
+1526312504746,2140,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,128440,158,50,50,2140,0,0
+1526312504757,2132,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,292001,158,50,50,2124,0,1
+1526312504635,2342,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,292328,158,50,50,2251,0,0
+1526312504839,2155,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,204070,158,50,50,2150,0,0
+1526312504931,2158,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,138760,158,50,50,2157,0,1
+1526312504842,2261,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,184351,158,50,50,2246,0,0
+1526312504935,2255,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,95536,158,50,50,2254,0,1
+1526312504927,2270,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,316975,158,50,50,2263,0,0
+1526312505022,2177,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,300106,158,50,50,2167,0,0
+1526312505034,2251,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,89209,158,50,50,2250,0,0
+1526312505118,2168,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,119300,158,50,50,2166,0,1
+1526312505419,1979,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,80956,158,50,50,1979,0,1
+1526312505125,2278,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,245448,158,50,50,2273,0,0
+1526312505416,1987,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,309112,158,50,50,1982,0,4
+1526312505474,2027,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,74785,158,50,50,2025,0,1
+1526312505474,2032,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,204778,158,50,50,2025,0,1
+1526312505479,2136,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,255597,158,50,50,2128,0,0
+1526312505567,2056,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,300949,158,50,50,2040,0,0
+1526312505503,2129,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,224531,158,50,50,2104,0,0
+1526312505671,2049,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,218710,158,50,50,2044,0,1
+1526312505680,2042,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,194657,158,50,50,2035,0,1
+1526312505680,2140,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,145723,158,50,50,2140,0,1
+1526312505695,2125,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,202724,158,50,50,2125,0,1
+1526312505774,2051,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,163471,158,50,50,2046,0,1
+1526312505872,2053,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,114143,158,50,50,2044,0,1
+1526312505877,2051,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,122288,158,50,50,2050,0,1
+1526312505967,2057,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,139398,158,50,50,2056,0,1
+1526312505878,2144,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,95536,158,50,50,2143,0,0
+1526312505878,2156,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,76899,158,50,50,2143,0,0
+1526312506073,2135,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,102365,158,50,50,2135,0,1
+1526312506073,2136,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,96493,158,50,50,2135,0,0
+1526312506085,2219,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,73692,158,50,50,2218,0,0
+1526312506179,2126,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,85963,158,50,50,2126,0,0
+1526312506085,2231,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,270286,158,50,50,2215,0,0
+1526312506280,2133,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,192046,158,50,50,2132,0,0
+1526312506279,2133,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,231650,158,50,50,2133,0,0
+1526312506286,2239,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,136896,158,50,50,2230,0,1
+1526312506284,2247,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,285701,158,50,50,2241,0,0
+1526312506380,2153,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,309913,158,50,50,2139,0,0
+1526312506483,2150,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,105434,158,50,50,2141,0,0
+1526312506483,2153,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,301905,158,50,50,2149,0,0
+1526312506483,2227,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,72272,158,50,50,2226,0,0
+1526312506580,2131,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,105435,158,50,50,2130,0,1
+1526312506483,2231,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,121481,158,50,50,2224,0,0
+1526312506685,2126,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,127067,158,50,50,2122,0,0
+1526312506684,2127,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,138032,158,50,50,2127,0,0
+1526312506686,2216,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,72269,158,50,50,2214,0,0
+1526312506781,2125,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,182462,158,50,50,2119,0,0
+1526312506689,2226,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,222790,158,50,50,2211,0,0
+1526312506885,2145,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,284097,158,50,50,2106,0,1
+1526312506994,2119,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,228985,158,50,50,2117,0,1
+1526312506889,2228,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,149089,158,50,50,2219,0,1
+1526312506977,2137,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,198914,158,50,50,2124,0,1
+1526312506887,2144,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,248102,158,50,50,2104,0,0
+1526312507104,2147,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,232110,158,50,50,2139,0,0
+1526312507089,2178,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,307370,158,50,50,2149,0,0
+1526312507197,2135,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,107471,158,50,50,2135,0,0
+1526312507190,2151,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,267788,158,50,50,2138,0,0
+1526312507199,2152,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,175963,158,50,50,2129,0,1
+1526312507286,2134,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,200711,158,50,50,2130,0,0
+1526312507286,2138,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,167174,158,50,50,2130,0,0
+1526312507403,2166,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,163079,158,50,50,2166,0,0
+1526312507406,2164,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,84060,158,50,50,2158,0,0
+1526312507399,2185,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,268190,158,50,50,2171,0,0
+1526312507501,2178,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,117100,158,50,50,2173,0,1
+1526312507507,2177,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,289776,158,50,50,2167,0,0
+1526312507623,2231,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,164033,158,50,50,2226,0,0
+1526312507615,2245,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,104030,158,50,50,2242,0,0
+1526312507632,2229,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,249392,158,50,50,2220,0,0
+1526312507721,2255,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,68846,158,50,50,2253,0,0
+1526312507722,2259,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,201014,158,50,50,2254,0,0
+1526312507820,2276,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,140914,158,50,50,2276,0,1
+1526312507826,2270,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,88493,158,50,50,2265,0,0
+1526312507821,2307,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,292640,158,50,50,2296,0,0
+1526312507925,2384,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,133921,158,50,50,2383,0,0
+1526312507928,2385,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,140195,158,50,50,2380,0,0
+1526312508025,2374,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,142393,158,50,50,2369,0,1
+1526312508034,2369,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,313557,158,50,50,2360,0,0
+1526312508025,2380,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,147634,158,50,50,2369,0,0
+1526312508210,2286,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,108881,158,50,50,2286,0,0
+1526312508208,2298,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,82216,158,50,50,2297,0,1
+1526312508305,2296,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,102366,158,50,50,2289,0,1
+1526312508304,2297,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,292332,158,50,50,2287,0,0
+1526312508316,2300,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,278264,158,50,50,2283,0,1
+1526312508422,2272,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,67105,158,50,50,2270,0,1
+1526312508423,2300,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,268190,158,50,50,2270,0,0
+1526312508528,2277,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,119301,158,50,50,2275,0,0
+1526312508531,2275,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,170120,158,50,50,2272,0,0
+1526312508533,2276,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,163469,158,50,50,2270,0,1
+1526312508637,2375,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,84057,158,50,50,2373,0,0
+1526312508633,2381,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,116076,158,50,50,2378,0,1
+1526312508712,2408,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,273706,158,50,50,2400,0,0
+1526312508710,2412,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,295837,158,50,50,2402,0,1
+1526312508714,2408,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,280264,158,50,50,2398,0,0
+1526312508811,2411,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,137541,158,50,50,2408,0,1
+1526312508811,2417,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,240493,158,50,50,2412,0,1
+1526312508918,2396,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,88491,158,50,50,2393,0,0
+1526312508903,2416,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,191161,158,50,50,2408,0,0
+1526312508906,2413,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,189405,158,50,50,2405,0,0
+1526312509038,2368,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,74785,158,50,50,2365,0,0
+1526312509113,2296,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,88492,158,50,50,2290,0,0
+1526312509117,2422,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,244723,158,50,50,2414,0,1
+1526312509143,2413,agregar a compra,200,OK,Carga Compra 1-1,text,true,,1838,284,50,50,2412,0,2
+1526312509251,2399,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,159836,158,50,50,2393,0,0
+1526312509267,2384,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,202726,158,50,50,2377,0,1
+1526312509169,2601,agregar a compra,200,OK,Carga Compra 1-6,text,true,,1850,285,50,50,2601,0,11
+1526312509341,2435,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,235697,158,50,50,2430,0,1
+1526312509333,2449,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,158632,158,50,50,2440,0,0
+1526312509421,2452,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,135627,158,50,50,2449,0,0
+1526312509351,2527,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,315745,158,50,50,2519,0,0
+1526312509571,2403,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,100202,158,50,50,2401,0,0
+1526312509425,2559,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,280879,158,50,50,2547,0,0
+1526312509569,2410,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,215207,158,50,50,2409,0,1
+1526312509584,2492,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,318795,158,50,50,2488,0,1
+1526312509680,2397,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,307915,158,50,50,2390,0,0
+1526312509684,2489,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,89995,158,50,50,2486,0,0
+1526312509860,2314,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,149090,158,50,50,2310,0,0
+1526312509854,2324,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,274419,158,50,50,2316,0,1
+1526312509977,2295,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,112902,158,50,50,2292,0,0
+1526312509862,2414,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,282771,158,50,50,2407,0,0
+1526312510096,2278,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,174720,158,50,50,2274,0,1
+1526312510096,2283,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,277728,158,50,50,2274,0,1
+1526312509981,2400,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,315345,158,50,50,2389,0,1
+1526312510129,2360,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,231648,158,50,50,2350,0,0
+1526312510309,2182,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,297087,158,50,50,2170,0,1
+1526312510313,2278,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,128461,158,50,50,2274,0,1
+1526312510400,2196,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,248083,158,50,50,2187,0,0
+1526312510403,2195,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,312371,158,50,50,2184,0,1
+1526312510497,2197,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,258741,158,50,50,2190,0,0
+1526312510405,2289,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,261907,158,50,50,2282,0,0
+1526312510603,2187,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,91114,158,50,50,2184,0,1
+1526312510506,2288,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,250740,158,50,50,2281,0,1
+1526312510602,2196,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,303557,158,50,50,2185,0,0
+1526312510694,2196,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,140597,158,50,50,2193,0,0
+1526312510617,2273,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,179500,158,50,50,2270,0,0
+1526312510806,2178,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,191164,158,50,50,2173,0,1
+1526312510805,2180,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,165153,158,50,50,2174,0,0
+1526312510723,2266,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,313557,158,50,50,2256,0,1
+1526312510809,2265,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,143001,158,50,50,2261,0,0
+1526312511013,2062,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,193541,158,50,50,2057,0,0
+1526312511014,2150,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,73690,158,50,50,2148,0,0
+1526312511122,2050,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,141307,158,50,50,2040,0,1
+1526312511121,2053,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,178855,158,50,50,2041,0,0
+1526312511122,2180,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,218710,158,50,50,2174,0,1
+1526312511222,2081,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,279008,158,50,50,2074,0,0
+1526312511228,2171,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,90543,158,50,50,2171,0,0
+1526312511314,2094,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,311586,158,50,50,2085,0,1
+1526312511319,2093,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,132010,158,50,50,2080,0,1
+1526312511406,2092,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,76512,158,50,50,2089,0,1
+1526312511319,2188,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,305140,158,50,50,2176,0,1
+1526312511541,2063,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,306160,158,50,50,2056,0,0
+1526312511417,2190,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,107785,158,50,50,2189,0,0
+1526312511556,2056,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,285739,158,50,50,2041,0,0
+1526312511654,2044,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,79741,158,50,50,2041,0,1
+1526312511653,2045,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,105435,158,50,50,2042,0,1
+1526312511777,2027,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,218171,158,50,50,2018,0,0
+1526312511782,2018,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,131061,158,50,50,2013,0,1
+1526312511772,2032,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,274440,158,50,50,2023,0,0
+1526312511873,2055,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,280264,158,50,50,2048,0,1
+1526312511878,2054,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,265202,158,50,50,2046,0,1
+1526312511975,2067,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,117100,158,50,50,2062,0,0
+1526312512017,2020,agregar a compra,200,OK,Carga Compra 1-11,text,true,,1844,286,50,50,2020,0,1
+1526312511984,2063,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,280880,158,50,50,2053,0,1
+1526312512076,2066,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,95538,158,50,50,2062,0,2
+1526312512077,2072,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,304332,158,50,50,2062,0,1
+1526312512194,2044,agregar a compra,200,OK,Carga Compra 1-7,text,true,,1842,285,50,50,2044,0,1
+1526312512173,2070,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,87786,158,50,50,2065,0,1
+1526312512175,2081,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,192847,158,50,50,2063,0,0
+1526312512276,2073,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,257031,158,50,50,2065,0,1
+1526312512272,2078,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,291223,158,50,50,2065,0,1
+1526312512380,2059,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,88493,158,50,50,2057,0,0
+1526312512374,2076,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,175504,158,50,50,2063,0,1
+1526312512381,2074,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,297948,158,50,50,2060,0,0
+1526312512490,2058,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,277726,158,50,50,2041,0,0
+1526312512491,2054,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,261928,158,50,50,2040,0,1
+1526312512595,2026,agregar a compra,200,OK,Carga Compra 1-4,text,true,,1836,284,50,50,2026,0,3
+1526312512597,2029,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,163079,158,50,50,2025,0,1
+1526312512598,2030,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,70112,158,50,50,2023,0,0
+1526312512694,2022,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,182461,158,50,50,2018,0,0
+1526312512694,2025,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,292640,158,50,50,2018,0,0
+1526312512790,2018,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,114145,158,50,50,2015,0,1
+1526312512798,2022,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,284640,158,50,50,2007,0,1
+1526312512795,2035,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,210238,158,50,50,2013,0,0
+1526312512891,2007,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,88490,158,50,50,2004,0,0
+1526312512890,2011,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,190519,158,50,50,2008,0,1
+1526312512990,2011,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,258743,158,50,50,2008,0,0
+1526312512984,2019,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,262217,158,50,50,2011,0,1
+1526312512985,2037,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,224532,158,50,50,2010,0,1
+1526312513075,2024,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,88512,158,50,50,2021,0,2
+1526312513076,2026,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,226906,158,50,50,2020,0,1
+1526312513174,2019,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,73692,158,50,50,2014,0,1
+1526312513172,2025,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,168812,158,50,50,2016,0,0
+1526312513164,2037,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,243159,158,50,50,2024,0,1
+1526312513302,1988,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,198898,158,50,50,1978,0,1
+1526312513304,1989,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,300109,158,50,50,1976,0,0
+1526312513400,2108,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,158634,158,50,50,2104,0,0
+1526312513421,2089,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,117098,158,50,50,2086,0,1
+1526312513409,2106,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,318224,158,50,50,2098,0,0
+1526312513507,2237,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,118121,158,50,50,2205,0,0
+1526312513498,2246,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,296851,158,50,50,2214,0,1
+1526312513604,2219,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,207767,158,50,50,2209,0,1
+1526312513620,2550,agregar a compra,200,OK,Carga Compra 1-1,text,true,,1841,284,50,50,2550,0,1
+1526312513699,2673,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,72273,158,50,50,2671,0,0
+1526312513699,2681,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,133073,158,50,50,2681,0,0
+1526312513607,2779,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,248083,158,50,50,2763,0,0
+1526312513806,2659,agregar a compra,200,OK,Carga Compra 1-8,text,true,,1844,285,50,50,2659,0,1
+1526312513805,2664,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,209288,158,50,50,2660,0,0
+1526312514043,2679,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,77133,158,50,50,2677,0,0
+1526312513844,2973,agregar a compra,200,OK,Carga Compra 1-6,text,true,,1843,285,50,50,2973,0,0
+1526312513928,2890,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,102366,158,50,50,2889,0,0
+1526312514044,2773,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,110028,158,50,50,2773,0,0
+1526312513933,2900,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,267786,158,50,50,2894,0,0
+1526312514047,2864,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,301187,158,50,50,2857,0,0
+1526312514239,2907,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,272643,158,50,50,2907,0,1
+1526312514256,3041,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,167177,158,50,50,3040,0,1
+1526312514243,3055,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,247523,158,50,50,3054,0,1
+1526312514150,3150,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,312372,158,50,50,3146,0,0
+1526312514142,3169,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,298700,158,50,50,3156,0,0
+1526312514350,3042,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,168274,158,50,50,3039,0,0
+1526312514463,3026,agregar a compra,200,OK,Carga Compra 1-17,text,true,,1846,285,50,50,3026,0,0
+1526312514440,3051,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,77133,158,50,50,3051,0,0
+1526312514451,3044,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,288148,158,50,50,3038,0,0
+1526312514349,3159,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,181131,158,50,50,3142,0,0
+1526312514550,3039,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,167801,158,50,50,3031,0,0
+1526312514626,3058,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,88513,158,50,50,3058,0,0
+1526312514561,3128,agregar a compra,200,OK,Carga Compra 1-18,text,true,,1844,285,50,50,3128,0,0
+1526312514628,3065,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,258744,158,50,50,3064,0,0
+1526312514621,3078,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,183198,158,50,50,3061,0,0
+1526312514717,3074,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,119298,158,50,50,3071,0,0
+1526312514837,3055,agregar a compra,200,OK,Carga Compra 1-2,text,true,,1843,285,50,50,3055,0,0
+1526312514808,3084,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,144458,158,50,50,3084,0,0
+1526312514820,3075,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,199937,158,50,50,3073,0,0
+1526312514720,3195,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,316211,158,50,50,3172,0,0
+1526312514899,3103,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,210216,158,50,50,3097,0,0
+1526312515002,3109,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,158633,158,50,50,3104,0,0
+1526312515022,3082,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,91747,158,50,50,3075,0,0
+1526312514901,3220,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,292003,158,50,50,3196,0,0
+1526312515003,3119,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,171569,158,50,50,3114,0,1
+1526312515102,3095,agregar a compra,200,OK,Carga Compra 1-13,text,true,,1849,285,50,50,3095,0,0
+1526312515201,3183,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,136324,158,50,50,3112,0,0
+1526312515194,3192,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,226909,158,50,50,3121,0,0
+1526312515197,3187,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,117497,158,50,50,3119,0,1
+1526312515102,3217,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,115176,158,50,50,3216,0,0
+1526312515291,3479,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,86925,158,50,50,3479,0,0
+1526312515510,3410,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,129056,158,50,50,3410,0,1
+1526312515509,3435,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,71476,158,50,50,3426,0,0
+1526312515294,3640,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,153337,158,50,50,3626,0,0
+1526312515516,3461,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,228377,158,50,50,3422,0,0
+1526312515745,3317,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,186744,158,50,50,3313,0,0
+1526312516372,2898,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,91135,158,50,50,2898,0,0
+1526312515744,3526,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,172143,158,50,50,3526,0,0
+1526312516171,3107,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,298737,158,50,50,3105,0,0
+1526312515823,3465,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,270289,158,50,50,3453,0,0
+1526312516380,3041,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,222328,158,50,50,3034,0,1
+1526312516465,3136,Buscar por precio,200,OK,Carga Compra 1-8,text,true,,97493,158,50,50,3136,0,1
+1526312516722,2890,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,126269,158,50,50,2879,0,1
+1526312516470,3136,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,136346,158,50,50,3131,0,0
+1526312516386,3250,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,192046,158,50,50,3241,0,0
+1526312516818,2944,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,300991,158,50,50,2937,0,0
+1526312516820,3062,agregar a compra,200,OK,Carga Compra 1-11,text,true,,1856,286,50,50,3061,0,1
+1526312516918,2967,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,84933,158,50,50,2964,0,0
+1526312516818,3072,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,264807,158,50,50,3058,0,0
+1526312516833,3051,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,183744,158,50,50,3043,0,0
+1526312517153,2900,agregar a compra,200,OK,Carga Compra 1-7,text,true,,1847,285,50,50,2900,0,0
+1526312517298,2855,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,99267,158,50,50,2854,0,1
+1526312517297,2858,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,193963,158,50,50,2855,0,0
+1526312517311,2844,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,210240,158,50,50,2841,0,0
+1526312517301,2866,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,280265,158,50,50,2851,0,0
+1526312517393,2872,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,181132,158,50,50,2865,0,0
+1526312517503,2855,agregar a compra,200,OK,Carga Compra 1-9,text,true,,1844,285,50,50,2854,0,6
+1526312517491,2878,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,240494,158,50,50,2871,0,1
+1526312517490,2875,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,316705,158,50,50,2867,0,0
+1526312517508,2877,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,267141,158,50,50,2860,0,1
+1526312517590,2890,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,148424,158,50,50,2883,0,0
+1526312517687,2888,agregar a compra,200,OK,Carga Compra 1-12,text,true,,1852,286,50,50,2888,0,0
+1526312517689,2888,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,172943,158,50,50,2887,0,0
+1526312517694,2892,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,243807,158,50,50,2881,0,0
+1526312517791,2884,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,85962,158,50,50,2882,0,1
+1526312517707,3084,agregar a compra,200,OK,Carga Compra 1-4,text,true,,1845,284,50,50,3084,0,1
+1526312517895,2903,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,228359,158,50,50,2896,0,1
+1526312517893,2911,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,309955,158,50,50,2898,0,0
+1526312517893,2935,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,254353,158,50,50,2901,0,0
+1526312517919,2979,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,181752,158,50,50,2971,0,0
+1526312518116,2866,agregar a compra,200,OK,Carga Compra 1-10,text,true,,1851,286,50,50,2866,0,1
+1526312518112,2875,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,105437,158,50,50,2870,0,0
+1526312518122,2877,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,95538,158,50,50,2874,0,0
+1526312518002,3004,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,158650,158,50,50,2980,0,1
+1526312518123,2965,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,299251,158,50,50,2958,0,0
+1526312518390,2786,agregar a compra,200,OK,Carga Compra 1-32,text,true,,1851,286,50,50,2786,0,0
+1526312518197,2985,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,73732,158,50,50,2979,0,0
+1526312518387,2802,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,157591,158,50,50,2792,0,1
+1526312518388,2804,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,287430,158,50,50,2791,0,0
+1526312518391,2884,agregar a compra,200,OK,Carga Compra 1-3,text,true,,1839,284,50,50,2884,0,0
+1526312518955,2419,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,246415,158,50,50,2414,0,0
+1526312518956,2421,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,273075,158,50,50,2413,0,0
+1526312518955,2436,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,314176,158,50,50,2423,0,0
+1526312518775,2706,agregar a compra,200,OK,Carga Compra 1-20,text,true,,1853,285,50,50,2706,0,1
+1526312518986,2691,agregar a compra,200,OK,Carga Compra 1-34,text,true,,1843,286,50,50,2690,0,3
+1526312519290,2490,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,154671,158,50,50,2484,0,0
+1526312519069,2800,agregar a compra,200,OK,Carga Compra 1-24,text,true,,1846,286,50,50,2800,0,0
+1526312519422,2538,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,81649,158,50,50,2536,0,1
+1526312519274,2784,agregar a compra,200,OK,Carga Compra 1-27,text,true,,1847,286,50,50,2784,0,0
+1526312519613,2548,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,149091,158,50,50,2544,0,0
+1526312519277,2991,agregar a compra,200,OK,Carga Compra 1-36,text,true,,1854,286,50,50,2991,0,1
+1526312519637,2732,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,141307,158,50,50,2729,0,1
+1526312519288,3180,agregar a compra,200,OK,Carga Compra 1-1,text,true,,1842,284,50,50,3180,0,2
+1526312519886,2677,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,164689,158,50,50,2672,0,1
+1526312519606,3052,agregar a compra,200,OK,Carga Compra 1-8,text,true,,1847,285,50,50,3052,0,0
+1526312519891,2775,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,180121,158,50,50,2771,0,1
+1526312519893,2870,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,159080,158,50,50,2868,0,0
+1526312519614,3246,agregar a compra,200,OK,Carga Compra 1-25,text,true,,1845,286,50,50,3246,0,1
+1526312520055,2807,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,115199,158,50,50,2804,0,0
+1526312520154,2820,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,286316,158,50,50,2812,0,0
+1526312519800,3265,agregar a compra,200,OK,Carga Compra 1-6,text,true,,1843,285,50,50,3265,0,1
+1526312520169,2997,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,161777,158,50,50,2992,0,0
+1526312519895,3365,agregar a compra,200,OK,Carga Compra 1-38,text,true,,1844,285,50,50,3364,0,1
+1526312520267,3006,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,249942,158,50,50,2992,0,0
+1526312520359,3006,Buscar por precio,200,OK,Carga Compra 1-9,text,true,,252531,158,50,50,2999,0,3
+1526312520163,3288,agregar a compra,200,OK,Carga Compra 1-29,text,true,,1843,286,50,50,3288,0,0
+1526312520370,3086,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,289478,158,50,50,3081,0,1
+1526312520387,3162,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,211009,158,50,50,3156,0,0
+1526312520164,3483,agregar a compra,200,OK,Carga Compra 1-16,text,true,,1841,285,50,50,3483,0,1
+1526312520576,3078,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,316254,158,50,50,3067,0,0
+1526312520379,3400,agregar a compra,200,OK,Carga Compra 1-17,text,true,,1851,286,50,50,3400,0,0
+1526312520677,3363,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,222791,158,50,50,3357,0,0
+1526312520487,3759,agregar a compra,200,OK,Carga Compra 1-43,text,true,,1852,285,50,50,3759,0,1
+1526312520792,3463,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,232604,158,50,50,3454,0,1
+1526312520800,3700,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,185760,158,50,50,3694,0,0
+1526312520584,4136,agregar a compra,200,OK,Carga Compra 1-18,text,true,,1847,285,50,50,4135,0,0
+1526312520899,3924,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,213310,158,50,50,3920,0,0
+1526312520642,4282,agregar a compra,200,OK,Carga Compra 1-30,text,true,,1845,286,50,50,4282,0,0
+1526312520984,3950,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,251340,158,50,50,3937,0,0
+1526312520989,4032,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,111416,158,50,50,4030,0,0
+1526312520814,4306,agregar a compra,200,OK,Carga Compra 1-2,text,true,,1855,285,50,50,4306,0,0
+1526312521001,4124,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,91135,158,50,50,4118,0,0
+1526312521089,4128,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,201562,158,50,50,4126,0,0
+1526312520837,4467,agregar a compra,200,OK,Carga Compra 1-31,text,true,,1850,286,50,50,4467,0,0
+1526312521177,4130,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,132458,158,50,50,4127,0,0
+1526312521189,4222,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,164033,158,50,50,4214,0,0
+1526312521012,4484,agregar a compra,200,OK,Carga Compra 1-5,text,true,,1839,284,50,50,4483,0,1
+1526312521276,4222,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,114720,158,50,50,4218,0,0
+1526312521374,4214,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,147657,158,50,50,4211,0,1
+1526312521186,4498,agregar a compra,200,OK,Carga Compra 1-13,text,true,,1855,285,50,50,4498,0,0
+1526312521377,4307,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,112903,158,50,50,4306,0,1
+1526312521391,4297,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,272202,158,50,50,4292,0,0
+1526312521482,4298,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,143043,158,50,50,4295,0,0
+1526312521201,4680,agregar a compra,200,OK,Carga Compra 1-21,text,true,,1842,286,50,50,4680,0,1
+1526312521780,4118,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,224944,158,50,50,4100,0,0
+1526312521677,4219,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,172162,158,50,50,4203,0,1
+1526312521869,4050,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,234571,158,50,50,4011,0,1
+1526312521961,4022,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,140597,158,50,50,4016,0,0
+1526312522161,3927,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,77134,158,50,50,3920,0,0
+1526312522059,4029,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,67147,158,50,50,4019,0,0
+1526312522268,3820,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,128484,158,50,50,3809,0,1
+1526312522369,3726,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,149090,158,50,50,3719,0,1
+1526312522469,3714,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,191202,158,50,50,3708,0,0
+1526312522568,3710,agregar a compra,200,OK,Carga Compra 1-15,text,true,,1851,286,50,50,3710,0,0
+1526312522667,3615,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,157593,158,50,50,3612,0,1
+1526312522861,3534,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,298740,158,50,50,3525,0,0
+1526312522974,3598,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,100996,158,50,50,3595,0,1
+1526312522659,4022,consultarSaldo,200,OK,Carga Compra 1-8,text,true,,1533,158,50,50,4022,0,0
+1526312523065,3616,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,109555,158,50,50,3616,0,1
+1526312522810,3977,agregar a compra,200,OK,Carga Compra 1-11,text,true,,1849,286,50,50,3977,0,1
+1526312522865,4176,agregar a compra,200,OK,Carga Compra 1-7,text,true,,1848,285,50,50,4176,0,0
+1526312523273,3776,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,227726,158,50,50,3776,0,1
+1526312523260,3781,Buscar por precio,200,OK,Carga Compra 1-38,text,true,,232150,158,50,50,3624,0,0
+1526312523452,3685,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,67147,158,50,50,3683,0,0
+1526312523171,4058,agregar a compra,200,OK,Carga Compra 1-28,text,true,,1840,286,50,50,4058,0,0
+1526312523549,3689,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,260705,158,50,50,3688,0,1
+1526312523647,3683,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,77174,158,50,50,3680,0,1
+1526312523372,4048,agregar a compra,200,OK,Carga Compra 1-9,text,true,,1844,285,50,50,4048,0,0
+1526312523780,3649,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,248978,158,50,50,3646,0,0
+1526312524043,3480,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,178855,158,50,50,3476,0,0
+1526312524246,3667,Buscar por precio,200,OK,Carga Compra 1-43,text,true,,77942,158,50,50,3665,0,1
+1526312523465,4550,agregar a compra,200,OK,Carga Compra 1-45,text,true,,1852,286,50,50,4550,0,0
+1526312524517,3500,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,143556,158,50,50,3498,0,0
+1526312524720,3401,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,294712,158,50,50,3392,0,1
+1526312524823,3524,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,127066,158,50,50,3521,0,1
+1526312523661,4892,agregar a compra,200,OK,Carga Compra 1-12,text,true,,1848,286,50,50,4892,0,1
+1526312524929,3624,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,161798,158,50,50,3624,0,0
+1526312525021,3737,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,273075,158,50,50,3732,0,0
+1526312524352,4503,agregar a compra,200,OK,Carga Compra 1-4,text,true,,1844,284,50,50,4503,0,0
+1526312525121,3738,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,205928,158,50,50,3732,0,0
+1526312525217,3739,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,120205,158,50,50,3736,0,1
+1526312524984,4070,agregar a compra,200,OK,Carga Compra 1-10,text,true,,1857,286,50,50,4070,0,0
+1526312525305,3764,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,294713,158,50,50,3754,0,0
+1526312525411,3747,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,285314,158,50,50,3742,0,0
+1526312525129,4125,agregar a compra,200,OK,Carga Compra 1-33,text,true,,1850,286,50,50,4124,0,0
+1526312525496,3760,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,300989,158,50,50,3753,0,0
+1526312525311,4052,agregar a compra,200,OK,Carga Compra 1-32,text,true,,1848,286,50,50,4052,0,1
+1526312525684,3780,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,74090,158,50,50,3778,0,0
+1526312525684,3785,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,202128,158,50,50,3779,0,0
+1526312525502,4095,agregar a compra,200,OK,Carga Compra 1-3,text,true,,1840,284,50,50,4095,0,1
+1526312525689,3912,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,238387,158,50,50,3907,0,0
+1526312525881,3832,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,111455,158,50,50,3825,0,0
+1526312525592,4227,agregar a compra,200,OK,Carga Compra 1-35,text,true,,1852,286,50,50,4227,0,0
+1526312525899,3926,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,229550,158,50,50,3920,0,0
+1526312525785,4146,agregar a compra,200,OK,Carga Compra 1-20,text,true,,1848,286,50,50,4146,0,0
+1526312525984,4058,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,132032,158,50,50,4054,0,0
+1526312525903,4236,agregar a compra,200,OK,Carga Compra 1-34,text,true,,1851,286,50,50,4236,0,0
+1526312526088,4058,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,210220,158,50,50,4050,0,1
+1526312526096,4145,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,144477,158,50,50,4142,0,0
+1526312525926,4413,agregar a compra,200,OK,Carga Compra 1-24,text,true,,1853,286,50,50,4413,0,1
+1526312526278,4166,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,300149,158,50,50,4160,0,0
+1526312526090,4452,agregar a compra,200,OK,Carga Compra 1-27,text,true,,1854,286,50,50,4452,0,1
+1526312526282,4271,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,149968,158,50,50,4258,0,0
+1526312526092,4555,agregar a compra,200,OK,Carga Compra 1-36,text,true,,1853,286,50,50,4555,0,1
+1526312526681,4073,pagar,200,OK,Carga Compra 1-8,text,true,,1753,243,50,50,4073,0,1
+1526312530753,0,Debug Sampler,200,OK,Carga Compra 1-8,text,true,,1241,0,50,50,0,0,0
+1526312526572,4184,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,269650,158,50,50,4174,0,0
+1526312526190,4666,agregar a compra,200,OK,Carga Compra 1-1,text,true,,1839,284,49,49,4666,0,1
+1526312527041,3919,Buscar por precio,200,OK,Carga Compra 1-7,text,true,,101759,158,49,49,3914,0,12
+1526312526788,4187,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,287453,158,49,49,4167,0,0
+1526312527060,4009,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,181132,158,49,49,3999,0,1
+1526312526463,4596,agregar a compra,200,OK,Carga Compra 1-25,text,true,,1846,286,49,49,4596,0,1
+1526312526688,4475,agregar a compra,200,OK,Carga Compra 1-6,text,true,,1852,285,49,49,4475,0,0
+1526312527239,4024,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,268191,158,49,49,4016,0,0
+1526312527230,4034,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,281711,158,49,49,4025,0,0
+1526312527069,4279,agregar a compra,200,OK,Carga Compra 1-38,text,true,,1849,285,49,49,4279,0,1
+1526312527138,4439,agregar a compra,200,OK,Carga Compra 1-29,text,true,,1853,286,49,49,4438,0,1
+1526312527524,4268,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,236727,158,49,49,4264,0,0
+1526312527331,4549,agregar a compra,200,OK,Carga Compra 1-16,text,true,,1849,285,49,49,4549,0,1
+1526312528015,3960,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,156546,158,49,49,3956,0,1
+1526312528017,4058,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,92185,158,49,49,4055,0,1
+1526312527421,4658,consultarSaldo,200,OK,Carga Compra 1-9,text,true,,1533,158,49,49,4658,0,0
+1526312527436,4745,agregar a compra,200,OK,Carga Compra 1-17,text,true,,1842,286,49,49,4745,0,0
+1526312528553,3733,Buscar por precio,200,OK,Carga Compra 1-12,text,true,,68887,158,49,49,3733,0,0
+1526312528346,3944,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,244412,158,49,49,3940,0,0
+1526312527916,4464,agregar a compra,200,OK,Carga Compra 1-43,text,true,,1843,285,49,49,4464,0,0
+1526312528854,3632,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,86943,158,49,49,3626,0,1
+1526312528757,3734,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,250761,158,49,49,3723,0,1
+1526312528127,4453,agregar a compra,200,OK,Carga Compra 1-18,text,true,,1850,285,49,49,4453,0,0
+1526312528956,3729,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,215207,158,49,49,3723,0,0
+1526312529054,3632,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,282813,158,49,49,3625,0,0
+1526312528569,4210,agregar a compra,200,OK,Carga Compra 1-30,text,true,,1852,286,49,49,4210,0,1
+1526312529253,3636,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,295551,158,49,49,3627,0,0
+1526312528865,4115,agregar a compra,200,OK,Carga Compra 1-2,text,true,,1845,284,49,49,4115,0,1
+1526312529363,3725,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,281711,158,49,49,3716,0,0
+1526312529077,4112,agregar a compra,200,OK,Carga Compra 1-31,text,true,,1852,286,49,49,4112,0,1
+1526312529170,4202,agregar a compra,200,OK,Carga Compra 1-50,text,true,,1839,285,49,49,4202,0,0
+1526312529596,3877,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,233247,158,49,49,3867,0,1
+1526312529266,4289,agregar a compra,200,OK,Carga Compra 1-5,text,true,,1842,284,49,49,4289,0,1
+1526312529466,4189,agregar a compra,200,OK,Carga Compra 1-22,text,true,,1852,286,49,49,4189,0,0
+1526312529818,3956,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,144499,158,49,49,3953,0,1
+1526312529472,4420,agregar a compra,200,OK,Carga Compra 1-13,text,true,,1844,285,49,49,4420,0,0
+1526312529825,4073,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,287411,158,49,49,4065,0,0
+1526312529931,4059,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,96537,158,49,49,4057,0,1
+1526312529606,4494,agregar a compra,200,OK,Carga Compra 1-23,text,true,,1851,285,49,49,4494,0,0
+1526312530138,3965,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,255153,158,49,49,3959,0,1
+1526312530146,4071,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,83923,158,49,49,4068,0,0
+1526312529715,4653,agregar a compra,200,OK,Carga Compra 1-21,text,true,,1845,286,49,49,4653,0,0
+1526312530338,4035,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,260356,158,49,49,4031,0,1
+1526312530053,4446,agregar a compra,200,OK,Carga Compra 1-26,text,true,,1846,286,49,49,4446,0,1
+1526312530542,4171,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,256283,158,49,49,4164,0,0
+1526312530245,4674,agregar a compra,200,OK,Carga Compra 1-14,text,true,,1838,286,49,49,4674,0,0
+1526312530646,4274,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,132055,158,49,49,4269,0,0
+1526312530755,4390,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,91135,158,49,49,4387,0,0
+1526312530451,4873,agregar a compra,200,OK,Carga Compra 1-15,text,true,,1846,286,49,49,4873,0,0
+1526312530856,4470,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,90581,158,49,49,4467,0,1
+1526312530563,5049,agregar a compra,200,OK,Carga Compra 1-40,text,true,,1857,286,49,49,5049,0,2
+1526312531068,5058,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,284641,158,49,49,5056,0,1
+1526312531068,5065,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,295878,158,49,49,5053,0,1
+1526312530963,5299,agregar a compra,200,OK,Carga Compra 1-7,text,true,,1852,285,49,49,5299,0,1
+1526312531163,5105,Buscar por precio,200,OK,Carga Compra 1-6,text,true,,244764,158,49,49,5101,0,0
+1526312531262,5118,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,114165,158,49,49,5114,0,1
+1526312530980,5553,agregar a compra,200,OK,Carga Compra 1-11,text,true,,1843,286,49,49,5552,0,1
+1526312531576,4957,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,222370,158,49,49,4956,0,0
+1526312531276,5413,agregar a compra,200,OK,Carga Compra 1-28,text,true,,1855,286,49,49,5412,0,1
+1526312531879,5165,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,155109,158,49,49,5164,0,1
+1526312531349,6043,consultarSaldo,200,OK,Carga Compra 1-38,text,true,,1533,159,49,49,6042,0,0
+1526312532074,5344,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,238985,158,49,49,5317,0,1
+1526312532079,5427,pagar,200,OK,Carga Compra 1-9,text,true,,1754,243,49,49,5427,0,1
+1526312537509,0,Debug Sampler,200,OK,Carga Compra 1-9,text,true,,1243,0,49,49,0,0,0
+1526312531797,5882,agregar a compra,200,OK,Carga Compra 1-47,text,true,,1844,285,48,48,5882,0,0
+1526312532180,5511,Buscar por precio,200,OK,Carga Compra 1-17,text,true,,150537,158,48,48,5498,0,0
+1526312532291,5678,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,92888,158,48,48,5678,0,0
+1526312531979,6198,agregar a compra,200,OK,Carga Compra 1-45,text,true,,1855,286,48,48,6198,0,0
+1526312532289,6228,agregar a compra,200,OK,Carga Compra 1-12,text,true,,1849,286,48,48,6228,0,1
+1526312532580,6259,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,178420,158,48,48,6254,0,0
+1526312532380,6842,consultarSaldo,200,OK,Carga Compra 1-43,text,true,,1534,159,48,48,6842,0,0
+1526312532780,7630,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,76941,158,48,48,7626,0,0
+1526312532489,8325,agregar a compra,200,OK,Carga Compra 1-4,text,true,,1842,284,48,48,8325,0,0
+1526312532980,8647,Buscar por precio,200,OK,Carga Compra 1-2,text,true,,112008,158,48,48,8644,0,0
+1526312532499,9435,agregar a compra,200,OK,Carga Compra 1-49,text,true,,1850,285,48,48,9435,0,0
+1526312532691,9442,agregar a compra,200,OK,Carga Compra 1-19,text,true,,1852,286,48,48,9442,0,1
+1526312533190,9161,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,92930,158,48,48,9158,0,0
+1526312532697,10130,agregar a compra,200,OK,Carga Compra 1-10,text,true,,1852,286,48,48,10130,0,0
+1526312533373,9466,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,284137,158,48,48,9454,0,0
+1526312532896,10324,agregar a compra,200,OK,Carga Compra 1-33,text,true,,1852,286,48,48,10323,0,1
+1526312533557,10036,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,122327,158,48,48,10032,0,1
+1526312533656,9940,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,240535,158,48,48,9933,0,0
+1526312533094,10906,agregar a compra,200,OK,Carga Compra 1-32,text,true,,1855,286,48,48,10905,0,0
+1526312533892,10622,Buscar por precio,200,OK,Carga Compra 1-13,text,true,,73021,158,48,48,10618,0,1
+1526312533899,10620,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,125023,158,48,48,10611,0,0
+1526312533477,11547,agregar a compra,200,OK,Carga Compra 1-3,text,true,,1848,284,48,48,11547,0,1
+1526312534101,11263,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,310656,158,48,48,11235,0,0
+1526312533777,11856,agregar a compra,200,OK,Carga Compra 1-35,text,true,,1850,286,48,48,11856,0,0
+1526312534368,11506,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,204111,158,48,48,11499,0,0
+1526312533998,12082,agregar a compra,200,OK,Carga Compra 1-20,text,true,,1840,285,48,48,12081,0,0
+1526312534499,11745,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,273114,158,48,48,11737,0,1
+1526312534112,12326,agregar a compra,200,OK,Carga Compra 1-34,text,true,,1847,286,48,48,12326,0,0
+1526312534947,11657,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,101760,158,48,48,11655,0,0
+1526312534220,12509,agregar a compra,200,OK,Carga Compra 1-39,text,true,,1844,286,48,48,12508,0,2
+1526312534378,12469,agregar a compra,200,OK,Carga Compra 1-24,text,true,,1848,286,48,48,12468,0,1
+1526312535324,11630,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,249432,158,48,48,11628,0,1
+1526312534721,12366,agregar a compra,200,OK,Carga Compra 1-27,text,true,,1849,286,48,48,12366,0,1
+1526312535613,11638,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,219318,158,48,48,11632,0,0
+1526312534947,12458,agregar a compra,200,OK,Carga Compra 1-36,text,true,,1848,285,48,48,12458,0,0
+1526312536126,11281,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,161777,158,48,48,11281,0,1
+1526312535153,12519,agregar a compra,200,OK,Carga Compra 1-42,text,true,,1852,286,48,48,12519,0,0
+1526312535329,12584,agregar a compra,200,OK,Carga Compra 1-1,text,true,,1843,284,48,48,12584,0,0
+1526312536142,11997,agregar a compra,200,OK,Carga Compra 1-25,text,true,,1861,286,48,48,11997,0,3
+1526312536263,11998,consultarSaldo,200,OK,Carga Compra 1-7,text,true,,1533,158,48,48,11998,0,0
+1526312536533,11880,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,244766,158,48,48,11872,0,0
+1526312536278,12283,agregar a compra,200,OK,Carga Compra 1-6,text,true,,1850,285,48,48,12283,0,0
+1526312536882,11679,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,88535,158,48,48,11669,0,0
+1526312537392,11275,pagar,200,OK,Carga Compra 1-38,text,true,,1750,244,48,48,11275,0,1
+1526312548667,0,Debug Sampler,200,OK,Carga Compra 1-38,text,true,,1241,0,48,48,0,0,0
+1526312536384,12381,agregar a compra,200,OK,Carga Compra 1-41,text,true,,1853,286,47,47,12381,0,0
+1526312537419,11352,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,211598,158,47,47,11346,0,0
+1526312537680,11188,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,189446,158,47,47,11183,0,0
+1526312536539,12417,agregar a compra,200,OK,Carga Compra 1-29,text,true,,1851,286,47,47,12416,0,0
+1526312537969,10995,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,289476,158,47,47,10991,0,1
+1526312538177,10910,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,283518,158,47,47,10902,0,1
+1526312537066,12598,agregar a compra,200,OK,Carga Compra 1-16,text,true,,1850,286,47,47,12598,0,1
+1526312539223,10817,pagar,200,OK,Carga Compra 1-43,text,true,,1754,244,47,47,10817,0,0
+1526312550040,0,Debug Sampler,200,OK,Carga Compra 1-43,text,true,,1243,0,47,47,0,0,0
+1526312537696,12468,agregar a compra,200,OK,Carga Compra 1-17,text,true,,1849,286,46,46,12468,0,0
+1526312540815,9493,Buscar por precio,200,OK,Carga Compra 1-4,text,true,,97492,158,46,46,9493,0,0
+1526312538517,11980,consultarSaldo,200,OK,Carga Compra 1-12,text,true,,1535,159,46,46,11980,0,1
+1526312541934,8808,Buscar por precio,200,OK,Carga Compra 1-49,text,true,,178896,158,46,46,8804,0,0
+1526312538844,12196,agregar a compra,200,OK,Carga Compra 1-18,text,true,,1844,285,46,46,12195,0,0
+1526312542133,8912,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,246456,158,46,46,8908,0,1
+1526312540412,11040,agregar a compra,200,OK,Carga Compra 1-30,text,true,,1850,286,46,46,11040,0,0
+1526312542828,9122,Buscar por precio,200,OK,Carga Compra 1-10,text,true,,300993,158,46,46,9116,0,0
+1526312541631,10695,agregar a compra,200,OK,Carga Compra 1-2,text,true,,1845,285,46,46,10695,0,0
+1526312543220,9107,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,88535,158,46,46,9106,0,1
+1526312544000,8972,Buscar por precio,200,OK,Carga Compra 1-32,text,true,,131084,158,46,46,8966,0,0
+1526312542354,11037,agregar a compra,200,OK,Carga Compra 1-31,text,true,,1856,286,46,46,11037,0,0
+1526312542849,10875,agregar a compra,200,OK,Carga Compra 1-50,text,true,,1848,285,46,46,10874,0,5
+1526312543602,10524,agregar a compra,200,OK,Carga Compra 1-22,text,true,,1850,286,46,46,10524,0,1
+1526312545024,9220,Buscar por precio,200,OK,Carga Compra 1-3,text,true,,318264,158,46,46,9202,0,1
+1526312543597,10762,agregar a compra,200,OK,Carga Compra 1-5,text,true,,1838,283,46,46,10762,0,0
+1526312545634,8944,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,71517,158,46,46,8941,0,0
+1526312544519,10192,agregar a compra,200,OK,Carga Compra 1-13,text,true,,1844,285,46,46,10192,0,1
+1526312546080,8825,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,180556,158,46,46,8820,0,0
+1526312544524,10639,agregar a compra,200,OK,Carga Compra 1-37,text,true,,1847,286,46,46,10638,0,0
+1526312546438,8953,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,77943,158,46,46,8953,0,0
+1526312545372,10387,agregar a compra,200,OK,Carga Compra 1-23,text,true,,1848,285,46,46,10387,0,1
+1526312546729,9361,Buscar por precio,200,OK,Carga Compra 1-39,text,true,,224986,158,46,46,9355,0,1
+1526312545878,10436,agregar a compra,200,OK,Carga Compra 1-21,text,true,,1845,286,46,46,10436,0,1
+1526312546847,9472,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,305183,158,46,46,9467,0,1
+1526312546253,10418,agregar a compra,200,OK,Carga Compra 1-26,text,true,,1843,286,46,46,10418,0,0
+1526312547088,9822,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,227767,158,46,46,9818,0,0
+1526312546606,10502,agregar a compra,200,OK,Carga Compra 1-14,text,true,,1841,283,46,46,10502,0,0
+1526312547405,9735,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,170807,158,46,46,9723,0,0
+1526312546977,10395,agregar a compra,200,OK,Carga Compra 1-15,text,true,,1842,286,46,46,10395,0,4
+1526312547673,9849,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,156546,158,46,46,9833,0,0
+1526312547913,9615,Buscar por precio,200,OK,Carga Compra 1-1,text,true,,235736,158,46,46,9597,0,1
+1526312547256,10433,agregar a compra,200,OK,Carga Compra 1-40,text,true,,1857,286,46,46,10433,0,0
+1526312548139,9562,Buscar por precio,200,OK,Carga Compra 1-25,text,true,,196755,158,46,46,9552,0,1
+1526312548262,9873,pagar,200,OK,Carga Compra 1-7,text,true,,1754,243,46,46,9873,0,0
+1526312558136,0,Debug Sampler,200,OK,Carga Compra 1-7,text,true,,1243,0,46,46,0,0,0
+1526312547411,10882,agregar a compra,200,OK,Carga Compra 1-44,text,true,,1859,286,45,45,10882,0,1
+1526312548766,9734,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,307956,158,45,45,9726,0,1
+1526312548422,10341,agregar a compra,200,OK,Carga Compra 1-11,text,true,,1857,286,45,45,10341,0,1
+1526312548562,10389,consultarSaldo,200,OK,Carga Compra 1-6,text,true,,1533,158,45,45,10389,0,1
+1526312548956,10172,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,260356,158,45,45,10163,0,0
+1526312548575,10660,agregar a compra,200,OK,Carga Compra 1-28,text,true,,1852,286,45,45,10659,0,0
+1526312548777,10601,agregar a compra,200,OK,Carga Compra 1-48,text,true,,1854,286,45,45,10600,0,0
+1526312549664,9857,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,89557,158,45,45,9854,0,0
+1526312548872,11060,agregar a compra,200,OK,Carga Compra 1-47,text,true,,1843,285,45,45,11059,0,0
+1526312548971,11166,agregar a compra,200,OK,Carga Compra 1-46,text,true,,1845,285,45,45,11166,0,1
+1526312550498,9807,pagar,200,OK,Carga Compra 1-12,text,true,,1755,244,45,45,9807,0,0
+1526312560305,0,Debug Sampler,200,OK,Carga Compra 1-12,text,true,,1245,0,45,45,0,0,0
+1526312549102,11406,agregar a compra,200,OK,Carga Compra 1-45,text,true,,1850,286,44,44,11406,0,0
+1526312551040,9624,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,134503,158,44,44,9617,0,0
+1526312550165,10750,consultarSaldo,200,OK,Carga Compra 1-17,text,true,,1534,159,44,44,10750,0,0
+1526312551452,9659,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,152909,158,44,44,9656,0,0
+1526312550376,11181,agregar a compra,200,OK,Carga Compra 1-4,text,true,,1843,285,44,44,11181,0,0
+1526312550747,11127,agregar a compra,200,OK,Carga Compra 1-49,text,true,,1847,286,44,44,11127,0,0
+1526312551059,11141,agregar a compra,200,OK,Carga Compra 1-19,text,true,,1852,286,44,44,11141,0,0
+1526312552006,10390,agregar a compra,200,OK,Carga Compra 1-10,text,true,,1849,286,44,44,10390,0,0
+1526312553391,9178,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,301949,158,44,44,9153,0,1
+1526312552327,10325,consultarSaldo,200,OK,Carga Compra 1-2,text,true,,1533,158,44,44,10324,0,1
+1526312553725,8928,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,98280,158,44,44,8926,0,0
+1526312554127,8660,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,155110,158,44,44,8656,0,0
+1526312552329,10625,agregar a compra,200,OK,Carga Compra 1-33,text,true,,1846,286,44,44,10625,0,1
+1526312554360,8596,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,195891,158,44,44,8594,0,0
+1526312552975,10296,agregar a compra,200,OK,Carga Compra 1-32,text,true,,1850,286,44,44,10295,0,1
+1526312554255,9139,agregar a compra,200,OK,Carga Compra 1-3,text,true,,1840,284,44,44,9139,0,0
+1526312555163,8352,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,78752,158,44,44,8350,0,0
+1526312554580,9041,agregar a compra,200,OK,Carga Compra 1-35,text,true,,1850,286,44,44,9041,0,1
+1526312555759,7958,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,239024,158,44,44,7952,0,1
+1526312554712,9104,consultarSaldo,200,OK,Carga Compra 1-13,text,true,,1534,159,44,44,9104,0,0
+1526312556349,7657,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,207103,158,44,44,7647,0,0
+1526312554910,9203,agregar a compra,200,OK,Carga Compra 1-20,text,true,,1851,286,44,44,9202,0,0
+1526312556671,7551,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,274440,158,44,44,7542,0,1
+1526312555394,8913,agregar a compra,200,OK,Carga Compra 1-34,text,true,,1849,286,44,44,8912,0,0
+1526312556095,8673,agregar a compra,200,OK,Carga Compra 1-39,text,true,,1855,286,44,44,8673,0,1
+1526312557108,7841,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,280919,158,44,44,7832,0,1
+1526312556349,8696,agregar a compra,200,OK,Carga Compra 1-24,text,true,,1845,286,44,44,8695,0,0
+1526312557373,7675,Buscar por precio,200,OK,Carga Compra 1-15,text,true,,243201,158,44,44,7673,0,0
+1526312556915,8480,agregar a compra,200,OK,Carga Compra 1-27,text,true,,1848,286,44,44,8480,0,0
+1526312557701,7824,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,261951,158,44,44,7818,0,1
+1526312557145,8473,agregar a compra,200,OK,Carga Compra 1-36,text,true,,1853,286,44,44,8473,0,1
+1526312558295,7423,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,149132,158,44,44,7413,0,1
+1526312557527,8275,agregar a compra,200,OK,Carga Compra 1-42,text,true,,1847,286,44,44,8275,0,1
+1526312558764,7140,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,123203,158,44,44,7140,0,0
+1526312557536,8455,agregar a compra,200,OK,Carga Compra 1-1,text,true,,1846,284,44,44,8455,0,0
+1526312558952,7039,pagar,200,OK,Carga Compra 1-6,text,true,,1754,243,44,44,7039,0,0
+1526312565991,0,Debug Sampler,200,OK,Carga Compra 1-6,text,true,,1243,0,44,44,0,0,0
+1526312557708,8600,agregar a compra,200,OK,Carga Compra 1-25,text,true,,1856,286,43,43,8600,0,0
+1526312559235,7303,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,83944,158,43,43,7299,0,0
+1526312559378,7161,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,163513,158,43,43,7158,0,0
+1526312558521,8198,agregar a compra,200,OK,Carga Compra 1-41,text,true,,1849,286,43,43,8197,0,0
+1526312559932,6968,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,195584,158,43,43,6963,0,0
+1526312560137,6765,Buscar por precio,200,OK,Carga Compra 1-46,text,true,,297967,158,43,43,6757,0,1
+1526312559137,8047,agregar a compra,200,OK,Carga Compra 1-29,text,true,,1850,286,43,43,8047,0,0
+1526312560508,6681,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,186353,158,43,43,6674,0,1
+1526312560940,6405,pagar,200,OK,Carga Compra 1-17,text,true,,1758,244,43,43,6404,0,0
+1526312567345,0,Debug Sampler,200,OK,Carga Compra 1-17,text,true,,1247,0,43,43,0,0,0
+1526312559524,7930,agregar a compra,200,OK,Carga Compra 1-16,text,true,,1849,286,42,42,7930,0,0
+1526312560708,6869,agregar a compra,200,OK,Carga Compra 1-18,text,true,,1849,285,42,42,6868,0,0
+1526312562200,5569,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,172164,158,42,42,5563,0,1
+1526312561179,6731,agregar a compra,200,OK,Carga Compra 1-30,text,true,,1847,286,42,42,6731,0,1
+1526312561562,6525,consultarSaldo,200,OK,Carga Compra 1-4,text,true,,1533,158,42,42,6525,0,1
+1526312562652,5545,pagar,200,OK,Carga Compra 1-2,text,true,,1754,243,42,42,5545,0,0
+1526312568197,0,Debug Sampler,200,OK,Carga Compra 1-2,text,true,,1243,0,42,42,0,0,0
+1526312561874,6423,consultarSaldo,200,OK,Carga Compra 1-49,text,true,,1535,159,41,41,6423,0,0
+1526312562396,5999,consultarSaldo,200,OK,Carga Compra 1-10,text,true,,1536,159,41,41,5999,0,1
+1526312562954,5551,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,207105,158,41,41,5542,0,1
+1526312562578,6027,agregar a compra,200,OK,Carga Compra 1-31,text,true,,1848,285,41,41,6027,0,0
+1526312562656,6049,agregar a compra,200,OK,Carga Compra 1-50,text,true,,1848,285,41,41,6048,0,1
+1526312562791,6014,agregar a compra,200,OK,Carga Compra 1-22,text,true,,1849,286,41,41,6014,0,0
+1526312562962,5943,agregar a compra,200,OK,Carga Compra 1-5,text,true,,1836,284,41,41,5943,0,0
+1526312563622,5378,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,128484,158,41,41,5374,0,0
+1526312563271,5817,consultarSaldo,200,OK,Carga Compra 1-32,text,true,,1536,159,41,41,5817,0,0
+1526312563817,5364,pagar,200,OK,Carga Compra 1-13,text,true,,1755,244,41,41,5364,0,0
+1526312569181,0,Debug Sampler,200,OK,Carga Compra 1-13,text,true,,1241,0,41,41,0,0,0
+1526312563395,5878,consultarSaldo,200,OK,Carga Compra 1-3,text,true,,1531,158,40,40,5878,0,0
+1526312564113,5265,Buscar por precio,200,OK,Carga Compra 1-20,text,true,,217733,158,40,40,5258,0,0
+1526312563517,5956,agregar a compra,200,OK,Carga Compra 1-37,text,true,,1847,286,40,40,5955,0,1
+1526312564307,5270,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,124474,158,40,40,5269,0,0
+1526312563725,5948,agregar a compra,200,OK,Carga Compra 1-23,text,true,,1840,285,40,40,5948,0,0
+1526312564012,5763,agregar a compra,200,OK,Carga Compra 1-21,text,true,,1850,286,40,40,5763,0,0
+1526312565045,5073,Buscar por precio,200,OK,Carga Compra 1-24,text,true,,119342,158,40,40,5071,0,0
+1526312564232,5984,agregar a compra,200,OK,Carga Compra 1-26,text,true,,1843,286,40,40,5984,0,1
+1526312565396,4923,Buscar por precio,200,OK,Carga Compra 1-27,text,true,,164712,158,40,40,4920,0,0
+1526312564768,5648,consultarSaldo,200,OK,Carga Compra 1-39,text,true,,1536,159,40,40,5648,0,1
+1526312565618,4904,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,312413,158,40,40,4890,0,1
+1526312564956,5645,agregar a compra,200,OK,Carga Compra 1-14,text,true,,1844,286,40,40,5645,0,0
+1526312565802,4939,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,296892,158,40,40,4938,0,0
+1526312565065,5868,agregar a compra,200,OK,Carga Compra 1-15,text,true,,1851,286,40,40,5868,0,1
+1526312565533,5585,agregar a compra,200,OK,Carga Compra 1-40,text,true,,1853,286,40,40,5585,0,0
+1526312565722,5494,agregar a compra,200,OK,Carga Compra 1-44,text,true,,1853,286,40,40,5494,0,1
+1526312565907,5411,agregar a compra,200,OK,Carga Compra 1-11,text,true,,1850,286,40,40,5411,0,1
+1526312565991,5427,consultarSaldo,200,OK,Carga Compra 1-1,text,true,,1531,158,40,40,5426,0,0
+1526312566719,4807,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,275764,158,40,40,4799,0,0
+1526312566309,5307,consultarSaldo,200,OK,Carga Compra 1-25,text,true,,1535,159,40,40,5307,0,0
+1526312566541,5175,agregar a compra,200,OK,Carga Compra 1-28,text,true,,1849,285,40,40,5175,0,0
+1526312567184,4635,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,118164,158,40,40,4632,0,0
+1526312566543,5384,agregar a compra,200,OK,Carga Compra 1-48,text,true,,1851,286,40,40,5384,0,0
+1526312567454,4578,Buscar por precio,200,OK,Carga Compra 1-16,text,true,,311630,158,40,40,4571,0,0
+1526312567024,5103,agregar a compra,200,OK,Carga Compra 1-47,text,true,,1840,284,40,40,5103,0,1
+1526312567577,4555,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,284680,158,40,40,4549,0,0
+1526312567025,5192,agregar a compra,200,OK,Carga Compra 1-46,text,true,,1853,285,40,40,5191,0,1
+1526312568088,4222,pagar,200,OK,Carga Compra 1-4,text,true,,1755,243,40,40,4221,0,0
+1526312572310,0,Debug Sampler,200,OK,Carga Compra 1-4,text,true,,1243,0,40,40,0,0,0
+1526312567910,4404,Buscar por precio,200,OK,Carga Compra 1-30,text,true,,216796,158,39,39,4398,0,0
+1526312567228,5174,agregar a compra,200,OK,Carga Compra 1-45,text,true,,1847,286,39,39,5174,0,0
+1526312568297,4195,pagar,200,OK,Carga Compra 1-49,text,true,,1759,244,39,39,4195,0,1
+1526312572492,0,Debug Sampler,200,OK,Carga Compra 1-49,text,true,,1247,0,39,39,0,0,0
+1526312567774,4810,agregar a compra,200,OK,Carga Compra 1-19,text,true,,1854,286,38,38,4810,0,0
+1526312568605,3986,Buscar por precio,200,OK,Carga Compra 1-31,text,true,,186763,158,38,38,3980,0,1
+1526312568396,4289,pagar,200,OK,Carga Compra 1-10,text,true,,1759,244,38,38,4289,0,0
+1526312572685,0,Debug Sampler,200,OK,Carga Compra 1-10,text,true,,1245,0,38,38,0,0,0
+1526312568705,3985,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,180160,158,37,37,3978,0,0
+1526312568513,4267,agregar a compra,200,OK,Carga Compra 1-33,text,true,,1854,286,37,37,4267,0,0
+1526312568806,3975,Buscar por precio,200,OK,Carga Compra 1-22,text,true,,140639,158,37,37,3970,0,0
+1526312568905,3881,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,127105,158,37,37,3871,0,1
+1526312569089,3787,pagar,200,OK,Carga Compra 1-32,text,true,,1758,244,37,37,3786,0,0
+1526312572876,0,Debug Sampler,200,OK,Carga Compra 1-32,text,true,,1247,0,37,37,0,0,0
+1526312569006,3981,agregar a compra,200,OK,Carga Compra 1-35,text,true,,1855,286,36,36,3981,0,1
+1526312569473,3518,Buscar por precio,200,OK,Carga Compra 1-37,text,true,,226951,158,36,36,3511,0,1
+1526312569274,3810,pagar,200,OK,Carga Compra 1-3,text,true,,1751,243,36,36,3810,0,1
+1526312573084,0,Debug Sampler,200,OK,Carga Compra 1-3,text,true,,1239,0,36,36,0,0,0
+1526312569385,3802,agregar a compra,200,OK,Carga Compra 1-20,text,true,,1853,286,35,35,3802,0,0
+1526312569776,3412,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,77943,158,35,35,3412,0,0
+1526312569673,3521,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,315386,158,35,35,3514,0,1
+1526312570417,2885,pagar,200,OK,Carga Compra 1-39,text,true,,1759,244,35,35,2884,0,0
+1526312573303,0,Debug Sampler,200,OK,Carga Compra 1-39,text,true,,1247,0,35,35,0,0,0
+1526312569582,3821,agregar a compra,200,OK,Carga Compra 1-34,text,true,,1850,286,34,34,3821,0,1
+1526312570216,3194,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,212722,158,34,34,3187,0,1
+1526312570122,3379,agregar a compra,200,OK,Carga Compra 1-24,text,true,,1849,286,34,34,3379,0,0
+1526312570601,3001,Buscar por precio,200,OK,Carga Compra 1-14,text,true,,77174,158,34,34,2999,0,1
+1526312570325,3378,agregar a compra,200,OK,Carga Compra 1-27,text,true,,1854,286,34,34,3378,0,0
+1526312571118,2690,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,261951,158,34,34,2683,0,0
+1526312570532,3371,agregar a compra,200,OK,Carga Compra 1-36,text,true,,1856,286,34,34,3371,0,1
+1526312571217,2687,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,115201,158,34,34,2687,0,0
+1526312571318,2688,Buscar por precio,200,OK,Carga Compra 1-11,text,true,,167845,158,34,34,2688,0,1
+1526312571418,2677,pagar,200,OK,Carga Compra 1-1,text,true,,1751,243,34,34,2677,0,1
+1526312570746,3349,agregar a compra,200,OK,Carga Compra 1-42,text,true,,1846,286,34,34,3349,0,1
+1526312574097,0,Debug Sampler,200,OK,Carga Compra 1-1,text,true,,1237,0,34,34,0,0,0
+1526312570933,3261,consultarSaldo,200,OK,Carga Compra 1-15,text,true,,1534,159,33,33,3261,0,0
+1526312571616,2681,pagar,200,OK,Carga Compra 1-25,text,true,,1756,244,33,33,2680,0,1
+1526312574298,0,Debug Sampler,200,OK,Carga Compra 1-25,text,true,,1245,0,33,33,0,0,0
+1526312571717,2582,Buscar por precio,200,OK,Carga Compra 1-28,text,true,,107513,158,32,32,2577,0,0
+1526312571533,2861,agregar a compra,200,OK,Carga Compra 1-41,text,true,,1852,286,32,32,2861,0,0
+1526312571927,2473,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,222370,158,32,32,2468,0,0
+1526312572127,2389,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,284136,158,32,32,2382,0,1
+1526312571823,2778,agregar a compra,200,OK,Carga Compra 1-29,text,true,,1861,286,32,32,2778,0,0
+1526312572040,2671,agregar a compra,200,OK,Carga Compra 1-16,text,true,,1853,286,32,32,2671,0,0
+1526312572402,2414,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,284139,158,32,32,2408,0,1
+1526312572141,2804,agregar a compra,200,OK,Carga Compra 1-18,text,true,,1849,285,32,32,2804,0,0
+1526312572585,2371,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,110028,158,32,32,2360,0,0
+1526312572217,3416,consultarSaldo,200,OK,Carga Compra 1-46,text,true,,1534,159,32,32,3415,0,0
+1526312572780,3018,Buscar por precio,200,OK,Carga Compra 1-33,text,true,,210261,158,32,32,3018,0,0
+1526312572321,3860,agregar a compra,200,OK,Carga Compra 1-30,text,true,,1854,286,32,32,3860,0,0
+1526312572987,3468,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,70154,158,32,32,3467,0,0
+1526312572597,4007,agregar a compra,200,OK,Carga Compra 1-31,text,true,,1854,286,32,32,4007,0,1
+1526312572697,4009,agregar a compra,200,OK,Carga Compra 1-50,text,true,,1843,285,32,32,4009,0,1
+1526312572785,4021,agregar a compra,200,OK,Carga Compra 1-22,text,true,,1856,286,32,32,4021,0,0
+1526312572791,4131,agregar a compra,200,OK,Carga Compra 1-5,text,true,,1841,283,32,32,4130,0,0
+1526312572996,4044,agregar a compra,200,OK,Carga Compra 1-37,text,true,,1853,286,32,32,4043,0,1
+1526312573405,3826,Buscar por precio,200,OK,Carga Compra 1-34,text,true,,183766,158,32,32,3825,0,0
+1526312573190,4184,agregar a compra,200,OK,Carga Compra 1-21,text,true,,1842,284,32,32,4184,0,1
+1526312573187,4305,consultarSaldo,200,OK,Carga Compra 1-20,text,true,,1535,159,32,32,4305,0,0
+1526312573203,4404,agregar a compra,200,OK,Carga Compra 1-23,text,true,,1843,285,32,32,4404,0,0
+1526312573417,4394,agregar a compra,200,OK,Carga Compra 1-26,text,true,,1847,286,32,32,4393,0,0
+1526312573502,4483,consultarSaldo,200,OK,Carga Compra 1-24,text,true,,1535,159,32,32,4483,0,0
+1526312573905,4192,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,130279,158,32,32,4192,0,0
+1526312573606,4606,agregar a compra,200,OK,Carga Compra 1-14,text,true,,1844,286,32,32,4605,0,0
+1526312573704,4598,consultarSaldo,200,OK,Carga Compra 1-27,text,true,,1536,159,32,32,4598,0,0
+1526312574098,4307,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,80435,158,32,32,4307,0,0
+1526312573815,4690,agregar a compra,200,OK,Carga Compra 1-40,text,true,,1838,286,32,32,4690,0,1
+1526312574195,4316,pagar,200,OK,Carga Compra 1-15,text,true,,1753,244,32,32,4316,0,0
+1526312578512,0,Debug Sampler,200,OK,Carga Compra 1-15,text,true,,1241,0,32,32,0,0,0
+1526312573908,4707,agregar a compra,200,OK,Carga Compra 1-44,text,true,,1855,286,31,31,4707,0,1
+1526312574395,4322,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,127108,158,31,31,4319,0,1
+1526312574027,4780,agregar a compra,200,OK,Carga Compra 1-11,text,true,,1856,286,31,31,4780,0,1
+1526312574602,4321,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,213830,158,31,31,4314,0,1
+1526312574302,4724,agregar a compra,200,OK,Carga Compra 1-28,text,true,,1842,286,31,31,4724,0,1
+1526312574407,4951,agregar a compra,200,OK,Carga Compra 1-48,text,true,,1843,286,31,31,4951,0,1
+1526312574946,4523,Buscar por precio,200,OK,Carga Compra 1-18,text,true,,128482,158,31,31,4519,0,1
+1526312574525,5042,agregar a compra,200,OK,Carga Compra 1-47,text,true,,1844,285,31,31,5041,0,1
+1526312575634,4050,pagar,200,OK,Carga Compra 1-46,text,true,,1754,244,31,31,4050,0,1
+1526312579684,1,Debug Sampler,200,OK,Carga Compra 1-46,text,true,,1243,0,31,31,0,0,0
+1526312574713,5071,consultarSaldo,200,OK,Carga Compra 1-16,text,true,,1536,159,30,30,5071,0,1
+1526312574824,5078,agregar a compra,200,OK,Carga Compra 1-45,text,true,,1845,286,30,30,5078,0,0
+1526312574961,5036,agregar a compra,200,OK,Carga Compra 1-19,text,true,,1854,286,30,30,5036,0,1
+1526312575804,4306,agregar a compra,200,OK,Carga Compra 1-33,text,true,,1848,285,30,30,4306,0,0
+1526312576708,3505,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,102406,158,30,30,3505,0,0
+1526312576182,4128,consultarSaldo,200,OK,Carga Compra 1-30,text,true,,1535,159,30,30,4128,0,0
+1526312576923,4182,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,261946,158,30,30,4171,0,0
+1526312576459,4892,agregar a compra,200,OK,Carga Compra 1-35,text,true,,1851,286,30,30,4892,0,0
+1526312576606,5137,consultarSaldo,200,OK,Carga Compra 1-31,text,true,,1536,159,30,30,5137,0,0
+1526312577375,4629,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,262573,158,30,30,4622,0,1
+1526312577494,4774,pagar,200,OK,Carga Compra 1-20,text,true,,1759,244,30,30,4774,0,0
+1526312582268,0,Debug Sampler,200,OK,Carga Compra 1-20,text,true,,1247,0,30,30,0,0,0
+1526312576807,5462,consultarSaldo,200,OK,Carga Compra 1-22,text,true,,1536,159,30,30,5462,0,1
+1526312577609,4801,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,81689,158,29,29,4799,0,0
+1526312577041,5468,consultarSaldo,200,OK,Carga Compra 1-37,text,true,,1536,159,29,29,5468,0,0
+1526312577986,4523,pagar,200,OK,Carga Compra 1-24,text,true,,1759,244,29,29,4523,0,0
+1526312582509,0,Debug Sampler,200,OK,Carga Compra 1-24,text,true,,1247,0,29,29,0,0,0
+1526312577811,4708,Buscar por precio,200,OK,Carga Compra 1-26,text,true,,281709,158,28,28,4698,0,0
+1526312577237,5371,agregar a compra,200,OK,Carga Compra 1-34,text,true,,1843,286,28,28,5371,0,0
+1526312578303,4398,pagar,200,OK,Carga Compra 1-27,text,true,,1759,244,28,28,4398,0,1
+1526312582701,0,Debug Sampler,200,OK,Carga Compra 1-27,text,true,,1247,0,28,28,0,0,0
+1526312578101,4742,agregar a compra,200,OK,Carga Compra 1-36,text,true,,1850,286,27,27,4742,0,0
+1526312578506,4340,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,96537,158,27,27,4337,0,0
+1526312578615,4336,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,199979,158,27,27,4327,0,1
+1526312578212,4839,consultarSaldo,200,OK,Carga Compra 1-14,text,true,,1535,159,27,27,4839,0,0
+1526312578408,4760,agregar a compra,200,OK,Carga Compra 1-42,text,true,,1851,286,27,27,4760,0,0
+1526312578721,4547,agregar a compra,200,OK,Carga Compra 1-41,text,true,,1846,286,27,27,4547,0,0
+1526312579358,4021,Buscar por precio,200,OK,Carga Compra 1-48,text,true,,147678,158,27,27,4018,0,1
+1526312578808,4704,consultarSaldo,200,OK,Carga Compra 1-11,text,true,,1536,159,27,27,4704,0,0
+1526312579571,4096,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,201055,158,27,27,4090,0,0
+1526312579785,4028,pagar,200,OK,Carga Compra 1-16,text,true,,1759,244,27,27,4028,0,0
+1526312578930,4883,agregar a compra,200,OK,Carga Compra 1-29,text,true,,1848,286,27,27,4883,0,0
+1526312583813,1,Debug Sampler,200,OK,Carga Compra 1-16,text,true,,1247,0,27,27,0,0,0
+1526312579902,4102,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,282255,158,26,26,4090,0,1
+1526312579997,4184,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,101761,158,26,26,4183,0,0
+1526312579026,5160,consultarSaldo,200,OK,Carga Compra 1-28,text,true,,1536,159,26,26,5160,0,0
+1526312580310,4126,pagar,200,OK,Carga Compra 1-30,text,true,,1759,244,26,26,4125,0,1
+1526312584435,0,Debug Sampler,200,OK,Carga Compra 1-30,text,true,,1247,0,26,26,0,0,0
+1526312579474,5105,agregar a compra,200,OK,Carga Compra 1-18,text,true,,1847,285,25,25,5105,0,1
+1526312581352,3336,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,69594,158,25,25,3334,0,0
+1526312581744,3061,pagar,200,OK,Carga Compra 1-31,text,true,,1759,244,25,25,3061,0,0
+1526312580111,4695,consultarSaldo,200,OK,Carga Compra 1-33,text,true,,1535,159,25,25,4694,0,0
+1526312584805,0,Debug Sampler,200,OK,Carga Compra 1-31,text,true,,1247,0,25,25,0,0,0
+1526312580217,4797,agregar a compra,200,OK,Carga Compra 1-50,text,true,,1848,285,24,24,4797,0,1
+1526312582269,2968,pagar,200,OK,Carga Compra 1-22,text,true,,1759,244,24,24,2968,0,0
+1526312585237,0,Debug Sampler,200,OK,Carga Compra 1-22,text,true,,1247,0,24,24,0,0,0
+1526312581112,4344,agregar a compra,200,OK,Carga Compra 1-5,text,true,,1835,284,23,23,4344,0,1
+1526312582510,3128,pagar,200,OK,Carga Compra 1-37,text,true,,1759,244,23,23,3128,0,0
+1526312585637,1,Debug Sampler,200,OK,Carga Compra 1-37,text,true,,1247,0,23,23,0,0,0
+1526312582012,4173,agregar a compra,200,OK,Carga Compra 1-21,text,true,,1856,286,22,22,4173,0,0
+1526312582844,3443,Buscar por precio,200,OK,Carga Compra 1-36,text,true,,110028,158,22,22,3439,0,0
+1526312582413,3995,agregar a compra,200,OK,Carga Compra 1-23,text,true,,1844,285,22,22,3995,0,1
+1526312582526,4078,agregar a compra,200,OK,Carga Compra 1-26,text,true,,1849,286,22,22,4078,0,1
+1526312583051,3658,pagar,200,OK,Carga Compra 1-14,text,true,,1756,244,22,22,3657,0,1
+1526312586708,0,Debug Sampler,200,OK,Carga Compra 1-14,text,true,,1245,0,22,22,0,0,0
+1526312582608,4213,consultarSaldo,200,OK,Carga Compra 1-34,text,true,,1534,159,21,21,4213,0,1
+1526312583169,3659,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,215532,158,21,21,3649,0,0
+1526312583268,3851,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,239516,158,21,21,3845,0,0
+1526312582850,4481,agregar a compra,200,OK,Carga Compra 1-40,text,true,,1854,286,21,21,4480,0,1
+1526312583512,3821,pagar,200,OK,Carga Compra 1-11,text,true,,1759,244,21,21,3821,0,1
+1526312587333,0,Debug Sampler,200,OK,Carga Compra 1-11,text,true,,1247,0,21,21,0,0,0
+1526312582956,4997,agregar a compra,200,OK,Carga Compra 1-44,text,true,,1850,286,20,20,4996,0,1
+1526312583814,4293,Buscar por precio,200,OK,Carga Compra 1-29,text,true,,216328,158,20,20,4286,0,0
+1526312583382,5073,agregar a compra,200,OK,Carga Compra 1-48,text,true,,1849,286,20,20,5073,0,1
+1526312584186,4368,pagar,200,OK,Carga Compra 1-28,text,true,,1758,244,20,20,4368,0,0
+1526312588554,0,Debug Sampler,200,OK,Carga Compra 1-28,text,true,,1247,0,20,20,0,0,0
+1526312583672,4985,agregar a compra,200,OK,Carga Compra 1-47,text,true,,1840,285,19,19,4985,0,0
+1526312584009,4752,agregar a compra,200,OK,Carga Compra 1-45,text,true,,1850,286,19,19,4752,0,0
+1526312584805,4067,pagar,200,OK,Carga Compra 1-33,text,true,,1757,244,19,19,4066,0,0
+1526312588872,1,Debug Sampler,200,OK,Carga Compra 1-33,text,true,,1243,0,19,19,0,0,0
+1526312584183,4937,agregar a compra,200,OK,Carga Compra 1-19,text,true,,1855,286,18,18,4937,0,0
+1526312585013,4114,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,146496,158,18,18,4111,0,1
+1526312585455,3777,Buscar por precio,200,OK,Carga Compra 1-5,text,true,,188413,158,18,18,3772,0,0
+1526312584585,4739,consultarSaldo,200,OK,Carga Compra 1-18,text,true,,1534,159,18,18,4739,0,1
+1526312586184,3140,Buscar por precio,200,OK,Carga Compra 1-21,text,true,,185165,158,18,18,3136,0,1
+1526312586408,3011,Buscar por precio,200,OK,Carga Compra 1-23,text,true,,207103,158,18,18,3003,0,0
+1526312586821,2690,pagar,200,OK,Carga Compra 1-34,text,true,,1752,244,18,18,2690,0,0
+1526312589512,0,Debug Sampler,200,OK,Carga Compra 1-34,text,true,,1243,0,18,18,0,0,0
+1526312584689,4827,agregar a compra,200,OK,Carga Compra 1-35,text,true,,1850,286,17,17,4827,0,1
+1526312586289,3322,agregar a compra,200,OK,Carga Compra 1-36,text,true,,1853,286,17,17,3322,0,1
+1526312587330,2383,Buscar por precio,200,OK,Carga Compra 1-40,text,true,,107199,158,17,17,2381,0,0
+1526312586603,3208,consultarSaldo,200,OK,Carga Compra 1-26,text,true,,1535,159,17,17,3208,0,1
+1526312587953,1864,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,211619,158,17,17,1860,0,0
+1526312586834,3077,agregar a compra,200,OK,Carga Compra 1-42,text,true,,1849,286,17,17,3077,0,0
+1526312588658,1406,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,273114,158,17,17,1394,0,0
+1526312587125,3039,agregar a compra,200,OK,Carga Compra 1-41,text,true,,1852,286,17,17,3039,0,0
+1526312588761,1412,Buscar por precio,200,OK,Carga Compra 1-45,text,true,,306996,158,17,17,1401,0,1
+1526312589121,1147,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,316255,158,17,17,1132,0,0
+1526312588112,2232,agregar a compra,200,OK,Carga Compra 1-29,text,true,,1856,286,17,17,2232,0,0
+1526312589324,1121,pagar,200,OK,Carga Compra 1-18,text,true,,1754,244,17,17,1121,0,0
+1526312590445,0,Debug Sampler,200,OK,Carga Compra 1-18,text,true,,1243,0,17,17,0,0,0
+1526312588455,2089,consultarSaldo,200,OK,Carga Compra 1-48,text,true,,1536,159,16,16,2089,0,1
+1526312589132,1521,agregar a compra,200,OK,Carga Compra 1-50,text,true,,1853,285,16,16,1521,0,0
+1526312589516,1251,Buscar por precio,200,OK,Carga Compra 1-35,text,true,,142058,158,16,16,1251,0,0
+1526312589238,2033,agregar a compra,200,OK,Carga Compra 1-5,text,true,,1837,284,16,16,2033,0,0
+1526312589329,2125,agregar a compra,200,OK,Carga Compra 1-21,text,true,,1850,286,16,16,2125,0,0
+1526312589812,1742,pagar,200,OK,Carga Compra 1-26,text,true,,1756,244,16,16,1742,0,0
+1526312591555,0,Debug Sampler,200,OK,Carga Compra 1-26,text,true,,1245,0,16,16,0,0,0
+1526312589424,2222,agregar a compra,200,OK,Carga Compra 1-23,text,true,,1845,285,15,15,2221,0,1
+1526312589912,1837,Buscar por precio,200,OK,Carga Compra 1-42,text,true,,192648,158,15,15,1833,0,0
+1526312589612,2226,consultarSaldo,200,OK,Carga Compra 1-36,text,true,,1536,159,15,15,2225,0,0
+1526312590164,1768,Buscar por precio,200,OK,Carga Compra 1-41,text,true,,166763,158,15,15,1765,0,1
+1526312589729,2295,agregar a compra,200,OK,Carga Compra 1-40,text,true,,1857,286,15,15,2295,0,1
+1526312589823,2299,agregar a compra,200,OK,Carga Compra 1-44,text,true,,1852,286,15,15,2299,0,0
+1526312590083,2140,agregar a compra,200,OK,Carga Compra 1-47,text,true,,1847,285,15,15,2140,0,0
+1526312590544,1769,pagar,200,OK,Carga Compra 1-48,text,true,,1759,244,15,15,1769,0,1
+1526312592314,0,Debug Sampler,200,OK,Carga Compra 1-48,text,true,,1247,0,15,15,0,0,0
+1526312590181,2228,agregar a compra,200,OK,Carga Compra 1-45,text,true,,1845,285,14,14,2228,0,0
+1526312590654,1757,Buscar por precio,200,OK,Carga Compra 1-50,text,true,,107197,158,14,14,1755,0,0
+1526312590277,2236,agregar a compra,200,OK,Carga Compra 1-19,text,true,,1846,286,14,14,2236,0,0
+1526312590345,2269,consultarSaldo,200,OK,Carga Compra 1-29,text,true,,1536,159,14,14,2268,0,0
+1526312590772,1942,agregar a compra,200,OK,Carga Compra 1-35,text,true,,1845,286,14,14,1941,0,0
+1526312591272,1541,consultarSaldo,200,OK,Carga Compra 1-5,text,true,,1531,158,14,14,1541,0,0
+1526312591839,1075,pagar,200,OK,Carga Compra 1-36,text,true,,1758,244,14,14,1075,0,1
+1526312592914,1,Debug Sampler,200,OK,Carga Compra 1-36,text,true,,1247,0,14,14,0,0,0
+1526312591455,1558,consultarSaldo,200,OK,Carga Compra 1-21,text,true,,1536,159,13,13,1558,0,0
+1526312591646,1467,consultarSaldo,200,OK,Carga Compra 1-23,text,true,,1534,159,13,13,1467,0,0
+1526312592123,1094,Buscar por precio,200,OK,Carga Compra 1-44,text,true,,176008,158,13,13,1090,0,0
+1526312591753,1561,agregar a compra,200,OK,Carga Compra 1-42,text,true,,1851,286,13,13,1560,0,0
+1526312592223,1106,Buscar por precio,200,OK,Carga Compra 1-47,text,true,,258783,158,13,13,1092,0,1
+1526312591936,1489,agregar a compra,200,OK,Carga Compra 1-41,text,true,,1844,286,13,13,1489,0,0
+1526312592514,1023,Buscar por precio,200,OK,Carga Compra 1-19,text,true,,124321,158,13,13,1020,0,1
+1526312592615,1133,pagar,200,OK,Carga Compra 1-29,text,true,,1759,244,13,13,1133,0,0
+1526312593748,0,Debug Sampler,200,OK,Carga Compra 1-29,text,true,,1247,0,13,13,0,0,0
+1526312592024,1726,consultarSaldo,200,OK,Carga Compra 1-40,text,true,,1536,159,12,12,1726,0,1
+1526312592409,1522,consultarSaldo,200,OK,Carga Compra 1-45,text,true,,1535,159,12,12,1522,0,1
+1526312592814,1209,pagar,200,OK,Carga Compra 1-5,text,true,,1750,243,12,12,1209,0,0
+1526312594024,0,Debug Sampler,200,OK,Carga Compra 1-5,text,true,,1239,0,12,12,0,0,0
+1526312592415,1700,agregar a compra,200,OK,Carga Compra 1-50,text,true,,1842,285,11,11,1700,0,1
+1526312593014,1194,pagar,200,OK,Carga Compra 1-21,text,true,,1759,244,11,11,1194,0,0
+1526312594209,0,Debug Sampler,200,OK,Carga Compra 1-21,text,true,,1247,0,11,11,0,0,0
+1526312592714,1595,consultarSaldo,200,OK,Carga Compra 1-35,text,true,,1536,159,10,10,1594,0,0
+1526312593114,1293,pagar,200,OK,Carga Compra 1-23,text,true,,1755,244,10,10,1293,0,0
+1526312594408,0,Debug Sampler,200,OK,Carga Compra 1-23,text,true,,1243,0,10,10,0,0,0
+1526312593221,1277,agregar a compra,200,OK,Carga Compra 1-44,text,true,,1854,286,9,9,1277,0,0
+1526312593314,1284,consultarSaldo,200,OK,Carga Compra 1-42,text,true,,1535,159,9,9,1284,0,1
+1526312593750,948,pagar,200,OK,Carga Compra 1-40,text,true,,1757,244,9,9,948,0,0
+1526312594698,1,Debug Sampler,200,OK,Carga Compra 1-40,text,true,,1247,0,9,9,0,0,0
+1526312593335,1463,agregar a compra,200,OK,Carga Compra 1-47,text,true,,1848,285,8,8,1463,0,0
+1526312593932,976,pagar,200,OK,Carga Compra 1-45,text,true,,1758,244,8,8,976,0,0
+1526312594908,1,Debug Sampler,200,OK,Carga Compra 1-45,text,true,,1245,0,8,8,0,0,0
+1526312593426,1591,consultarSaldo,200,OK,Carga Compra 1-41,text,true,,1536,159,7,7,1591,0,0
+1526312594309,817,pagar,200,OK,Carga Compra 1-35,text,true,,1759,244,7,7,817,0,0
+1526312595127,0,Debug Sampler,200,OK,Carga Compra 1-35,text,true,,1247,0,7,7,0,0,0
+1526312593540,1692,agregar a compra,200,OK,Carga Compra 1-19,text,true,,1851,286,6,6,1692,0,0
+1526312594598,734,pagar,200,OK,Carga Compra 1-42,text,true,,1758,244,6,6,734,0,0
+1526312595332,0,Debug Sampler,200,OK,Carga Compra 1-42,text,true,,1247,0,6,6,0,0,0
+1526312594116,1316,consultarSaldo,200,OK,Carga Compra 1-50,text,true,,1534,159,5,5,1316,0,0
+1526312595017,516,pagar,200,OK,Carga Compra 1-41,text,true,,1758,244,5,5,516,0,0
+1526312595533,0,Debug Sampler,200,OK,Carga Compra 1-41,text,true,,1247,0,5,5,0,0,0
+1526312594498,1134,consultarSaldo,200,OK,Carga Compra 1-44,text,true,,1536,159,4,4,1134,0,1
+1526312595433,302,pagar,200,OK,Carga Compra 1-50,text,true,,1755,244,4,4,302,0,0
+1526312595735,0,Debug Sampler,200,OK,Carga Compra 1-50,text,true,,1243,0,4,4,0,0,0
+1526312594799,1050,consultarSaldo,200,OK,Carga Compra 1-47,text,true,,1534,159,3,3,1049,0,0
+1526312595632,617,pagar,200,OK,Carga Compra 1-44,text,true,,1759,244,3,3,617,0,0
+1526312596249,0,Debug Sampler,200,OK,Carga Compra 1-44,text,true,,1247,0,3,3,0,0,0
+1526312595233,1116,consultarSaldo,200,OK,Carga Compra 1-19,text,true,,1536,159,2,2,1116,0,0
+1526312595849,601,pagar,200,OK,Carga Compra 1-47,text,true,,1755,244,2,2,600,0,0
+1526312596450,0,Debug Sampler,200,OK,Carga Compra 1-47,text,true,,1243,0,2,2,0,0,0
+1526312596349,201,pagar,200,OK,Carga Compra 1-19,text,true,,1759,244,1,1,201,0,0
+1526312596550,0,Debug Sampler,200,OK,Carga Compra 1-19,text,true,,1247,0,1,1,0,0,0

@@ -16,6 +16,7 @@ import javax.persistence.Query;
 
 
 import isi.aepad.tp.modelo.Factura;
+import isi.aepad.tp.modelo.FacturaDetalle;
 import isi.aepad.tp.modelo.Pago;
 
 @Dependent
@@ -35,15 +36,19 @@ public class ClienteDataProcessor implements javax.batch.api.chunk.ItemProcessor
 		List<Factura> listaFacturas =q1.setParameter("P_ID_CLIENTE", i).getResultList();
 		double comprasTotales = 0.0;
 		int productosComprados = 0;
+		double promedio = 0.0;
 		for(Factura f:listaFacturas) {
-			comprasTotales += f.getDetalles().stream().mapToDouble(d -> d.getCantidad()*d.getPrecioUnitarioFacturado()).sum();
-			productosComprados  += f.getDetalles().stream().mapToInt(d->d.getCantidad()).sum();
+			Query q12= em.createQuery("SELECT fd FROM FacturaDetalle fd WHERE fd.factura.id = :P_ID_FACTURA");
+			List<FacturaDetalle> listaDetalleFacturas =q12.setParameter("P_ID_FACTURA", f.getId()).getResultList();
+			comprasTotales += listaDetalleFacturas.stream().mapToDouble(d -> d.getCantidad()*d.getPrecioUnitarioFacturado()).sum();
+			productosComprados  += listaDetalleFacturas.stream().mapToInt(d->d.getCantidad()).sum();
 		}
+		if(productosComprados>0) promedio = comprasTotales/productosComprados;
 		System.out.println(listaFacturas.size());
 		System.out.println("media"+ comprasTotales);
 		JsonObjectBuilder builderObj= Json.createObjectBuilder();
 		builderObj.add("compras", listaFacturas.size());
-		builderObj.add("compraPromedio", 0.0);
+		builderObj.add("compraPromedio", promedio);
 		builderObj.add("comprasTotales", comprasTotales);
 		builderObj.add("productosComprados", productosComprados);
 		

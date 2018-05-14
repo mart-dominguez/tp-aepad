@@ -18,7 +18,7 @@ public class InfoItemProcessListener implements ItemProcessListener {
 
 	@Override
 	public void afterProcess(Object item, Object result) throws Exception {
-        logger.log(Level.INFO, "afterProcess "+result.toString());
+        logger.log(Level.INFO, "afterProcess "+result.toString() + " item "+item);
 		
 	}
 

@@ -1,5 +1,6 @@
 package isi.aepad.tp.services;
 
+import java.util.List;
 import java.io.StringReader;
 import java.util.Date;
 import java.util.Random;
@@ -27,6 +28,7 @@ import com.codahale.metrics.annotation.Timed;
 
 import isi.aepad.tp.modelo.Factura;
 import isi.aepad.tp.modelo.FacturaDetalle;
+import isi.aepad.tp.modelo.Pago;
 import isi.aepad.tp.modelo.Producto;
 import isi.aepad.tp.modelo.Usuario;
 import isi.aepad.tp.util.InterceptorAcceso;
@@ -94,11 +96,13 @@ public class FacturaResource {
 		Factura facturaBase = em.find(Factura.class, idFactura);
 		Double montoFactura= 0.0;
 		Double pagado = 0.0;
+		List<Pago> listaPagos = em.createQuery("SELECT p FROM Pago p WHERE p.factura.id = :P_ID_FACTURA").setParameter("P_ID_FACTURA", idFactura).getResultList();
+		List<Pago> listaDetalles = em.createQuery("SELECT fd FROM FacturaDetalle fd WHERE fd.factura.id = :P_ID_FACTURA").setParameter("P_ID_FACTURA", idFactura).getResultList();
 		try {
-			if(facturaBase.getPagos()!=null) {
+			if(listaPagos!=null && listaPagos.size()>0) {
 				pagado = facturaBase.getPagos().stream().mapToDouble(p -> p.getMonto()).sum();
 			}
-			if(facturaBase.getDetalles()!=null) {
+			if(listaDetalles!=null  && listaDetalles.size()>0) {
 				pagado = facturaBase.getDetalles().stream().mapToDouble(p -> p.getPrecioUnitarioFacturado()*p.getCantidad()).sum();
 			}
 			builderObj.add("factura", montoFactura);
