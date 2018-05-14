@@ -4,6 +4,8 @@ import java.util.List;
 import java.io.StringReader;
 import java.util.Date;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.ejb.Singleton;
 import javax.enterprise.context.Dependent;
@@ -97,14 +99,20 @@ public class FacturaResource {
 		Double montoFactura= 0.0;
 		Double pagado = 0.0;
 		List<Pago> listaPagos = em.createQuery("SELECT p FROM Pago p WHERE p.factura.id = :P_ID_FACTURA").setParameter("P_ID_FACTURA", idFactura).getResultList();
-		List<Pago> listaDetalles = em.createQuery("SELECT fd FROM FacturaDetalle fd WHERE fd.factura.id = :P_ID_FACTURA").setParameter("P_ID_FACTURA", idFactura).getResultList();
+		List<FacturaDetalle> listaDetalles = em.createQuery("SELECT fd FROM FacturaDetalle fd WHERE fd.factura.id = :P_ID_FACTURA").setParameter("P_ID_FACTURA", idFactura).getResultList();
+		Logger.getLogger("FACTURA_RESOURCE").log(Level.INFO, "ID FACTURA " + idFactura);
+		Logger.getLogger("FACTURA_RESOURCE").log(Level.INFO, "lista pagos" + listaPagos);
+		Logger.getLogger("FACTURA_RESOURCE").log(Level.INFO, "lista listaDetalles" + listaDetalles);
 		try {
 			if(listaPagos!=null && listaPagos.size()>0) {
-				pagado = facturaBase.getPagos().stream().mapToDouble(p -> p.getMonto()).sum();
+				pagado = listaPagos.stream().mapToDouble(p -> p.getMonto()).sum();
 			}
 			if(listaDetalles!=null  && listaDetalles.size()>0) {
-				pagado = facturaBase.getDetalles().stream().mapToDouble(p -> p.getPrecioUnitarioFacturado()*p.getCantidad()).sum();
+				montoFactura = listaDetalles.stream().mapToDouble(d -> d.getPrecioUnitarioFacturado()*d.getCantidad()).sum();
 			}
+			Logger.getLogger("FACTURA_RESOURCE").log(Level.INFO, "facturado " + montoFactura);
+			Logger.getLogger("FACTURA_RESOURCE").log(Level.INFO, "pagos" + pagado);
+
 			builderObj.add("factura", montoFactura);
 			builderObj.add("pagos", pagado);
 			builderObj.add("deuda", montoFactura-pagado);
