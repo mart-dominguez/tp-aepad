@@ -10,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class ReportesServlet
@@ -50,8 +51,18 @@ public class ReportesServlet extends HttpServlet {
 //
 //	</step>
 
-		long execID = jobOperator.start("reportejobs", props);
-		response.getWriter().append("Served at: ").append(request.getContextPath());		
+		long execID = -1;
+		HttpSession ses =  request.getSession(true);
+		response.getWriter().append(" ID SESION "+ses.getId());
+		if(ses.getAttribute("ID_JOB")!=null) {
+			execID = Long.valueOf(ses.getAttribute("ID_JOB").toString()).longValue();			 
+			response.getWriter().append("Estado: "+jobOperator.getJobExecution(execID).getBatchStatus().toString());		
+		}else {
+			execID = jobOperator.start("reportejobs", props);
+			ses.setAttribute("ID_JOB", execID);
+			response.getWriter().append("Iniciado: "+execID);		
+		}		
+		
 	}
 
 	/**
