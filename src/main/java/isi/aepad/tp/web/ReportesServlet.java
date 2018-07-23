@@ -18,6 +18,7 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/reportes")
 public class ReportesServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	private static long ID_JOB=-1;
        
     /**
      * @see HttpServlet#HttpServlet()
@@ -35,33 +36,17 @@ public class ReportesServlet extends HttpServlet {
 		JobOperator jobOperator = BatchRuntime.getJobOperator();
 		Properties props = new Properties();
 
-//		Properties props = new Properties();
-//		props.setProperty("parameter1", "value1");
-//		...
-//		
-//		<step id="productoreporter">
-//		<listeners>
-//			<listener ref="InfoItemProcessListeners" next="productoreporter" />
-//		</listeners>
-//		<chunk checkpoint-policy="item" item-count="10">
-//			<reader ref="ProductoDataReader"></reader>
-//			<processor ref="ProductoDataProcessor"></processor>
-//			<writer ref="ProductoDataWriter"></writer>
-//		</chunk>
-//
-//	</step>
-
-		long execID = -1;
 		HttpSession ses =  request.getSession(true);
-		response.getWriter().append(" ID SESION "+ses.getId());
-		if(ses.getAttribute("ID_JOB")!=null) {
-			execID = Long.valueOf(ses.getAttribute("ID_JOB").toString()).longValue();			 
-			response.getWriter().append("Estado: "+jobOperator.getJobExecution(execID).getBatchStatus().toString());		
+	     // Set refresh, autoload time as 5 seconds
+		response.getWriter().append("<p> ID JOB "+ ID_JOB+"</p>");
+		if(ID_JOB>-1) {
+			response.getWriter().append("<p>Estado: "+jobOperator.getJobExecution(ID_JOB).getBatchStatus().toString()+"</p>");	
 		}else {
-			execID = jobOperator.start("reportejobs", props);
-			ses.setAttribute("ID_JOB", execID);
-			response.getWriter().append("Iniciado: "+execID);		
-		}		
+			ID_JOB = jobOperator.start("reportejobs", props);
+			response.getWriter().append("<p>Iniciado: "+ID_JOB+"</p>");	
+		}
+		response.setIntHeader("Refresh", 1);
+		
 		
 	}
 
