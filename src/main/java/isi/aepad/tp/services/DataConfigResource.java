@@ -108,6 +108,7 @@ public class DataConfigResource {
 
 		try {
 			for(int i=0;i<5;i++) {
+				this.destruir();
 				this.emBk.createNativeQuery("SET FOREIGN_KEY_CHECKS = 0;").executeUpdate();
 				this.emBk.createNativeQuery("INSERT INTO `USUARIO`(`ID`, `MAIL`) SELECT ID,MAIL FROM `aepad-tp`.USUARIO;").executeUpdate();
 				this.emBk.createNativeQuery("INSERT INTO `CATEGORIA`(`ID`, `NOMBRE`) SELECT ID,NOMBRE FROM `aepad-tp`.CATEGORIA;").executeUpdate();
@@ -156,7 +157,7 @@ public class DataConfigResource {
 			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.FACTURA;").executeUpdate();
 			obj.add("factura", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
-			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.PRODUCTOCATEGORIA;").executeUpdate();
+			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.PRODUCTO_CATEGORIA;").executeUpdate();
 			obj.add("producto", System.currentTimeMillis() - millisInicio);
 			millisInicio = System.currentTimeMillis();
 			this.emBk.createNativeQuery("TRUNCATE table `aepad-bk`.PRODUCTO;").executeUpdate();

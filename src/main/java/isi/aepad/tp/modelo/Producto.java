@@ -35,7 +35,7 @@ public class Producto {
 	
 	
 	@ManyToMany(cascade=CascadeType.PERSIST)
-	@JoinTable(joinColumns=@JoinColumn(name="ID_PRODUCTO"),inverseJoinColumns=@JoinColumn(name="ID_CATEGORIA"))
+	@JoinTable(name="PRODUCTO_CATEGORIA", joinColumns=@JoinColumn(name="ID_PRODUCTO"),inverseJoinColumns=@JoinColumn(name="ID_CATEGORIA"))
 	private List<Categoria> categoria;
 	
 	public Integer getId() {
